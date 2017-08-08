@@ -1,0 +1,200 @@
+.biblivre_record_extra, .biblivre_form, .biblivre_form_body, .biblivre_marc, .biblivre_marc_body,
+.biblivre_holding_form, .biblivre_holding_form_body, .biblivre_holding_marc, .biblivre_holding_marc_body {
+	fieldset {
+		position: relative;
+		margin-top: 10px;
+		min-height: 20px;
+		
+		background: $aux-background;
+		border: 1px solid $aux-border-color;
+		border-top: 2px solid $aux-text-color;
+	}
+
+	legend {
+		margin-left: 10px;
+		padding: 0 10px;
+		font-weight: bold;
+		font-size: 12px;
+		
+		a, span {
+			margin-left: 8px;
+		}
+	}
+
+	.subfields, .fields {
+		margin: 5px 10px;
+	}
+	
+	.field, .subfield, .indicator {
+		clear: both;
+	}
+	
+	.buttons {
+		text-align: center;
+		margin: 15px 10px 20px 10px;
+	}
+
+	.collapse {
+		position: absolute;
+		right: 10px;
+		top: 1px;
+		
+		width: 12px;
+		height: 12px;
+		background: transparent url('../images/fieldset_collapse.png') no-repeat 0 -12px;
+		cursor: pointer;
+	}
+
+	.collapsed {
+		cursor: pointer;
+		
+		.subfields,  .expand {
+			display: none;
+		}
+		
+		.collapse {
+			background-position: 0 0 !important;
+		}
+	}
+	
+	div.label {
+		float: left;
+		width: 250px;
+	
+		margin-right: 20px;
+		margin-bottom: 4px;
+	
+		line-height: 20px;
+	
+		font-size: 12px;
+		text-align: right;
+		font-weight: bold;
+		
+	}
+	
+	div.value {
+		float: left;
+		width: 380px;
+	
+		margin-right: 20px;
+		margin-bottom: 4px;
+		
+		line-height: 20px;
+		
+		.readonly_text, .text {
+			padding-top: 3px;
+		
+			line-height: 14px;
+			font-size: 12px;
+		}
+		
+		input, textarea {
+			width: 376px;
+
+			padding: 2px;
+			border: 1px solid $form-border-color;
+		}
+		
+		
+		input:disabled, textarea:disabled {
+			background-color: rgb(235, 235, 228);
+		}
+		
+		textarea {
+			height: 100px;
+		}
+	}
+	
+	.limited {
+		max-height: 100px;
+		overflow-y: auto;
+	}
+	
+	.extra {
+		float: left;
+	
+		line-height: 20px;
+		
+		font-size: 12px;
+		font-weight: bold;
+		color: #5c323e;
+		position: relative;
+		
+		a {
+			margin-left: 8px;
+			font-weight: normal;
+		}
+		
+		.marc_repeat, .marc_remove {
+			position: absolute;
+			left: 15px;
+			top: 0;
+			white-space: nowrap;
+		}
+	}
+	
+	.secondary, .autocreated, .readonly_hidden {
+		display: none;
+	}
+	
+}
+
+.biblivre_marc, .biblivre_holding_marc {
+	fieldset {
+		padding: 15px;
+	}
+}
+
+.biblivre_form_body, .biblivre_marc_body, .biblivre_holding_form_body, .biblivre_holding_marc_body  {
+	.label {
+		width: 245px !important;
+	}
+	
+	.field:last-of-type {
+		.label, .value {
+			margin-bottom: 0;
+		}
+	}
+}
+
+.form_error_ico {
+	height: 16px;
+	margin-top: 3px;
+	margin-left: -13px;
+}
+
+.form_error {
+	font-size: smaller;
+	color: red;
+	line-height: 16px;
+	margin-top: 3px;
+	margin-left: 10px;
+}
+
+.value_error {
+	color: red;
+}
+
+.record_fields {
+	width: 100%;
+
+	font-size: 14px;
+	line-height: 18px;
+
+	td.label {
+		font-weight: bold;
+		text-align: right;
+	
+		white-space: nowrap;
+	
+		width: 25%;
+		padding-right: 25px;
+		padding-bottom: 5px;
+	}
+
+	td.value {
+		padding-bottom: 5px;
+
+		word-wrap: break-word;
+	}
+}

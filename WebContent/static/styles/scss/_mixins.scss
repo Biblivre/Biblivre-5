@@ -1,0 +1,142 @@
+@mixin border-radius($radius, $clip: padding-box) {
+	-webkit-border-radius: $radius;
+	-moz-border-radius: $radius;
+	-o-border-radius: $radius;
+	-ms-border-radius: $radius;
+	border-radius: $radius;
+
+	-webkit-background-clip: $clip;
+	-mox-background-clip: $clip;
+	-o-background-clip: $clip;
+	-ms-background-clip: $clip;
+	background-clip: $clip;
+}
+
+@mixin opacity($opacity) {
+	filter: unquote("progid:DXImageTransform.Microsoft.Alpha(Opacity=#{round($opacity * 100)})");
+	opacity: $opacity;
+}
+
+@mixin border-radius-side($radius, $side, $clip: padding-box) {
+	@if $side == 'top' or $side == 'bottom' {
+		-webkit-border-#{$side}-left-radius: $radius;
+    	-webkit-border-#{$side}-right-radius: $radius;
+   	}
+  	@else {
+    	-webkit-border-top-#{$side}-radius: $radius;
+    	-webkit-border-bottom-#{$side}-radius: $radius;
+   	}
+
+	-webkit-background-clip: $clip;
+	-mox-background-clip: $clip;
+	-o-background-clip: $clip;
+	-ms-background-clip: $clip;
+	background-clip: $clip;
+}
+
+@mixin linear-gradient($from, $to, $fromPercent: 0%, $toPercent: 100%) {
+	background-color: ($to / 2) + ($from / 2);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#{$from}', endColorstr='#{$to}', GradientType=0);
+	background-image: -moz-linear-gradient($from $fromPercent, $to $toPercent);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop($fromPercent, $from), color-stop($toPercent, $to));
+	background-image: -webkit-linear-gradient($from $fromPercent, $to $toPercent);
+	background-image: -o-linear-gradient($from $fromPercent, $to $toPercent);
+	background-image:  linear-gradient($from $fromPercent, $to $toPercent);
+}
+
+@mixin linear-gradient-2($colorA, $percentA, $colorB, $percentB, $background: "") {
+	background: ($colorA / 2) + ($colorB / 2) $background;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#{$colorA}', endColorstr='#{$colorB}', GradientType=0);   
+	background: $background, -webkit-gradient(linear, 0 0, 0 100%, color-stop($percentA, $colorA), color-stop($percentB, $colorB));
+	background: $background, -webkit-linear-gradient(top, $colorA $percentA, $colorB $percentB);
+	background: $background, -moz-linear-gradient(top, $colorA $percentA, $colorB $percentB);
+	background: $background, -o-linear-gradient(top, $colorA $percentA, $colorB $percentB);
+	background: $background, linear-gradient($colorA $percentA, $colorB $percentB);
+}
+
+@mixin linear-gradient-4($colorA, $percentA, $colorB, $percentB, $colorC, $percentC, $colorD, $percentD) {
+	background-color: ($colorA / 2) + ($colorD / 2);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#{$colorA}', endColorstr='#{$colorC}', GradientType=0);   
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, color-stop($percentA, $colorA), color-stop($percentB, $colorB), color-stop($percentC, $colorC), color-stop($percentD, $colorD));
+	background-image: -webkit-linear-gradient(top, $colorA $percentA, $colorB $percentB, $colorC $percentC, $colorD $percentD);
+	background-image: -moz-linear-gradient(top, $colorA $percentA, $colorB $percentB, $colorC $percentC, $colorD $percentD);
+	background-image: -o-linear-gradient(top, $colorA $percentA, $colorB $percentB, $colorC $percentC, $colorD $percentD);
+	background-image: linear-gradient($colorA $percentA, $colorB $percentB, $colorC $percentC, $colorD $percentD);
+}
+
+@mixin radial-gradient($from, $to, $fromPercent: 0%, $toPercent: 100%) {
+	background-color: $from;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#{$from}', endColorstr='#{$to}', GradientType=1);   
+	background-image: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop($fromPercent, $from), color-stop($toPercent, $to));
+	background-image: -webkit-radial-gradient(center, ellipse cover, $from $fromPercent, $to $toPercent);
+	background-image: -moz-radial-gradient(center, ellipse cover, $from $fromPercent, $to $toPercent);
+	background-image: -o-radial-gradient(center, ellipse cover, $from $fromPercent, $to $toPercent);
+	background-image: -ms-radial-gradient(center, ellipse cover, $from $fromPercent, $to $toPercent);
+	background-image: radial-gradient(center, ellipse cover, $from $fromPercent, $to $toPercent);
+}
+
+@mixin box-shadow($shadow1, $shadow2:false, $shadow3:false, $shadow4:false, $shadow5:false) {
+	$params: $shadow1;
+	@if $shadow2 {
+		$params: $shadow1, $shadow2;
+	}
+    
+    @if $shadow3 != false {
+		$params: $shadow1, $shadow2, $shadow3;
+    }
+    
+	@if $shadow4 != false {
+		$params: $shadow1, $shadow2, $shadow3, $shadow4;
+	}
+    
+	@if $shadow5 != false {
+		$params: $shadow1, $shadow2, $shadow3, $shadow4, $shadow5;
+	}
+
+	-webkit-box-shadow: $params;
+	-moz-box-shadow: $params;
+	-o-box-shadow: $params;
+	box-shadow: $params;
+}
+
+@mixin text-overflow($over) {
+	overflow: hidden;
+	white-space: nowrap;
+	-o-text-overflow: $over;
+	-ms-text-overflow: $over;
+	text-overflow: $over;
+}
+
+@mixin hover-link {
+	text-decoration: none;
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
+@mixin link-colors($normal, $hover: false, $active: false, $visited: false, $focus: false) {
+	color: $normal;
+	@if $visited {
+		&:visited {
+			color: $visited; 
+		} 
+	}
+
+	@if $focus {
+   		&:focus {
+   			color: $focus; 
+   		} 
+   	}
+ 		
+	@if $hover {
+ 		&:hover {
+   			color: $hover; 
+   		}
+   	}
+
+	@if $active {
+ 		&:active {
+   			color: $active; 
+   		}
+   	}
+}

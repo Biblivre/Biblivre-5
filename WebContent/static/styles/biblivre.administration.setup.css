@@ -1,0 +1,15 @@
+#progress_popup fieldset {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+#biblivre3import .fields, #biblivre3restore .fields {
+  margin-left: 100px;
+}
+
+.digital_media_restore {
+  display: none;
+}
+.digital_media_restore .restore {
+  margin-bottom: 20px;
+}

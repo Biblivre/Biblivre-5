@@ -1,0 +1,2585 @@
+*language_code = es
+*language_name = Español (Internacional)
+
+*acquisition.order.confirm_cancel_editing_title = Cancelar edición de registro de Pedido
+*acquisition.order.confirm_delete_record_question = ¿Usted realmente desea excluir este registro de Pedido?
+*acquisition.order.confirm_delete_record_title = Excluir registro de Pedido
+*acquisition.order.page_help = <p>La rutina de Pedidos permite el registro y búsqueda de pedidos (compras) realizados con los proveedores registrados. Para registrar un nuevo Pedido, se debe seleccionar un Proveedor y una Cotización previamente registrados, así como entrar datos tales como Fecha de Vencimiento y datos de la Factura.</p>
+<p>La búsqueda tratará de encontrar cada uno de los términos digitados en los campos <em>Número de Registro de Pedido, Nombre de Fantasía del Proveedor, y Autor o Título de la Solicitud</em>.</p>
+*acquisition.order.selected_records_plural = {0} Valores Agregados
+*acquisition.order.selected_records_singular = {0} Valor Agregado
+
+*acquisition.order.confirm_cancel_editing.1 = ¿Usted desea cancelar la edición de este registro de Pedido?
+*acquisition.order.confirm_cancel_editing.2 = Todas las alteraciones serán perdidas
+
+*acquisition.order.confirm_delete_record.forever = Será excluido permanentemente del sistema y no podrá ser recuperado
+*acquisition.order.confirm_delete_record.trash = Será movido a la base de datos "papelera de reciclaje"
+
+*acquisition.order.confirm_delete_record_question.forever = ¿Usted realmente desea excluir este registro de Pedido?
+
+*acquisition.order.confirm_delete_record_title.forever = Excluir registro de Pedido
+
+*acquisition.order.error.order_not_found = No fue posible encontrar el pedido
+
+*acquisition.order.field.created = Fecha del Pedido
+*acquisition.order.field.created_by = Responsable
+*acquisition.order.field.deadline_date = Fecha de Vencimiento
+*acquisition.order.field.delivered = Pedido recibido
+*acquisition.order.field.delivered_quantity = Cantidad recibida
+*acquisition.order.field.delivery_time = Plazo de entrega (Prometido)
+*acquisition.order.field.id = N&ordm; del registro
+*acquisition.order.field.info = Observaciones
+*acquisition.order.field.invoice_number = N&ordm; de la Factura
+*acquisition.order.field.quotation = Cotización
+*acquisition.order.field.quotation_select = Seleccione una Cotización
+*acquisition.order.field.receipt_date = Fecha de recepción
+*acquisition.order.field.status = Situación
+*acquisition.order.field.supplier = Proveedor
+*acquisition.order.field.supplier_select = Seleccione un Proveedor
+*acquisition.order.field.terms_of_payment = Forma de pago
+*acquisition.order.field.total_value = Valor total
+
+*acquisition.order.fieldset.title.values = Valores
+
+*acquisition.order.title.author = Autor
+*acquisition.order.title.quantity = Cantidad
+*acquisition.order.title.title = Título
+*acquisition.order.title.unit_value = Valor Unitario
+
+*acquisition.quotation.confirm_cancel_editing_title = Cancelar edición de registro de cotización
+*acquisition.quotation.confirm_delete_record_question = ¿Usted realmente desea excluir este registro de cotización?
+*acquisition.quotation.confirm_delete_record_title = Excluir registro de cotización
+*acquisition.quotation.page_help = <p>La rutina de Cotizaciones permite el registro y búsqueda de cotizaciones (presupuestos) realizadas con los proveedores registrados. Para registar una nueva Cotización, se debe seleccionar un Proveedor y una Solicitud previamente registrados, así como entrar datos como el valor y la cantidad de obras cotizadas.</p>
+<p>La búsqueda tratará de encontrar cada uno de los términos digitados en los campos <em>Número de Registro de Cotización o Nombre Fantasía del Proveedor</em>.</p>
+*acquisition.quotation.selected_records_plural = {0} Valores Agregados
+*acquisition.quotation.selected_records_singular = {0} Valor Agregado
+
+*acquisition.quotation.button.add = Agregar
+
+*acquisition.quotation.confirm_cancel_editing.1 = ¿Usted desea cancelar la edición de este registro de cotización?
+*acquisition.quotation.confirm_cancel_editing.2 = Todas las alteraciones serán perdidas
+
+*acquisition.quotation.confirm_delete_record.forever = Será excluido permanentemente del sistema y no podrá ser recuperado
+*acquisition.quotation.confirm_delete_record.trash = Será movido para la base de datos "papelera de reciclaje"
+
+*acquisition.quotation.confirm_delete_record_question.forever = ¿Usted realmente desea excluir este registro de cotización?
+
+*acquisition.quotation.confirm_delete_record_title.forever = Excluir registro de cotización
+
+*acquisition.quotation.error.delete = Falla al exluir la cotización
+*acquisition.quotation.error.no_quotation_found = Ninguna cotización encontrada
+*acquisition.quotation.error.save = Falla al guardar la cotización
+
+*acquisition.quotation.field.delivery_time = Plazo de entrega (Prometido)
+*acquisition.quotation.field.expiration_date = Fecha de Validez de la Cotización
+*acquisition.quotation.field.id = N&ordm; del registro
+*acquisition.quotation.field.info = Observaciones
+*acquisition.quotation.field.quantity = Cantidad
+*acquisition.quotation.field.quotation_date = Fecha del Pedido de Cotización
+*acquisition.quotation.field.requisition = Solicitud
+*acquisition.quotation.field.requisition_select = Seleccione una Solicitud
+*acquisition.quotation.field.response_date = Fecha de Llegada de la Cotización
+*acquisition.quotation.field.supplier = Proveedor
+*acquisition.quotation.field.supplier_select = Seleccione un Proveedor
+*acquisition.quotation.field.unit_value = Valor Unitario
+
+*acquisition.quotation.fieldset.title.values = Valores
+
+*acquisition.quotation.success.delete = Cotización excluida con éxito
+*acquisition.quotation.success.save = Cotización incluida con éxito
+*acquisition.quotation.success.update = Cotización guardada con éxito
+
+*acquisition.quotation.title.author = Autor
+*acquisition.quotation.title.quantity = Cantidad
+*acquisition.quotation.title.requisition = Solicitud
+*acquisition.quotation.title.title = Título
+*acquisition.quotation.title.unit_value = Valor Unitario
+
+*acquisition.request.confirm_cancel_editing_title = Cancelar edición de registro de solicitud
+*acquisition.request.confirm_delete_record_question = ¿Usted realmente desea excluir este registro de solicitud?
+*acquisition.request.confirm_delete_record_title = Excluir registro de solicitud
+*acquisition.request.page_help = <p>La rutina de Solicitudes permite el registro y búsqueda de solicitudes de obras. Una solicitud es un registro de alguna obra que la Biblioteca desea adquirir, y puede ser utilizada para realizar Cotizaciones con los Proveedores previamente registrados.</p>
+<p>La búsqueda tratará de encontrar cada uno de los términos digitados en los campos <em>Solicitante, Autor o Título</em>.</p>
+
+*acquisition.request.confirm_cancel_editing.1 = ¿Usted desea cancelar la edición de este registro de solicitud?
+*acquisition.request.confirm_cancel_editing.2 = Todas las alteraciones se perderán
+
+*acquisition.request.confirm_delete_record.forever = Será excluido permanentemente del sistema y no podrá ser recuperado
+*acquisition.request.confirm_delete_record.trash = Será movido para la base de datos "papelera de reciclaje"
+
+*acquisition.request.confirm_delete_record_question.forever = ¿Usted realmente desea excluir este registro de solicitud?
+
+*acquisition.request.confirm_delete_record_title.forever = Excluir registro de solicitud
+
+*acquisition.request.error.delete = Falla al excluir la Solicitud
+*acquisition.request.error.no_request_found = No fue posible encontrar ninguna Solicitud
+*acquisition.request.error.save = Falla al guardar la Solicitud
+
+*acquisition.request.field.author = Autor
+*acquisition.request.field.author_numeration = Numeración que sigue el prenombre
+*acquisition.request.field.author_title = Título y otras palabras asociadas al nombre
+*acquisition.request.field.author_type = Tipo de Autor
+*acquisition.request.field.edition = Número de la edición
+*acquisition.request.field.id = N&ordm; del registro
+*acquisition.request.field.info = Observaciones
+*acquisition.request.field.publisher = Editora
+*acquisition.request.field.quantity = Cantidad de ejemplares
+*acquisition.request.field.requester = Solicitante
+*acquisition.request.field.status = Situación
+*acquisition.request.field.subtitle = Títulos paralelos/subtítulo
+*acquisition.request.field.title = Título Principal
+
+*acquisition.request.fieldset.title_info = Datos de la Obra
+
+*acquisition.request.success.delete = Solicitud excluida con éxito
+*acquisition.request.success.save = Solicitud incluida con éxito
+*acquisition.request.success.update = Solicitud guardada con éxito
+
+*acquisition.supplier.confirm_cancel_editing_title = Cancelar edición de registro de proveedor
+*acquisition.supplier.confirm_delete_record_question = ¿Usted realmente desea excluir este registro de proveedor?
+*acquisition.supplier.confirm_delete_record_title = Excluir registro de proveedor
+*acquisition.supplier.page_help = <p>La rutina de Proveedores permite el registro y búsqueda de Proveedores. La búsqueda tratará de encontrar cada uno de los términos digitados en los campos <em>Nombre Fantasía, Razón Social o CNPJ</em>.</p>
+
+*acquisition.supplier.confirm_cancel_editing.1 = ¿Usted desea cancelar la edición de este registro de proveedor?
+*acquisition.supplier.confirm_cancel_editing.2 = Todas las alteraciones serán perdidas
+
+*acquisition.supplier.confirm_delete_record.forever = Será excluido permanentemente del sistema y no podrá ser recuperado
+*acquisition.supplier.confirm_delete_record.trash = Será movido para la base de datos "papelera de reciclaje"
+
+*acquisition.supplier.confirm_delete_record_question.forever = ¿Usted realmente desea excluir este registro de proveedor?
+
+*acquisition.supplier.confirm_delete_record_title.forever = Excluir registro de proveedor
+
+*acquisition.supplier.error.delete = Falla al excluir el proveedor
+*acquisition.supplier.error.no_supplier_found = No fue posible encontrar ningún proveedor
+*acquisition.supplier.error.save = Falla al guardar el proveedor
+
+*acquisition.supplier.field.address = Dirección
+*acquisition.supplier.field.address_number = Número
+*acquisition.supplier.field.area = Barrio
+*acquisition.supplier.field.city = Ciudad
+*acquisition.supplier.field.complement = Complemento
+*acquisition.supplier.field.country = País
+*acquisition.supplier.field.email = Email
+*acquisition.supplier.field.info = Observaciones
+*acquisition.supplier.field.name = Razón Social
+*acquisition.supplier.field.state = Estado
+*acquisition.supplier.field.supplier_number = CNPJ/CUIT
+*acquisition.supplier.field.trademark = Nombre de Fantasía
+*acquisition.supplier.field.url = URL
+*acquisition.supplier.field.vat_registration_number = Inscripción Estatal
+*acquisition.supplier.field.zip_code = Código Postal
+
+*acquisition.supplier.fieldset.contact = Contactos/Teléfonos
+
+*acquisition.supplier.success.delete = Proveedor excluido con éxito
+*acquisition.supplier.success.save = Proveedor incluido con éxito
+*acquisition.supplier.success.update = Proveedor guardado con éxito
+
+*administration.accesscards.add_cards = Agregar Tarjetas
+*administration.accesscards.add_multiple_cards = Registrar Secuencia de Tarjetas
+*administration.accesscards.add_one_card = Registrar Nueva Tarjeta
+*administration.accesscards.confirm_cancel_editing_title = Cancelar inclusión de Tarjetas de Acceso
+*administration.accesscards.end_number = Número final
+*administration.accesscards.page_help = <p>La rutina de Tarjetas de Acceso permite el registro y búsqueda de las Tarjetas utilizadas por la rutina de Control de Acceso. Para realizar el registro el Biblivre ofrece dos opciones:</p>
+<ul><li>Registrar Nueva Tarjeta: utilice para registrar solo una tarjeta de acceso;</li><li>Registrar Secuencia de Tarjetas: utilice para registrar más de una tarjeta de acceso, en secuencia. Utilize el campo "Previsualización" para verificar como serán las numeraciones de las tarjetas incluidas.</li></ul>
+<p>Al accesar a esa rutina, el Biblivre alistará automáticamente todos las Tarjetas de Acceso previamente registradas.  Usted podrá entonces filtrar esa lista, digitando el <em>Código</em> de una Tarjeta de Acceso que quiera encontrar.</p>
+*administration.accesscards.prefix = Prefijo
+*administration.accesscards.preview = Pre visualización
+*administration.accesscards.simple_term_title = Rellena el Código de la Tarjeta
+*administration.accesscards.start_number = Número inicial
+*administration.accesscards.suffix = Sufijo
+
+*administration.accesscards.change_status.block = La Tarjeta será bloqueada y estará indisponible para uso
+*administration.accesscards.change_status.cancel = La Tarjeta será cancelada y estará indisponible para su uso
+*administration.accesscards.change_status.unblock = La Tarjeta será desbloqueada y estará disponible para su uso
+*administration.accesscards.change_status.uncancel = La Tarjeta será recuperada y estará disponible para su uso
+
+*administration.accesscards.change_status.question.block = ¿Desea realmente bloquear esta Tarjeta?
+*administration.accesscards.change_status.question.cancel = ¿Desea realmente cancelar esta Tarjeta?
+*administration.accesscards.change_status.question.unblock = ¿Desea realmente desbloquear esta Tarjeta?
+*administration.accesscards.change_status.question.uncancel = ¿Desea realmente recuperar esta Tarjeta?
+
+*administration.accesscards.change_status.title.block = Bloquear Tarjeta
+*administration.accesscards.change_status.title.cancel = Cancelar Tarjeta
+*administration.accesscards.change_status.title.unblock = Desbloquear Tarjeta
+*administration.accesscards.change_status.title.uncancel = Recuperar Tarjeta
+
+*administration.accesscards.confirm_cancel_editing.1 = ¿Usted desea cancelar la inclusión de Tarjetas de Acceso?
+*administration.accesscards.confirm_cancel_editing.2 = Todas las alteraciones se perderán
+
+*administration.accesscards.confirm_delete_record.forever = La Tarjeta será excluida permanentemente del sistema y no podrá ser recuperada
+
+*administration.accesscards.confirm_delete_record_question.forever = ¿Usted realmente desea excluir esta Tarjeta?
+
+*administration.accesscards.confirm_delete_record_title.forever = Excluir Tarjeta de Acceso
+
+*administration.accesscards.error.block = Falla al bloquear Tarjeta
+*administration.accesscards.error.card_not_found = Ningúna Tarjeta encontrada
+*administration.accesscards.error.delete = Falla al excluir la Tarjeta
+*administration.accesscards.error.existing_card = La Tarjeta ya existe
+*administration.accesscards.error.existing_cards = Las siguientes Tarjetas ya existen:
+*administration.accesscards.error.no_card_found = Ninguna tarjeta encontrada
+*administration.accesscards.error.save = Falla al guardar la Tarjeta
+*administration.accesscards.error.start_less_than_or_equals_end = El Número inicial debe ser menor o igual al Número final
+*administration.accesscards.error.unblock = Falla al desbloquear la Tarjeta
+
+*administration.accesscards.field.code = Tarjeta
+*administration.accesscards.field.status = Situación
+
+*administration.accesscards.status.any = Cualquier
+*administration.accesscards.status.available = Disponible
+*administration.accesscards.status.blocked = Bloqueado
+*administration.accesscards.status.cancelled = Cancelado
+*administration.accesscards.status.in_use = En uso
+*administration.accesscards.status.in_use_and_blocked = En uso y bloqueado
+
+*administration.accesscards.success.block = Tarjeta bloqueada con éxito
+*administration.accesscards.success.delete = Tarjeta excluida con éxito
+*administration.accesscards.success.save = Tarjeta incluida con éxito
+*administration.accesscards.success.unblock = Tarjeta desbloqueada con éxito
+*administration.accesscards.success.update = Tarjeta guardada con éxito
+
+*administration.change_password.current_password = Contraseña actual
+*administration.change_password.new_password = Nueva contraseña
+*administration.change_password.repeat_password = Repita la nueva contraseña
+*administration.change_password.submit_button = Cambiar contraseña
+*administration.change_password.title = Cambio de contraseña
+
+*administration.change_password.description.1 = El cambio de contraseña es el proceso por el cual un usuario puede alterar su contraseña actual por una nueva. Por cuestiones de seguridad, sugerimos que el usuario realice este procedimiento periódicamente.
+*administration.change_password.description.2 = La única regla para creación de contraseñas en el Biblivre es la cantidad mínima de 3 caracteres. Sin embargo, sugerimos seguir las siguientes directivas:
+*administration.change_password.description.3 = Mezcle letras, símbolos especiales y números en su contraseña
+*administration.change_password.description.4 = Use letras mayúsculas y minúsculas; y
+*administration.change_password.description.5 = Use una cantidad de caracteres superior al recomendado.
+*administration.change_password.description.6 = En caso que el usuario pierda su contraseña, deberá igualmente entrar en contacto con el Administrador o Bibliotecario responsable por el Biblivre, que podrá proveer una nueva contraseña.
+
+*administration.configuration.current_value = Valor actual
+*administration.configuration.invalid_backup_path = Camino inválido. Este directorio no existe o el Biblivre no posee permiso de escritura.
+*administration.configuration.invalid_pg_dump_path = Camino inválido. El Biblivre no será capaz de generar backups ya que el archivo <strong>pg_dump</strong> no fue encontrado.
+*administration.configuration.invalid_psql_path = Camino inválido. El Biblivre no será capaz de generar y restaurar backups ya que el archivo <strong>psql</strong> no fue encontrado.
+*administration.configuration.new_value = Nuevo valor
+*administration.configuration.original_value = Valor original
+
+*administration.configuration.description.administration.z3950.server.active = Esta configuración indica si el servidor z39.50 Lugar estará activo. En los casos de instalaciones multi-biblioteca, el nombre de la Colección del servidor z39.50 será igual al nombre de cada biblioteca. Por ejemplo, el nombre de la colección para esta instalación es "{0}".
+
+*administration.configuration.description.cataloging.accession_number_prefix = El sello patrimonial es el campo que identifica únicamente un ejemplar. En el Biblivre, la regla de formación para el sello patrimonial depende del año de adquisición del ejemplar, de la cantidad de ejemplares adquiridos en el año y del prefijo del sello patrimonial. Este prefijo es el término que será incluido antes de la numeración de año, en el formato <prefijo>.<año>.<contador> (Ex: Bib.2014.7).
+
+*administration.configuration.description.circulation.lending_receipt.printer.type = Esta configuración representa el tipo de impresora que será utilizada para la impresión de recibos de préstamos.  Los valores posibles son: impresora de 40 columnas, de 80 columnas, o impresora común (chorro de tinta).
+
+*administration.configuration.description.general.backup_path = Esta configuración representa el camino, en el servidor donde el Biblivre está instalado, para la carpeta donde deberán guardarse las copias de seguridad del Biblivre. En caso que esta configuración este vacía, las copias de seguridad serán grabadas en el directorio <strong>Biblivre</strong> dentro de la carpeta del usuario del sistema.<br>Recomendamos que este camino esté asociado a algún tipo de backup automático en nube, como los servicios <strong>Dropbox</strong>, <strong>SkyDrive</strong> ou <strong>Google Drive</strong>. En caso que el Biblivre no consiga guardar los archivos en el camino especificado, los mismos serán guardados en un directorio temporario y podrán quedar indisponibles con el tiempo. Recuerde, un backup es la única forma de recuperar los datos incluidos en el Biblivre.
+*administration.configuration.description.general.business_days = Esta configuración representa los días de funcionamiento de la biblioteca y será usada por los módulos de préstamo y reserva. El principal uso de esta configuración es evitar que la devolución de un ejemplar sea marcada para un día en que la biblioteca está cerrada.
+*administration.configuration.description.general.currency = Esta configuración representa la moneda que será utilizada en multas y en el módulo de adquisición.
+*administration.configuration.description.general.default_language = Esta configuración representa el idioma padrón para la exhibición del Biblivre.
+*administration.configuration.description.general.multi_schema = Esta configuración permite que se habilite el sistema de múltiples bibliotecas en esta instalación del Biblivre 4.
+*administration.configuration.description.general.pg_dump_path = Atención: Esta es una configuración avanzada, pero importante. El Biblivre intentará encontrar automáticamente el camino para el programa <strong>pg_dump</strong> y, excepto en casos donde sea exhibido un error abajo, usted no precisará alterar esta configuración. Esta configuración representa el camino, en el servidor donde el Biblivre está instalado, para lo ejecutable <strong>pg_dump</strong> que es distribuido junto al PostgreSQL. En caso que esta configuración estuviera inválida, el Biblivre no será capaz de generar copias de seguridad.
+*administration.configuration.description.general.psql_path = Atención: Esta es una configuración avanzada, pero importante. El Biblivre intentará encontrar automáticamente el camino para el programa <strong>psql</strong> y, excepto en casos donde sea exhibido un error abajo, usted no precisará alterar esta configuración. Esta configuración representa el camino, en el servidor donde el Biblivre está instalado, para lo ejecutable <strong>psql</strong> que es distribuído junto al PostgreSQL. En caso que esta configuración estuviera inválida, el Biblivre no será capaz de generar y restaurar copias de seguridad.
+*administration.configuration.description.general.subtitle = Esta configuración representa un subtítulo para la biblioteca, que será exhibido al inicio de las páginas del Biblivre, luego abajo del <strong>Nombre de la biblioteca</strong>. Esta configuración es opcional.
+*administration.configuration.description.general.title = Esta configuración representa el nombre de la biblioteca, que será exhibido al inicio de las páginas del Biblivre y en los informes.
+
+*administration.configuration.description.multi_schema.enabled = El sistema de multi-bibliotecas ya está habilitado para esta instalación del Biblivre 4. El administrador del sistema podrá deshabilitar esa opción en el menú de configuración de multibibliotecas.
+
+*administration.configuration.description.search.distributed_search_limit = Esta configuración representa la cantidad máxima de resultados que serán encontrados en una búsqueda distribuida. Evite el uso de límite muy elevado pues las búsquedas distribuidas llevarán mucho tiempo para volver a los resultados encontrados.
+*administration.configuration.description.search.result_limit = Esta configuración representa la cantidad máxima de resultados que serán encontrados en una búsqueda catalográfica. Este límite es importante para evitar lentitudes en el Biblivre en bibliotecas que posean una gran cantidad de registros. En caso de que la cantidad de resultados de la búsqueda del usuario exceda este límite, será recomendado que se mejoren los filtros de búsqueda.
+*administration.configuration.description.search.results_per_page = Esta configuración representa la cantidad máxima de resultados que serán exhibidos en una única página en las búsquedas del sistema. Un número muy grande podrá dejar el sistema más lento.
+
+*administration.configuration.printer_type.printer_24_columns = Impresora 24 columnas
+*administration.configuration.printer_type.printer_40_columns = Impresora 40 columnas
+*administration.configuration.printer_type.printer_80_columns = Impresora 80 columnas
+*administration.configuration.printer_type.printer_common = Impresora común
+
+*administration.configuration.title.administration.z3950.server.active = Servidor z39.50 Lugar activo
+
+*administration.configuration.title.cataloging.accession_number_prefix = Prefijo del sello patrimonial
+
+*administration.configuration.title.circulation.lending_receipt.printer.type = Tipo de impresora para recibo de préstamos
+
+*administration.configuration.title.general.backup_path = Camino de destino de las copias de seguridad (Backups)
+*administration.configuration.title.general.business_days = Días de funcionamiento
+*administration.configuration.title.general.currency = Moneda
+*administration.configuration.title.general.default_language = Idioma estándar
+*administration.configuration.title.general.multi_schema = Habilitar Multibibliotecas
+*administration.configuration.title.general.pg_dump_path = Camino para el programa pg_dump
+*administration.configuration.title.general.psql_path = Camino para el programa psql
+*administration.configuration.title.general.subtitle = Subtítulo de la biblioteca
+*administration.configuration.title.general.title = Nombre de la biblioteca
+
+*administration.configuration.title.search.distributed_search_limit = Límite de resultados para búsquedas distribuidas
+*administration.configuration.title.search.result_limit = Límite de resultados
+*administration.configuration.title.search.results_per_page = Resultados por página
+
+*administration.configurations.page_help = <p>La rutina de Configuraciones permite la configuración de diversos parámetros utilizados por el Biblivre, como por ejemplo el Título de la Biblioteca, el Idioma Estándar o la Moneda a ser utilizada. Cada configuración posee un texto explicativo para facilitar su utilización.</p>
+
+*administration.configurations.error.file_not_found = Archivo no encontrado.
+*administration.configurations.error.invalid = El valor especificado para una de las configuraciones no es válido
+*administration.configurations.error.invalid_writable_path = Camino inválido. Este directorio no existe o el Biblivre no posee permiso de escritura.
+*administration.configurations.error.save = No fue posible guardar las configuraciones
+*administration.configurations.error.value_is_required = El rellenado de este campo es obligatorio
+*administration.configurations.error.value_must_be_boolean = El valor de este campo debe ser verdadero o falso
+*administration.configurations.error.value_must_be_numeric = El valor de este campo debe ser un número
+
+*administration.configurations.save.success = Configuraciones alteradas con éxito
+
+*administration.maintenance.backup.auto_download = Backup realizado, descargando automáticamente en algunos segundos...
+*administration.maintenance.backup.backup_never_downloaded = Este backup nunca fue descargado
+*administration.maintenance.backup.backup_not_complete = Backup no terminado
+*administration.maintenance.backup.button_digital_media_only = Crear backup de archivos digitales
+*administration.maintenance.backup.button_exclude_digital_media = Crear backup sin archivos digitales
+*administration.maintenance.backup.button_full = Crear backup completo
+*administration.maintenance.backup.description_last_backups_1 = Abajo están los enlaces para download de los últimos backups realizados. Es importante guardarlos en un lugar seguro, pues esta es la única forma de recuperar sus datos, en caso de que sea necesario.
+*administration.maintenance.backup.description_last_backups_2 = Estos archivos están guardados en el directorio especificado en la configuración del Biblivre (<em>"Administración"</em>, <em>"Configuraciones"</em>, en el menú superior). En caso que este directorio no esté disponible para la escritura en el momento del backup, un directorio temporal será usado en su lugar. Por este motivo, algunos de los backups pueden no estar disponibles luego de cierto tiempo. <span class="attention">Recomendamos siempre hacer un download del backup y guardarlo en un lugar seguro.</span>
+*administration.maintenance.backup.label_digital_media_only = Backup de archivos digitales
+*administration.maintenance.backup.label_exclude_digital_media = Backup sin archivos digitales
+*administration.maintenance.backup.label_full = Backup completo
+*administration.maintenance.backup.last_backup = Último Backup
+*administration.maintenance.backup.no_backups_found = Ningún backup encontrado
+*administration.maintenance.backup.show_all = Mostrar todos los {0} backups
+*administration.maintenance.backup.title = Copia de Seguridad (Backup)
+*administration.maintenance.backup.title_last_backups = Últimos Backups
+*administration.maintenance.backup.unavailable = Backup no disponible
+*administration.maintenance.backup.wait = Aguarde
+*administration.maintenance.backup.warning = Este proceso puede demorar algunos minutos, dependiendo de la configuración de hardware de su servidor.
+
+*administration.maintenance.backup.description.1 = El Backup es un proceso donde ejecutamos la copia de informaciones para guardarlas en caso de algún problema en el sistema. Es una copia de los registros e informaciones del Biblivre. El Biblivre 4 posee 3 tipos de backup:
+*administration.maintenance.backup.description.2 = El Backup completo es una copia de todos los datos e informaciones del Biblivre 4, incluyendo los archivos de medio digital, como fotos de los usuarios, archivos digitales de los registros bibliográficos, etc.
+*administration.maintenance.backup.description.3 = El Backup sin archivos digitales es una copia de todos los datos e informaciones del Biblivre 4, <strong>excluyendo</strong> los archivos de medio digital. Por excluir los archivos de medio digital, el proceso tanto de backup cuanto de recuperación es más rápido, y el archivo de backup es menor.
+*administration.maintenance.backup.description.4 = El Backup solamente de archivos digitales es una copia de todos los archivos de medio digital que fueron grabados en el Biblivre, sin ningún otro dato o información, como usuarios, base catalográfica, etc.
+
+*administration.maintenance.backup.error.corrupted_backup_file = El backup seleccionado no es un archivo válido o está corrompido
+*administration.maintenance.backup.error.couldnt_restore_backup = No fue posible restaurar el backup seleccionado
+*administration.maintenance.backup.error.couldnt_unzip_backup = No fue posible descompactar el backup seleccionado
+*administration.maintenance.backup.error.invalid_backup_type = El modo de backup seleccionado no existe
+*administration.maintenance.backup.error.invalid_restore_path = El directorio configurado para la restauración de los archivos de backup no es válido
+*administration.maintenance.backup.error.invalid_schema = La lista de backup posee una o más bibliotecas inválidas
+*administration.maintenance.backup.error.no_schema_selected = Usted precisa seleccionar al menos una biblioteca para ser restaurada
+*administration.maintenance.backup.error.psql_not_found = PSQL no encontrado
+
+*administration.maintenance.reindex.button_authorities = Reindizar base de autoridades
+*administration.maintenance.reindex.button_bibliographic = Reindizar base bibliográfica
+*administration.maintenance.reindex.button_vocabulary = Reindizar base de vocabulario
+*administration.maintenance.reindex.confirm = ¿Desea confirmar la reindización de la base?
+*administration.maintenance.reindex.success = Reindización concluida con éxito
+*administration.maintenance.reindex.title = Reindización de la Base de Datos
+*administration.maintenance.reindex.wait = Dependiendo del tamaño de la base de datos, esta operación podrá demorar. El Biblivre quedará indisponible durante el proceso, que puede durar hasta 15 minutos.
+*administration.maintenance.reindex.warning = Este proceso puede demorar algunos minutos, dependiendo de la configuración de hardware de su servidor. Durante este tiempo, el Biblivre no estará disponible para la búsqueda de registros, pero retornará cuando la indización termine.
+
+*administration.maintenance.reindex.description.1 = La Reindización de la base de datos es el proceso en el cual el Biblivre analiza cada registro inscrito, creando índices en ciertos campos para que la búsqueda en ellos sea posible. Es un proceso demorado y que debe ser ejecutado solo en los casos específicos abajo:<br/>
+*administration.maintenance.reindex.description.2 = Alteración en la configuración de campos aptos a ser buscados;
+*administration.maintenance.reindex.description.3 = Importación de registros de versiones antiguas del Biblivre; y
+*administration.maintenance.reindex.description.4 = Problemas en la búsqueda, donde no se encuentran registros inscritos.
+
+*administration.maintenance.reindex.error.invalid_record_type = Tipo de registro en blanco o desconocido
+
+*administration.maintenance.reinstall.button = Ir a la pantalla de restauración y reconfiguración
+*administration.maintenance.reinstall.description = Use esta opción en caso que usted desee restaurar un backup del Biblivre 4, borrar los datos de su biblioteca o rehacer la migración del Biblivre 3. Usted será enviado a la pantalla inicial de instalación del Biblivre, donde podrá cancelar en caso que desista de hacer alteraciones.
+*administration.maintenance.reinstall.title = Restauración y Reconfiguración
+
+*administration.maintenance.reinstall.confirm.description = ¿Desea ir a la pantalla de restauración y reconfiguración? Usted podrá restaurar un backup del Biblivre 4, borrar los datos de su biblioteca o rehacer una migración.
+*administration.maintenance.reinstall.confirm.question = Atención. Todas las opciones harán con que los datos de su biblioteca sean borrados a favor de los datos recuperados. Se recomienda hacer un backup antes de iniciar esta acción. ¿Desea continuar?
+*administration.maintenance.reinstall.confirm.title = Ir a la pantalla de restauración y reconfiguración
+
+*administration.migration.description = Seleccione abajo qué items desea importar de la base de datos del Biblivre 3
+*administration.migration.page_help = <p>El módulo de <strong>"Migración de Datos"</strong> permite importar los datos que están en una base de datos del Biblivre 3 existente para la base de datos vacía del Biblivre 4.</p>
+*administration.migration.title = Migración de datos del Biblivre 3
+
+*administration.migration.button.migrate = Importar datos
+
+*administration.migration.groups.access_control = Tarjetas de acceso y Control de acceso
+*administration.migration.groups.acquisition = Adquisiciones (Proveedor, Requerimiento, Cotización y Pedido)
+*administration.migration.groups.cataloging_authorities = Catálogo de Autoridades
+*administration.migration.groups.cataloging_bibliographic = Catálogo Bibliográfico y de Ejemplares
+*administration.migration.groups.cataloging_vocabulary = Catálogo de Vocabulario
+*administration.migration.groups.digital_media = Medios Digitales
+*administration.migration.groups.lendings = Préstamos activos, historia de préstamos y multas
+*administration.migration.groups.reservations = Reservas
+*administration.migration.groups.users = Usuarios, Logins de acceso y Tipos de Usuarios
+*administration.migration.groups.z3950_servers = Servidores Z39.50
+
+*administration.migration.migrate.error = Falla al importar los datos
+*administration.migration.migrate.success = Datos importados con éxito
+
+*administration.permission.error.create_login = Error al crear login de usuario
+*administration.permission.error.delete = Falla al excluir el login
+
+*administration.permission.success.create_login = Login y permisos creados con éxito
+*administration.permission.success.delete = Login excluido con éxito
+*administration.permission.success.password_saved = Contraseña alterada con éxito
+*administration.permission.success.permissions_saved = Permisos alterados con éxito
+
+*administration.permissions.employee = Empleado
+*administration.permissions.login = Login
+*administration.permissions.login_data = Datos para el acceso al sistema
+*administration.permissions.page_help = <p>La rutina de Permisos permite la creación de Login y Contraseña para un usuario, así como la definición de sus permisos de acceso o utilización de las diversas rutinas del Biblivre.</p>
+<p>La búsqueda tratará de encontrar los Usuarios ya registrados en el Biblivre, y funciona de la misma manera que la búsqueda simplificada de la rutina de Registro de Usuarios.</p>
+*administration.permissions.password = Contraseña
+*administration.permissions.reader = Lector
+*administration.permissions.repeat_password = Repetir contraseña
+*administration.permissions.title = Permisos
+*administration.permissions.user_not_found = No fue posible encontrar el usuario
+
+*administration.permissions.button.remove_login = Remover Login
+*administration.permissions.button.select_user = Seleccionar Usuario
+
+*administration.permissions.confirm_delete_record.forever = Tanto el Login del Usuario como sus permisos serán excluidos permanentemente del sistema y no podrán ser recuperados.
+
+*administration.permissions.confirm_delete_record_question.forever = ¿Usted realmente desea excluir el Login de Usuario?
+
+*administration.permissions.confirm_delete_record_title.forever = Excluir Login de Usuario
+
+*administration.permissions.groups.acquisition = Adquisición
+*administration.permissions.groups.admin = Administración
+*administration.permissions.groups.cataloging = Catalogación
+*administration.permissions.groups.circulation = Circulación
+*administration.permissions.groups.digitalmedia = Medio Digital
+*administration.permissions.groups.login = Login
+
+*administration.permissions.items.acquisition_order_delete = Excluir registro de pedido
+*administration.permissions.items.acquisition_order_list = Listar pedidos
+*administration.permissions.items.acquisition_order_save = Guardar registro de pedido
+*administration.permissions.items.acquisition_quotation_delete = Excluir registro de cotización
+*administration.permissions.items.acquisition_quotation_list = Listar cotizaciones
+*administration.permissions.items.acquisition_quotation_save = Guardar registro de cotización
+*administration.permissions.items.acquisition_request_delete = Excluir registro de requerimiento
+*administration.permissions.items.acquisition_request_list = Listar requerimientos
+*administration.permissions.items.acquisition_request_save = Guardar registro de requerimiento
+*administration.permissions.items.acquisition_supplier_delete = Excluir registro de proveedor
+*administration.permissions.items.acquisition_supplier_list = Listar Proveedores
+*administration.permissions.items.acquisition_supplier_save = Guardar registro de proveedor
+*administration.permissions.items.administration_accesscards_delete = Excluir tarjetas de acceso
+*administration.permissions.items.administration_accesscards_list = Listar tarjetas de acceso
+*administration.permissions.items.administration_accesscards_save = Incluir tarjetas de acceso
+*administration.permissions.items.administration_backup = Realizar copia de seguridad de la base de datos
+*administration.permissions.items.administration_configurations = Administrar configuraciones
+*administration.permissions.items.administration_datamigration = Importar datos del Biblivre 3
+*administration.permissions.items.administration_indexing = Administrar indización de la base de datos
+*administration.permissions.items.administration_permissions = Administrar permisos
+*administration.permissions.items.administration_reports = Generar Informes
+*administration.permissions.items.administration_restore = Recuperar copia de seguridad de la base de datos
+*administration.permissions.items.administration_translations = Administrar traducciones
+*administration.permissions.items.administration_usertype_delete = Excluir registro de tipo de usuario
+*administration.permissions.items.administration_usertype_list = Listar tipos de Usuarios
+*administration.permissions.items.administration_usertype_save = Guardar registro de tipo de usuario
+*administration.permissions.items.administration_z3950_delete = Excluir registro de servidor z3950
+*administration.permissions.items.administration_z3950_save = Guardar registro de servidor z3950
+*administration.permissions.items.administration_z3950_search = Listar servidores z3950
+*administration.permissions.items.cataloging_authorities_delete = Excluir registro de autoridad
+*administration.permissions.items.cataloging_authorities_move = Mover registro de autoridad
+*administration.permissions.items.cataloging_authorities_save = Guardar registro de autoridad
+*administration.permissions.items.cataloging_bibliographic_delete = Excluir registro bibliográfico
+*administration.permissions.items.cataloging_bibliographic_move = Mover registro bibliográfico
+*administration.permissions.items.cataloging_bibliographic_private_database_access = Acceso a la Base Privada.
+*administration.permissions.items.cataloging_bibliographic_save = Guardar registro bibliográfico
+*administration.permissions.items.cataloging_print_labels = Imprimir etiquetas
+*administration.permissions.items.cataloging_vocabulary_delete = Excluir registro de vocabulario
+*administration.permissions.items.cataloging_vocabulary_move = Mover registro de vocabulario
+*administration.permissions.items.cataloging_vocabulary_save = Guardar registro de vocabulario
+*administration.permissions.items.circulation_access_control_bind = Administrar control de acceso
+*administration.permissions.items.circulation_access_control_list = Listar control de acceso
+*administration.permissions.items.circulation_delete = Excluir registro de usuario
+*administration.permissions.items.circulation_lending_lend = Realizar préstamos de obras
+*administration.permissions.items.circulation_lending_list = Listar préstamos
+*administration.permissions.items.circulation_lending_return = Realizar devoluciones de obras
+*administration.permissions.items.circulation_list = Listar Usuarios
+*administration.permissions.items.circulation_print_user_cards = Imprimir carnets
+*administration.permissions.items.circulation_reservation_list = Listar reservas
+*administration.permissions.items.circulation_reservation_reserve = Realizar reservas
+*administration.permissions.items.circulation_save = Guardar registro de usuario
+*administration.permissions.items.digitalmedia_upload = Enviar medio digital
+*administration.permissions.items.login_change_password = Cambiar contraseña
+
+*administration.permissions.select.default = Seleccione una opción
+
+*administration.reports.biblivre_report_header = Informes Biblivre
+*administration.reports.page_help = <p>La rutina de Informes permite la generación e impresión de diversos Informes puestos a disposición por el Biblivre. Los Informes disponibles se dividen entre las rutinas de Adquisición, Catalogación y Circulación.</p>
+<p>Algunos de los Informes disponibles poseen filtros, como Base Bibliográfica, o Período, por ejemplo. Para otros, basta seleccionar el Informe y cliquear en "Emitir Informe".</p>
+*administration.reports.select_report = Seleccione un Informe
+*administration.reports.title = Informes
+
+*administration.reports.button.generate_report = Emitir Informe
+
+*administration.reports.error.generate = Falla al Generar el Informe. Verifique el rellenado del formulario.
+
+*administration.reports.field.accession_number = Sello Patrimonial
+*administration.reports.field.acquisition = Fecha de adquisición
+*administration.reports.field.amount = Cantidad
+*administration.reports.field.author = Autor
+*administration.reports.field.biblio = Bibliográficos
+*administration.reports.field.biblio_reservation = Reservas por registro bibliográfico
+*administration.reports.field.created = Fecha de registro
+*administration.reports.field.creation_date = Fecha Inclusión;
+*administration.reports.field.custom_count = Informe de recuento del campo Marc
+*administration.reports.field.database = Base
+*administration.reports.field.database_count = Total de Registros en las Bases en el Período
+*administration.reports.field.database_main = Principal
+*administration.reports.field.database_work = Trabajo
+*administration.reports.field.datafield = Campo MARC
+*administration.reports.field.date = Fecha
+*administration.reports.field.date_from = De
+*administration.reports.field.date_to = a
+*administration.reports.field.dewey = CDD
+*administration.reports.field.digits = Dígitos significativos
+*administration.reports.field.edition = Edición
+*administration.reports.field.editor = Editora
+*administration.reports.field.end_date = Fecha Final
+*administration.reports.field.expected_date = Fecha prevista
+*administration.reports.field.holding_reservation = Reservas por serie del ejemplar
+*administration.reports.field.holdings_count = Cantidad de Ejemplares
+*administration.reports.field.id = Nro. Registro
+*administration.reports.field.isbn = ISBN
+*administration.reports.field.late_lendings_count = Total de Préstamos en Atraso
+*administration.reports.field.lendings = Préstamos
+*administration.reports.field.lendings_count = Total de Libros prestados en el período
+*administration.reports.field.lendings_current = Total de Libros en préstamo
+*administration.reports.field.lendings_late = Total de Libros atrasados
+*administration.reports.field.lendings_top = Libros más prestados
+*administration.reports.field.location = Localización
+*administration.reports.field.marc_field = Campo Marc
+*administration.reports.field.modified = Fecha Cancelamiento/Alteración
+*administration.reports.field.no_data = No existen datos para Generar este Informe
+*administration.reports.field.number_of_holdings = Número de Ejemplares
+*administration.reports.field.number_of_titles = Número de Títulos
+*administration.reports.field.order = Ordenar por
+*administration.reports.field.paid_value = Valor Total Pago
+*administration.reports.field.place = Lugar
+*administration.reports.field.requester = Solicitante
+*administration.reports.field.reservation_date = Fecha de la Reserva
+*administration.reports.field.start_date = Fecha Inicial
+*administration.reports.field.title = Título
+*administration.reports.field.total = Total
+*administration.reports.field.unclassified = <No clasificado>
+*administration.reports.field.unit_value = Valor Unitario
+*administration.reports.field.user_count_by_type = Totales por Tipos de Usuarios
+*administration.reports.field.user_data = Datos
+*administration.reports.field.user_id = Matrícula
+*administration.reports.field.user_late_lendings = Préstamos en Atraso
+*administration.reports.field.user_lendings = Préstamos Activos
+*administration.reports.field.user_list_by_type = Lista de Usuarios Por Tipo
+*administration.reports.field.user_name = Nombre
+*administration.reports.field.user_returned_lendings = Historial de Devoluciones
+*administration.reports.field.user_signup = Fecha de Matrícula
+*administration.reports.field.user_status = Situación
+*administration.reports.field.user_type = Tipo de Usuario
+*administration.reports.field.year = Año
+
+*administration.reports.field.user_status.active = Activo
+*administration.reports.field.user_status.blocked = Bloqueado
+*administration.reports.field.user_status.inactive = Inactivo
+*administration.reports.field.user_status.pending_issues = Posee pendencias
+
+*administration.reports.field_count.description = <p>Luego de seleccionar el campo Marc y la Ordenación, realice la búsqueda bibliográfica que servirá de base para el Informe, o haga click en <strong>Emitir Informe</strong> para utilizar toda la base bibliográfica.</p>
+<p><strong>Atención:</strong> Este Informe puede llevar algunos minutos para ser generado, dependiendo del tamaño de la base bibliográfica.</p>
+
+*administration.reports.fieldset.author = Búsqueda por Autor
+*administration.reports.fieldset.cataloging = Búsqueda Bibliográfica
+*administration.reports.fieldset.database = Base de Datos
+*administration.reports.fieldset.dates = Período
+*administration.reports.fieldset.dewey = Clasificación Dewey
+*administration.reports.fieldset.field_count = Recuento por campo Marc
+*administration.reports.fieldset.order = Ordenación
+*administration.reports.fieldset.user = Búsqueda de Usuario
+
+*administration.reports.label.author_count = Cantidad de registros
+*administration.reports.label.example = ex.
+
+*administration.reports.option.all_digits = Todos
+*administration.reports.option.author = Autor
+*administration.reports.option.classification = Clasificación (CDD)
+*administration.reports.option.dewey = Clasificación Decimal Dewey
+*administration.reports.option.location = Localización
+*administration.reports.option.title = Título
+
+*administration.reports.option.database.main = Principal
+*administration.reports.option.database.work = Trabajo
+
+*administration.reports.select.group.acquisition = Adquisición
+*administration.reports.select.group.cataloging = Catalogación
+*administration.reports.select.group.circulation = Circulación
+*administration.reports.select.group.custom = Informe Personalizado
+
+*administration.reports.select.option.accession_number = Informe de Sello Patrimonial
+*administration.reports.select.option.acquisition = Informe de Pedidos de Adquisición Efectuados Por Período
+*administration.reports.select.option.all_users = Informe de Todos los Usuarios
+*administration.reports.select.option.bibliography = Informe de Bibliografía del Autor
+*administration.reports.select.option.custom_count = Recuento de Registros Bibliográficos por Campo Marc
+*administration.reports.select.option.default = Seleccione...
+*administration.reports.select.option.dewey = Estadística por Clasificación Dewey
+*administration.reports.select.option.field_count = Recuento del campo
+*administration.reports.select.option.holdings = Informe de Registro de Ejemplares
+*administration.reports.select.option.late_lendings = Informe de Préstamos en Atraso
+*administration.reports.select.option.lendings = Informe de Préstamos por Período
+*administration.reports.select.option.marc_field = Valor del campo Marc
+*administration.reports.select.option.records = Informe de Inclusiones de Obras por Período
+*administration.reports.select.option.reservations = Informe de Reservas
+*administration.reports.select.option.searches = Informe de Total de Búsquedas por Período
+*administration.reports.select.option.select_marc_field = Seleccione un campo Marc
+*administration.reports.select.option.summary = Sumario del Catálogo
+*administration.reports.select.option.topographic = Informe Topográfico
+*administration.reports.select.option.user = Informe por Usuario
+
+*administration.reports.select.option.accession_number.full = Informe completo de Sello Patrimonial
+
+*administration.reports.success.generate = Informe generado con éxito. El mismo será abierto en otra página.
+
+*administration.reports.title.all_users = Informe General de Usuarios
+*administration.reports.title.bibliography = Informe de Bibliografía por Autor
+*administration.reports.title.custom_count = Informe de recuento por el campo Marc
+*administration.reports.title.dewey = Informe de Clasificación Dewey
+*administration.reports.title.holdings = Informe de Sello Patrimonial
+*administration.reports.title.holdings_by_date = Informe de Registro de Ejemplares
+*administration.reports.title.holdings_creation_by_date = Informe del Total de Inclusiones de Obras por Período
+*administration.reports.title.holdings_full = Informe completo de Sello Patrimonial
+*administration.reports.title.late_lendings = Informe de Préstamos Atrasados
+*administration.reports.title.lendings_by_date = Informe de Préstamos por Período
+*administration.reports.title.orders_by_date = Informe de Pedidos por Período
+*administration.reports.title.reservation = Informe de Reservas
+*administration.reports.title.searches_by_date = Informe de Total de Búsquedas por Período
+*administration.reports.title.summary = Informe de Sumario del Catálogo
+*administration.reports.title.topographic = Informe Topográfico
+*administration.reports.title.user = Informe por Usuario
+*administration.reports.title.user_creation_count = Total de Inclusiones Por Usuario
+
+*administration.reports.user.search = Digite el nombre o matrícula del Usuario
+
+*administration.setup.biblivre3import = Importar datos del Biblivre 3
+*administration.setup.biblivre3migration = Importar datos del Biblivre 3
+*administration.setup.biblivre3restore = Restaurar un Backup del Biblivre 3
+*administration.setup.biblivre4restore = Restaurar un Backup del Biblivre 4
+*administration.setup.cancel = Cancelar
+*administration.setup.clean_install = Nueva Biblioteca
+*administration.setup.no_backups_found = Ningún backup encontrado
+*administration.setup.page_help = ¡Bienvenido! Esta pantalla es el último paso antes de iniciar el uso del Biblivre IV y a través de ella usted podrá escoger si restaurará las informaciones de otra instalación del biblivre (a través de un backup o de la migración del Biblivre 3) o si desea iniciar una biblioteca nueva. Lea atentamente cada una de las opciones abajo y seleccione la más apropiada.
+
+*administration.setup.biblivre3import.button = Importar datos del Biblivre 3
+*administration.setup.biblivre3import.confirm_description = ¿Usted realmente desea importar los datos del Biblivre 3?
+*administration.setup.biblivre3import.confirm_title = Importar datos del Biblivre 3
+*administration.setup.biblivre3import.description = Fue detectada una instalación del Biblivre 3 en esta computadora. Usted podrá importar estos datos para el Biblivre 4 seleccionando los items de interés y haciendo click en el botón abajo. Luego de la importación, <strong>usted deberá reindizar las tres bases: Bibliográfica, Autoridades y Vocabulario</strong>, a través de la pantalla <strong>"Manutención"</strong> em <strong>"Administración"</strong> y <strong>seleccionar nuevamente las autorizaciones de los empleados con acceso al Biblivre</strong>, a través de la pantalla <strong>"Logins y Permisos"</strong> en <strong>"Administración"</strong>.
+*administration.setup.biblivre3import.error = Error al importar datos
+*administration.setup.biblivre3import.log_header = [Log de importación de datos del Biblivre 3 para el Biblivre 4]
+*administration.setup.biblivre3import.success = Importación de datos del Biblivre 3
+
+*administration.setup.biblivre3import.error.description = Infelizmente ocurrió un error al importar los datos del Biblivre 3. Verifique la próxima pantalla por el log de errores y, en caso necesario, entre en el fórum Biblivre para obtener ayuda.
+
+*administration.setup.biblivre3import.success.description = Datos importados con éxito
+
+*administration.setup.biblivre3migration.button = Importar datos del Biblivre 3
+*administration.setup.biblivre3migration.description = Fue detectada una instalación de Biblivre 3 en esta computadora. Usted podrá importar estos datos para el Biblivre 4 seleccionando los items de interés y haciendo click en el botón abajo. Luego de la importación, <strong>usted deberá reindizar las tres bases: Bibliográfica, Autoridades y Vocabulario</strong>, a través de la pantalla <strong>"Manutención"</strong> en <strong>"Administración"</strong> y <strong>seleccionar nuevamente las autorizaciones de los empleados con acceso al Biblivre</strong>, a través de la pantalla <strong>"Logins y Permisos"</strong> en <strong>"Administración"</strong>.
+
+*administration.setup.biblivre3restore.button = Restaurar backup seleccionado
+*administration.setup.biblivre3restore.confirm_description = ¿Usted realmente desea restaurar este Backup?
+*administration.setup.biblivre3restore.confirm_title = Restaurar Backup
+*administration.setup.biblivre3restore.description = Use esta opción en caso que usted quiera restaurar e importar un backup existente del Biblivre 3.
+*administration.setup.biblivre3restore.error = Error al restaurar backup
+*administration.setup.biblivre3restore.select_file = Seleccione un archivo de backup primero
+*administration.setup.biblivre3restore.success = Restauración de Backup
+
+*administration.setup.biblivre3restore.error.description = Infelizmente ocurrió un error al restaurar este backup del Biblivre 3. Verifique la próxima pantalla por el log de errores y, en caso necesario, entre en el fórum Biblivre para obtener ayuda.
+
+*administration.setup.biblivre3restore.field.upload_file = Seleccionar archivo de backup
+
+*administration.setup.biblivre3restore.success.description = Backup restaurado con éxito
+
+*administration.setup.biblivre4restore.button = Restaurar backup seleccionado
+*administration.setup.biblivre4restore.confirm_description = ¿Usted realmente desea restaurar este Backup?
+*administration.setup.biblivre4restore.confirm_title = Restaurar Backup
+*administration.setup.biblivre4restore.description = Use esta opción en caso que usted quiera restaurar un backup existente del Biblivre 4. En caso que el Biblivre encuentre backups guardados en sus documentos, usted podrá restaurarlos directamente de la lista abajo. En caso contrario, usted deberá enviar un archivo de backup (extensión <strong>.b4bz</strong>) a través del formulario.
+*administration.setup.biblivre4restore.description_found_backups_1 = Abajo están los backups encontrados en los documentos de su computadora. Para restaurar uno de estos backups, cliquee sobre su nombre.
+*administration.setup.biblivre4restore.error = Error al restaurar backup
+*administration.setup.biblivre4restore.log_header = [Log de restauración de backup del Biblivre 4]
+*administration.setup.biblivre4restore.newest_backup = Backup más reciente
+*administration.setup.biblivre4restore.select_file = Seleccione un archivo de backup primero
+*administration.setup.biblivre4restore.success = Restauración de Backup
+*administration.setup.biblivre4restore.title_found_backups = Backups Encontrados
+
+*administration.setup.biblivre4restore.error.description = Lamentablemente ocurrió un error al restaurar este backup de Biblivre 4. Verifique la próxima pantalla por el log de errores y, en caso necesario, entre en el fórum Biblivre para obtener ayuda.
+
+*administration.setup.biblivre4restore.field.upload_file = Seleccionar archivo de backup
+
+*administration.setup.biblivre4restore.success.description = Backup restaurado con éxito
+
+*administration.setup.button.continue_to_biblivre = Ir para el Biblivre
+*administration.setup.button.show_log = Exhibir log
+
+*administration.setup.cancel.description = Cliquee en el botón abajo para desistir de restaurar esta instalación del Biblivre 4 y volver a su biblioteca.
+
+*administration.setup.clean_install.button = Iniciar como una nueva biblioteca
+*administration.setup.clean_install.description = En caso que usted no tenga o no desee restaurar un backup, esta opción permitirá iniciar el uso del Biblivre 4 con una base de datos vacía. Luego de entrar en el Biblivre 4 por primera vez, utilice el login <strong>admin</strong> y la contraseña <strong>abracadabra</strong> para entrar al sistema y configurar su nueva biblioteca.
+
+*administration.setup.progress_popup.processing = El Biblivre de esta biblioteca está en manutención. Aguarde hasta que la misma sea concluida.
+*administration.setup.progress_popup.title = Manutención del Biblivre 4
+
+*administration.setup.upload_popup.processing = Procesando...
+*administration.setup.upload_popup.title = Abriendo Archivo
+*administration.setup.upload_popup.uploading = Enviando archivo...
+
+*administration.translations.page_help = <p>El módulo de <strong>"Traducciones"</strong> permite agregar nuevos idiomas al Biblivre 4 o alterar los textos ya existentes.</p>
+<p><strong>Atención: Este módulo realiza configuraciones avanzadas del Biblivre 4, y debe ser utilizado solamente por Usuarios avanzados, con experiencia en informática.</strong>.</p>
+<p>Para agregar un nuevo idioma, baje el archivo de idioma en portugués, haga la traducción de los textos y después envíe el archivo. Recuerde que solamente los <strong>textos</strong> (después del signo igual) deben ser alterados.  No altere las llaves, caso contrario el Biblivre 4 no conseguirá localizar el texto</p>
+<p>Ejemplo: digamos que usted quiera alterar el texto en el menú principal de <i>Búsqueda</i> para <i>Buscar</i>.  Usted deberá entonces bajar el archivo del idioma y alterar la siguiente línea:</p>
+<p><strong>*menu.search</strong> = Búsqueda</p>
+<p>Para:</p>
+<p><strong>*menu.search</strong> = Busca</p>
+<p>Y entonces hacer el envío del archivo de idiomas. El Biblivre 4 procesará el archivo, y alterará el texto del menú.</p>
+
+*administration.translations.download.button = Descargar el idioma
+*administration.translations.download.description = Seleccione abajo el idioma que desea descargar.
+*administration.translations.download.title = Descargar archivo de idioma
+
+*administration.translations.download.field.languages = Idioma
+
+*administration.translations.error.dump = No fue posible generar el archivo de traducciones
+*administration.translations.error.invalid_file = Archivo inválido
+*administration.translations.error.invalid_language = Seleccione un idioma
+*administration.translations.error.java_locale_not_available = No existe un identificador de idioma java para el archivo de traducciones
+*administration.translations.error.javascript_locale_not_available = No existe un identificador de idioma javascript para el archivo de traducciones
+*administration.translations.error.load = No fue posible leer el archivo de traducciones
+*administration.translations.error.no_language_code_specified = El archivo de traducciones enviado no posee el identificador de idioma: <strong>*language_code</strong>
+*administration.translations.error.save = No fue posible guardar las traducciones
+
+*administration.translations.success.save = Archivo de idiomas procesado con éxito
+
+*administration.translations.upload.button = Enviar el idioma
+*administration.translations.upload.description = Seleccione abajo el archivo de idioma que desea enviar para procesamiento por el Biblivre 4.
+*administration.translations.upload.title = Enviar archivo de idioma
+
+*administration.translations.upload.field.upload_file = Archivo
+*administration.translations.upload.field.user_created = Cargar traducciones creadas por el usuario
+
+*administration.translations.upload_popup.processing = Procesando...
+*administration.translations.upload_popup.title = Enviando Archivo
+
+*administration.user_type.page_help = <p>La rutina de Tipos de Usuarios permite el registro y búsqueda de los Tipos de Usuarios utilizados por la rutina de Registro de Usuarios. Aquí están definidas las informaciones como Límite de Préstamos simultáneos, plazos para devolución de préstamos y valores de multas diarias para cada tipo de usuario separadamente.</p>
+<p>Al accesar a esa rutina, el Biblivre listará automáticamente todos los Tipos de Usuarios previamente registrados. Usted podrá entonces filtrar esa lista, digitando el <em>Nombre</em> de un Tipo de Usuario que quiera encontrar.</p>
+*administration.user_type.simple_term_title = Rellene el Tipo de Usuario
+
+*administration.user_type.error.delete = Falla al excluir el Tipo de Usuario
+*administration.user_type.error.no_user_type_found = Ningún Tipo de Usuario encontrado
+*administration.user_type.error.save = Falla al guardar el Tipo de Usuario
+*administration.user_type.error.type_has_users = Este Tipo de Usuario posee Usuarios registrados
+
+*administration.user_type.field.description = Descripción
+*administration.user_type.field.fine_value = Valor de la Multa por atrasos
+*administration.user_type.field.lending_limit = Límite de préstamos simultáneos
+*administration.user_type.field.lending_time_limit = Plazo de préstamo
+*administration.user_type.field.name = Tipo de Usuario
+*administration.user_type.field.reservation_limit = Límite de reservas simultáneas
+*administration.user_type.field.reservation_time_limit = Plazo de reserva
+
+*administration.user_type.success.delete = Tipo de Usuario excluido con éxito
+*administration.user_type.success.save = Tipo de Usuario incluido con éxito
+*administration.user_type.success.update = Tipo de Usuario guardado con éxito
+
+*administration.usertype.confirm_cancel_editing_title = Cancelar edición del Tipo de Usuario
+
+*administration.usertype.confirm_cancel_editing.1 = ¿Usted desea cancelar la edición de este Tipo de Usuario?
+*administration.usertype.confirm_cancel_editing.2 = Todas las alteraciones se perderán
+
+*administration.usertype.confirm_delete_record.forever = El Tipo de Usuario será excluido permanentemente del sistema y no podrá ser recuperado
+
+*administration.usertype.confirm_delete_record_question.forever = ¿Usted realmente desea excluir este Tipo de Usuario?
+
+*administration.usertype.confirm_delete_record_title.forever = Excluir Tipo de Usuario
+
+*administration.z3950.confirm_cancel_editing_title = Cancelar edición del Servidor Z39.50
+*administration.z3950.no_server_found = Ningún servidor z39.50 encontrado
+*administration.z3950.page_help = <p>La rutina de Servidores Z39.50 permite el registro y búsqueda de los Servidores utilizados por la rutina de Búsqueda Distribuida. Para realizar el registro serán necesarios los datos de la Colección Z39.50, así como la dirección URL y puerta de acceso.</p>
+<p>Al accesar a esa rutina, el Biblivre listará automáticamente todos los Servidores previamente registrados. Usted podrá entonces filtrar esa lista, digitando el <em>Nombre</em> de un Servidor que quiera encontrar.</p>
+
+*administration.z3950.confirm_cancel_editing.1 = ¿Usted desea cancelar la edición de este Servidor Z39.50?
+*administration.z3950.confirm_cancel_editing.2 = Todas las alteraciones se perderán
+
+*administration.z3950.confirm_delete_record.forever = El Servidor Z39.50 será excluido permanentemente del sistema y no podrá ser recuperado
+
+*administration.z3950.confirm_delete_record_question.forever = ¿Usted realmente desea excluir este Servidor Z39.50?
+
+*administration.z3950.confirm_delete_record_title.forever = Excluir Servidor Z39.50
+
+*administration.z3950.error.delete = Falla al excluir el servidor z39.50
+*administration.z3950.error.save = Falla al guardar el servidor z39.50
+
+*administration.z3950.field.collection = Colección
+*administration.z3950.field.name = Nombre
+*administration.z3950.field.port = Puerta
+*administration.z3950.field.url = URL
+
+*administration.z3950.success.delete = Servidor z39.50 excluido con éxito
+*administration.z3950.success.save = Servidor z39.50 guardado con éxito
+*administration.z3950.success.update = Servidor z39.50 actualizado con éxito
+
+*aquisition.quotation.error.quotation_not_found = No fue posible encontrar la cotización
+
+*aquisition.request.error.request_not_found = No fue posible encontrar la requerimiento
+
+*aquisition.supplier.error.supplier_not_found = No fue posible encontrar el proveedor
+
+*cataloging.authorities.author_type = Tipo de autor
+*cataloging.authorities.confirm_cancel_editing_title = Cancelar edición de registro de autoridad
+*cataloging.authorities.confirm_delete_record_question = ¿Usted realmente desea excluir este registro de autoridad?
+*cataloging.authorities.confirm_delete_record_title = Excluir registro de autoridad
+*cataloging.authorities.other_name = Otra Forma de nombre
+
+*cataloging.authorities.author_type.100 = Persona
+*cataloging.authorities.author_type.110 = Entidad Colectiva
+*cataloging.authorities.author_type.111 = Evento
+*cataloging.authorities.author_type.select_author_type = Seleccione el tipo de autor
+
+*cataloging.authorities.confirm_cancel_editing.1 = ¿Usted desea cancelar la edición de este registro de autoridad?
+*cataloging.authorities.confirm_cancel_editing.2 = Todas las alteraciones se perderán
+
+*cataloging.authorities.confirm_delete_record.forever = Será excluido permanentemente del sistema y no podrá ser recuperado
+*cataloging.authorities.confirm_delete_record.trash = Será movido para la base de datos "papelera de reciclaje"
+
+*cataloging.authorities.indexing_groups.all = Cualquier campo
+*cataloging.authorities.indexing_groups.author = Autor
+*cataloging.authorities.indexing_groups.entity = Entidad
+*cataloging.authorities.indexing_groups.event = Evento
+*cataloging.authorities.indexing_groups.other_name = Otras formas del nombre
+*cataloging.authorities.indexing_groups.total = Total
+
+*cataloging.bibliographic.confirm_cancel_editing_title = Cancelar edición de registro bibliográfico
+*cataloging.bibliographic.confirm_delete_record_question = ¿Usted realmente desea excluir este registro bibliográfico?
+*cataloging.bibliographic.confirm_delete_record_title = Excluir registro bibliográfico
+*cataloging.bibliographic.confirm_move_record_description_plural = ¿Usted realmente desea mover estos {0} registros?
+*cataloging.bibliographic.confirm_move_record_description_singular = ¿Usted realmente desea mover este registro?
+*cataloging.bibliographic.confirm_move_record_title = Mover registros
+*cataloging.bibliographic.confirm_remove_attachment = Excluir archivo digital
+*cataloging.bibliographic.confirm_remove_attachment_description = ¿Usted desea excluir este archivo digital?
+*cataloging.bibliographic.material_type = Tipo de material
+*cataloging.bibliographic.no_attachments = Este registro no posee archivos digitales
+*cataloging.bibliographic.selected_records_plural = {0} registros seleccionados
+*cataloging.bibliographic.selected_records_singular = {0} registro seleccionado
+
+*cataloging.bibliographic.attachment.alias = Digite un nombre para este archivo digital
+
+*cataloging.bibliographic.button.cancel = Cancelar
+*cataloging.bibliographic.button.delete = Excluir
+*cataloging.bibliographic.button.edit = Editar
+*cataloging.bibliographic.button.export_records = Exportar registros
+*cataloging.bibliographic.button.move_records = Mover Registros
+*cataloging.bibliographic.button.new = Nuevo registro
+*cataloging.bibliographic.button.new_holding = Nuevo ejemplar
+*cataloging.bibliographic.button.save = Guardar
+*cataloging.bibliographic.button.save_as_new = Guardar como nuevo
+*cataloging.bibliographic.button.select_item = Seleccionar
+*cataloging.bibliographic.button.select_page = Seleccionar registros de esta página
+
+*cataloging.bibliographic.confirm_cancel_editing.1 = ¿Usted desea cancelar la edición de este registro bibliográfico?
+*cataloging.bibliographic.confirm_cancel_editing.2 = Todas las alteraciones se perderán
+
+*cataloging.bibliographic.confirm_delete_record.forever = Será excluido permanentemente del sistema y no podrá ser recuperado
+*cataloging.bibliographic.confirm_delete_record.trash = Será movido para la base de datos "papelera de reciclaje"
+
+*cataloging.bibliographic.indexing_groups.all = Cualquier campo
+*cataloging.bibliographic.indexing_groups.author = Autor
+*cataloging.bibliographic.indexing_groups.isbn = ISBN
+*cataloging.bibliographic.indexing_groups.isrc = ISRC
+*cataloging.bibliographic.indexing_groups.issn = ISSN
+*cataloging.bibliographic.indexing_groups.subject = Asunto
+*cataloging.bibliographic.indexing_groups.title = Título
+*cataloging.bibliographic.indexing_groups.total = Total
+*cataloging.bibliographic.indexing_groups.year = Año
+
+*cataloging.common.digital_files = Archivos Digitales
+
+*cataloging.common.button.upload = Enviar
+
+*cataloging.database.main = Principal
+*cataloging.database.main_full = Base Principal
+*cataloging.database.private = Privado
+*cataloging.database.private_full = Base Privada
+*cataloging.database.record_count = Registros en esta base: <strong>{0}</strong>
+*cataloging.database.record_deleted = Registro excluido definitivamente
+*cataloging.database.record_moved = Registro movido para la {0}
+*cataloging.database.title = Base de datos seleccionada
+*cataloging.database.trash = Papelera de Reciclaje
+*cataloging.database.trash_full = Papelera de Reciclaje
+*cataloging.database.work = Trabajo
+*cataloging.database.work_full = Base de Trabajo
+
+*cataloging.error.invalid_data = No fue posible procesar la operación. Por favor, intente nuevamente.
+*cataloging.error.invalid_database = Base de datos inexistente
+*cataloging.error.invalid_search_parameters = Los parámetros de esta búsqueda no están correctos
+*cataloging.error.no_records_found = Ningún registro encontrado
+*cataloging.error.no_valid_terms = La búsqueda especificada no contiene términos válidos
+*cataloging.error.record_not_found = Registro no encontrado
+
+*cataloging.form.hidden_subfields_plural = Exhibir {0} subcampos ocultos
+*cataloging.form.hidden_subfields_singular = Exhibir subcampo oculto
+
+*cataloging.holding.availability = Disponibilidad
+*cataloging.holding.confirm_cancel_editing_title = Cancelar edición de registro de ejemplar
+*cataloging.holding.confirm_delete_record_question = ¿Usted realmente desea excluir este registro de ejemplar?
+*cataloging.holding.confirm_delete_record_title = Excluir registro de ejemplar
+
+*cataloging.holding.availability.available = Disponible
+*cataloging.holding.availability.unavailable = No disponible
+
+*cataloging.holding.confirm_cancel_editing.1 = ¿Usted desea cancelar la edición de este registro de ejemplar?
+*cataloging.holding.confirm_cancel_editing.2 = Todas las alteraciones se perderán
+
+*cataloging.holding.confirm_delete_record.forever = Será excluido permanentemente del sistema y no podrá ser recuperado
+*cataloging.holding.confirm_delete_record.trash = Será movido para la base de datos "papelera de reciclaje"
+
+*cataloging.holding.error.accession_number_unavailable = Este sello patrimonial ya está en uso por otro ejemplar. Por favor, rellene otro valor o deje en blanco para que el sistema calcule uno automáticamente.
+*cataloging.holding.error.shouldnt_delete_because_holding_is_or_was_lent = Este ejemplar está o ya fue prestado y no debe ser excluido. En caso que no este más disponible, el procedimiento correcto es cambiar su disponibilidad para No disponible. Si desea igualmente excluir este ejemplar, presione el botón <b>"Forzar Exclusión"</b>.
+
+*cataloging.import.import_as = Importar como:
+*cataloging.import.isbn_already_in_database = Ya existe un registro con este ISBN en la base de datos
+*cataloging.import.isrc_already_in_database = Ya existe un registro con este ISRC en la base de datos
+*cataloging.import.issn_already_in_database = Ya existe un registro con este ISSN en la base de datos
+*cataloging.import.no_records_found = Ningún registro encontrado
+*cataloging.import.page_help = <p>La importación de registros permite expandir su base de datos sin que haya necesidad de catalogación manual. Nuevos registros pueden ser importados a través de búsquedas Z39.50 o a partir de archivos exportados por otros sistemas de biblioteconomía.</p>
+*cataloging.import.record_imported_successfully = Registro importado con éxito
+*cataloging.import.record_will_be_ignored = Este registro no será importado
+*cataloging.import.records_found_plural = {0} registros encontrados
+*cataloging.import.records_found_singular = {0} registro encontrado
+*cataloging.import.search_button = Buscar
+*cataloging.import.source_file_subtitle = Seleccione un archivo conteniendo los registros a ser importados. El formato de este archivo puede ser <strong>texto</strong>, <strong>XML</strong> o <strong>ISO2709</strong>, desde que la catalogación original sea compatible con MARC.
+*cataloging.import.source_file_title = Importar registros a partir de un archivo
+*cataloging.import.source_search_subtitle = Seleccione una biblioteca remota y rellene los términos de la búsqueda. La búsqueda devolverá un límite de {0} registros. En caso que no encuentre el registro de interés, refine su búsqueda.
+*cataloging.import.source_search_title = Importar registros a partir de una búsqueda Z39.50
+*cataloging.import.step_1_description = En este paso, usted puede importar un archivo conteniendo registros en los formatos MARC, XML y ISO2709 o realizar una búsqueda en otras bibliotecas. Seleccione abajo el modo de importación deseado, seleccionando el archivo o rellenando los términos de la búsqueda. En el paso siguiente, usted podrá seleccionar cuales registros deberán ser importados.
+*cataloging.import.step_1_title = Seleccionar origen de los datos de la importación
+*cataloging.import.step_2_description = En este paso, verifique los registros que serán importados e impórtelos individualmente o en conjunto, a través de los botones disponibles al final de la página. El Biblivre detecta automáticamente si el registro es bibliográfico, autoridades o vocabulario, sin embargo permite que el usuario corrija antes de la importación. <strong>Importante:</strong> Los registros importados serán agregados a la Base de Trabajo y deberán ser corregidos y ajustados antes de ser movidos para la Base Principal. Eso evita que registros incorrectos sean agregados directamente a la base de datos final.
+*cataloging.import.step_2_title = Seleccionar registros para importación
+*cataloging.import.title = Importación de Registros
+*cataloging.import.upload_button = Enviar
+
+*cataloging.import.button.edit_marc = Editar MARC
+*cataloging.import.button.import_all = Importar todas las páginas
+*cataloging.import.button.import_this_page = Importar registros de esta página
+*cataloging.import.button.import_this_record = Importar este registro
+
+*cataloging.import.error.invalid_file = Archivo inválido
+*cataloging.import.error.invalid_marc = Falla al leer el Registro
+*cataloging.import.error.no_record_found = Ningún Registro válido encontrado en el archivo
+
+*cataloging.import.import_popup.importing = Importando registros, por favor, aguarde
+*cataloging.import.import_popup.title = Importando Registros
+
+*cataloging.import.marc_popup.description = Use la caja abajo para alterar el MARC de este registro antes de importarlo.
+*cataloging.import.marc_popup.title = Editar Registro MARC
+
+*cataloging.import.save.failed = Falla al importar los Registros
+*cataloging.import.save.success = Registros importados con éxito
+
+*cataloging.import.type.authorities = Autoridades
+*cataloging.import.type.biblio = Registro bibliográfico
+*cataloging.import.type.do_not_import = No importar
+*cataloging.import.type.vocabulary = Vocabulario
+
+*cataloging.import.upload_popup.processing = Procesando...
+*cataloging.import.upload_popup.title = Abriendo Archivo
+*cataloging.import.upload_popup.uploading = Enviando archivo...
+
+*cataloging.labels.page_help = <p>El módulo <strong>"Impresión de Etiquetas"</strong> permite generar las etiquetas de identificación interna y de lomo para los ejemplares de la biblioteca.</p>
+<p>Es posible Generar las etiquetas de uno o más ejemplares en una única impresión, utilizando la búsqueda abajo. Este atento al detalle de que el resultado de esta búsqueda es una lista de ejemplares y no de registros bibliográficos.</p>
+<p>Luego de encontrar el(los) ejemplar(es) de interés, use el botón <strong>"Seleccionar ejemplar"</strong> para agregarlos a la lista de impresión de etiquetas. Usted podrá hacer diversas búsquedas, sin perder la selección hecha anteriormente. Cuando finalmente este satisfecho con la selección, cliquee en el botón <strong>"Imprimir etiquetas"</strong>. Será posible seleccionar cual modelo de la hoja de etiquetas se utilizará y en qué posición iniciar.</p>
+*cataloging.labels.paper_description = {paper_size} {count} etiquetas ({height} mm x {width} mm)
+*cataloging.labels.selected_records_plural = {0} ejemplares seleccionados
+*cataloging.labels.selected_records_singular = {0} ejemplar seleccionado
+
+*cataloging.labels.button.print_labels = Imprimir etiquetas
+*cataloging.labels.button.select_item = Seleccionar ejemplar
+*cataloging.labels.button.select_page = Seleccionar ejemplares de esta página
+
+*cataloging.labels.popup.description = Seleccione en cuál etiqueta desea iniciar la impresión
+*cataloging.labels.popup.title = Formato de las etiquetas
+
+*cataloging.lending.error.blocked_user = El lector seleccionado está bloqueado
+*cataloging.lending.error.holding_is_lent = El ejemplar seleccionado ya está prestado
+*cataloging.lending.error.holding_unavailable = El ejemplar seleccionado no está disponible para préstamos
+*cataloging.lending.error.limit_exceeded = El lector seleccionado excedió el límite de préstamos permitidos
+
+*cataloging.record.error.delete = Falla al excluir el Registro
+*cataloging.record.error.move = Falla al mover los Registros
+*cataloging.record.error.save = Falla al guardar el Registro
+
+*cataloging.record.success.delete = Registro excluido con éxito
+*cataloging.record.success.move = Registros movidos con éxito
+*cataloging.record.success.save = Registro incluido con éxito
+*cataloging.record.success.update = Registro alterado con éxito
+
+*cataloging.tab.form.remove = Remover
+*cataloging.tab.form.repeat = Repetir
+
+*cataloging.tab.record.custom.field_label.authorities_100 = Autor
+*cataloging.tab.record.custom.field_label.authorities_110 = Autor
+*cataloging.tab.record.custom.field_label.authorities_111 = Autor Evento
+*cataloging.tab.record.custom.field_label.authorities_400 = Otra forma de nombre
+*cataloging.tab.record.custom.field_label.authorities_410 = Otra forma de nombre
+*cataloging.tab.record.custom.field_label.authorities_411 = Otra forma de nombre
+*cataloging.tab.record.custom.field_label.authorities_670 = Nombre retirado de
+*cataloging.tab.record.custom.field_label.biblio_013 = Información del control de patentes
+*cataloging.tab.record.custom.field_label.biblio_020 = ISBN
+*cataloging.tab.record.custom.field_label.biblio_022 = ISSN
+*cataloging.tab.record.custom.field_label.biblio_024 = ISRC
+*cataloging.tab.record.custom.field_label.biblio_041 = Idioma
+*cataloging.tab.record.custom.field_label.biblio_043 = Código geográfico
+*cataloging.tab.record.custom.field_label.biblio_045 = Código cronológico
+*cataloging.tab.record.custom.field_label.biblio_080 = CDU
+*cataloging.tab.record.custom.field_label.biblio_082 = CDD
+*cataloging.tab.record.custom.field_label.biblio_090 = Localización
+*cataloging.tab.record.custom.field_label.biblio_095 = Área de conocimiento de CNPq
+*cataloging.tab.record.custom.field_label.biblio_100 = Autor
+*cataloging.tab.record.custom.field_label.biblio_110 = Autor
+*cataloging.tab.record.custom.field_label.biblio_111 = Autor Evento
+*cataloging.tab.record.custom.field_label.biblio_130 = Obra Anónima
+*cataloging.tab.record.custom.field_label.biblio_240 = Título uniforme
+*cataloging.tab.record.custom.field_label.biblio_243 = Título uniforme colectivo
+*cataloging.tab.record.custom.field_label.biblio_245 = Título
+*cataloging.tab.record.custom.field_label.biblio_250 = Edición
+*cataloging.tab.record.custom.field_label.biblio_255 = Escala
+*cataloging.tab.record.custom.field_label.biblio_256 = Características del archivo
+*cataloging.tab.record.custom.field_label.biblio_257 = Lugar de producción
+*cataloging.tab.record.custom.field_label.biblio_258 = Información sobre el material
+*cataloging.tab.record.custom.field_label.biblio_260 = Imprenta
+*cataloging.tab.record.custom.field_label.biblio_300 = Descripción física
+*cataloging.tab.record.custom.field_label.biblio_306 = Tiempo de duración
+*cataloging.tab.record.custom.field_label.biblio_310 = Peridiocidad
+*cataloging.tab.record.custom.field_label.biblio_362 = Fecha de la primera publicación
+*cataloging.tab.record.custom.field_label.biblio_400 = Otra forma de nombre
+*cataloging.tab.record.custom.field_label.biblio_410 = Otra forma de nombre
+*cataloging.tab.record.custom.field_label.biblio_411 = Otra forma de nombre
+*cataloging.tab.record.custom.field_label.biblio_490 = Serie
+*cataloging.tab.record.custom.field_label.biblio_500 = Notas
+*cataloging.tab.record.custom.field_label.biblio_502 = Nota de tesis
+*cataloging.tab.record.custom.field_label.biblio_504 = Notas de bibliografía
+*cataloging.tab.record.custom.field_label.biblio_505 = Notas de contenido
+*cataloging.tab.record.custom.field_label.biblio_506 = Notas de acceso restricto
+*cataloging.tab.record.custom.field_label.biblio_520 = Notas de resumen
+*cataloging.tab.record.custom.field_label.biblio_521 = Notas de público meta
+*cataloging.tab.record.custom.field_label.biblio_534 = Notas de facsímil
+*cataloging.tab.record.custom.field_label.biblio_555 = Notas
+*cataloging.tab.record.custom.field_label.biblio_590 = Notas locales
+*cataloging.tab.record.custom.field_label.biblio_600 = Asunto persona
+*cataloging.tab.record.custom.field_label.biblio_610 = Asunto entidad colectiva
+*cataloging.tab.record.custom.field_label.biblio_611 = Asunto evento
+*cataloging.tab.record.custom.field_label.biblio_630 = Asunto título uniforme
+*cataloging.tab.record.custom.field_label.biblio_650 = Asunto tópico
+*cataloging.tab.record.custom.field_label.biblio_651 = Asunto geográfico
+*cataloging.tab.record.custom.field_label.biblio_699 = Asunto lugar
+*cataloging.tab.record.custom.field_label.biblio_700 = Autor secundario
+*cataloging.tab.record.custom.field_label.biblio_710 = Autor secundario
+*cataloging.tab.record.custom.field_label.biblio_711 = Autor secundario
+*cataloging.tab.record.custom.field_label.biblio_730 = Título uniforme
+*cataloging.tab.record.custom.field_label.biblio_740 = Título analítico
+*cataloging.tab.record.custom.field_label.biblio_830 = Título uniforme
+*cataloging.tab.record.custom.field_label.biblio_852 = Notas públicas
+*cataloging.tab.record.custom.field_label.biblio_876 = Nota de acceso restricto
+*cataloging.tab.record.custom.field_label.vocabulary_040 = Fuente de catalogación
+*cataloging.tab.record.custom.field_label.vocabulary_150 = Término Específico
+*cataloging.tab.record.custom.field_label.vocabulary_360 = Término Asociado
+*cataloging.tab.record.custom.field_label.vocabulary_450 = Término Use Para
+*cataloging.tab.record.custom.field_label.vocabulary_550 = Término Genérico
+*cataloging.tab.record.custom.field_label.vocabulary_670 = Orígen de las Informaciones
+*cataloging.tab.record.custom.field_label.vocabulary_680 = Nota sobre Alcance
+*cataloging.tab.record.custom.field_label.vocabulary_685 = Nota de Historial o Glosario
+*cataloging.tab.record.custom.field_label.vocabulary_750 = Término Tópico
+*cataloging.tab.record.custom.field_label.vocabulary_913 = Código Regional
+
+*cataloging.tabs.brief = Resumen Catalográfico
+*cataloging.tabs.form = Formulario
+*cataloging.tabs.holdings = Ejemplares
+*cataloging.tabs.marc = MARC
+
+*cataloging.upload_popup.title = Enviando Archivo
+*cataloging.upload_popup.uploading = Enviando archivo...
+
+*cataloging.vocabulary.confirm_cancel_editing_title = Cancelar edición de registro de vocabulario
+*cataloging.vocabulary.confirm_delete_record_question = ¿Usted realmente desea excluir este registro de vocabulario?
+*cataloging.vocabulary.confirm_delete_record_title = Excluir registro de vocabulario
+
+*cataloging.vocabulary.confirm_cancel_editing.1 = ¿Usted desea cancelar la edición de este registro de vocabulario?
+*cataloging.vocabulary.confirm_cancel_editing.2 = Se perderán todas las alteraciones
+
+*cataloging.vocabulary.confirm_delete_record.forever = Será excluido permanentemente del sistema y no podrá ser recuperado
+*cataloging.vocabulary.confirm_delete_record.trash = Será movido para la base de datos "papelera de reciclaje"
+
+*cataloging.vocabulary.indexing_groups.all = Cualquier campo
+*cataloging.vocabulary.indexing_groups.te_term = Término Específico (TE)
+*cataloging.vocabulary.indexing_groups.tg_term = Término General (TG)
+*cataloging.vocabulary.indexing_groups.total = Total
+*cataloging.vocabulary.indexing_groups.up_term = Término Use Para (UP)
+*cataloging.vocabulary.indexing_groups.vt_ta_term = Término Asociado (VT / TA)
+
+*cataloging.vocabulary.term.ta = Término Asociado (VT / TA)
+*cataloging.vocabulary.term.te = Término Específico (TE)
+*cataloging.vocabulary.term.tg = Término General (TG)
+*cataloging.vocabulary.term.up = Término Use Para (UP)
+
+*circulation.access.user.search = Usuarios
+
+*circulation.access_control.arrival_time = Fecha de entrada
+*circulation.access_control.card_available = Esta tarjeta está disponible
+*circulation.access_control.card_in_use = Tarjeta en uso
+*circulation.access_control.card_not_found = Tarjeta no encontrada
+*circulation.access_control.card_unavailable = Tarjeta no disponible
+*circulation.access_control.page_help = <p>O <strong>"Control de Acceso"</strong> permite administrar la entrada y permanencia de los lectores en las instalaciones de la biblioteca. Seleccione el lector a través de una búsqueda por nombre o matrícula y digite el número de una tarjeta de acceso disponible para vincular aquella tarjeta al lector.</p>
+<p>En el momento de la salida del lector, usted podrá desvincular la tarjeta procurando por el código del mismo</p>
+*circulation.access_control.user_has_card = Usuario ya posee tarjeta
+*circulation.access_control.user_has_no_card = No hay tarjeta asociada a este usuario
+
+*circulation.accesscards.bind_card = Vincular Tarjeta
+*circulation.accesscards.select_card = Seleccionar Tarjeta
+*circulation.accesscards.unbind_card = Devolver Tarjeta
+
+*circulation.accesscards.lend.error = Falla al vincular la Tarjeta
+*circulation.accesscards.lend.success = Tarjeta vinculada con éxito
+
+*circulation.accesscards.return.error = Falla al devolver la Tarjeta
+*circulation.accesscards.return.success = Tarjeta devuelta con éxito
+
+*circulation.custom.user_field.address = Dirección
+*circulation.custom.user_field.address_city = Ciudad
+*circulation.custom.user_field.address_complement = Complemento
+*circulation.custom.user_field.address_number = Número
+*circulation.custom.user_field.address_state = Estado
+*circulation.custom.user_field.address_zip = CEP
+*circulation.custom.user_field.birthday = Fecha de Nacimiento
+*circulation.custom.user_field.email = Email
+*circulation.custom.user_field.gender = Género
+*circulation.custom.user_field.id_cpf = CPF
+*circulation.custom.user_field.id_rg = Identidad
+*circulation.custom.user_field.obs = Observaciones
+*circulation.custom.user_field.phone_cel = Celular
+*circulation.custom.user_field.phone_home = Teléfono Residencial
+*circulation.custom.user_field.phone_work = Teléfono Comercial
+*circulation.custom.user_field.phone_work_extension = Ramal del Teléfono Comercial
+
+*circulation.custom.user_field.gender.1 = Masculino
+*circulation.custom.user_field.gender.2 = Femenino
+
+*circulation.custom.user_field.select.default = Seleccione una opción
+
+*circulation.error.no_users_found = Ningún usuario encontrado
+*circulation.error.user_not_found = Usuario no encontrado
+*circulation.error.you_cannot_delete_yourself = Usted no puede excluirse o marcarse como inactivo
+
+*circulation.error.delete.user_has_accesscard = Este usuario posee tarjeta de acceso en uso.  Realice la devolución de la tarjeta antes de excluir este usuario.
+*circulation.error.delete.user_has_lendings = Este usuario posee préstamos activos.  Realice la devolución antes de excluir este usuario.
+
+*circulation.lending.daily_fine = Multa diaria
+*circulation.lending.days_late = Días de atraso
+*circulation.lending.empty_lending_list = Este lector no posee ejemplares prestados
+*circulation.lending.estimated_fine = Multa estimada para devolución hoy
+*circulation.lending.expected_return_date = Fecha prevista para devolución
+*circulation.lending.fine_value = Valor de la multa
+*circulation.lending.holding_lent_to_the_following_reader = Este ejemplar está prestado para el lector abajo
+*circulation.lending.lend_success = Ejemplar prestado con éxito
+*circulation.lending.lending_count = Ejemplares prestados
+*circulation.lending.lending_date = Fecha del préstamo
+*circulation.lending.page_help = <p>Para realizar un préstamo usted deberá seleccionar el lector para el cual el préstamo será realizado y, en seguida, seleccionar el ejemplar que será prestado. La búsqueda por el lector puede ser hecha por nombre, matrícula u otro campo previamente registrado. Para encontrar el ejemplar, utilize su Sello Patrimonial.</p><p>Las devoluciones pueden ser hechas a través del lector seleccionado o directamente por el Sello Patrimonial del ejemplar que está siendo devuelto o renovado.</p><p>El plazo para la devolución se calcula de acuerdo con el tipo de usuario, configurado por el menu <strong>Administración</strong> y definido durante el registro del lector.</p>
+*circulation.lending.payment_date = Fecha de Pago
+*circulation.lending.renew_success = Préstamo renovado con éxito
+*circulation.lending.return_date = Fecha de la devolución
+*circulation.lending.return_success = Ejemplar devuelto con éxito
+*circulation.lending.user_current_lending_list = Ejemplares prestados a este lector
+*circulation.lending.user_total_lending_list = Historial de préstamos a este lector
+
+*circulation.lending.no_holding_found = Ningún ejemplar encontrado
+
+*circulation.lending.button.lend = Prestar
+*circulation.lending.button.print_lending_receipt = Imprimir recibo de préstamo
+*circulation.lending.button.print_receipt = Imprimir recibo
+*circulation.lending.button.print_return_receipt = Imprimir recibo de devolución
+*circulation.lending.button.renew = Renovar
+*circulation.lending.button.return = Devolver
+*circulation.lending.button.select_reader = Seleccionar lector
+*circulation.lending.button.unavailable = No disponible
+
+*circulation.lending.buttons.apply_fine = Multar
+*circulation.lending.buttons.dismiss_fine = Abonar
+*circulation.lending.buttons.pay_fine = Pagar
+
+*circulation.lending.error.select_reader_first = Para prestar un ejemplar usted precisa, primeramente, seleccionar un lector
+
+*circulation.lending.fine.failure_pay_fine = Falla al pagar multa
+*circulation.lending.fine.success_pay_fine = Multa paga con éxito
+
+*circulation.lending.fine_popup.description = Esta devolución está atrasada y está sujeta al pago de multa. Verifique abajo las informaciones presentadas y confirme si la multa será agregada al registro del usuario para ser pagada en el futuro (Multar), si ella fue pagada en el momento de la devolución (Pagar) o si ella será abonada (Abonar).
+*circulation.lending.fine_popup.title = Devolución atrasada
+
+*circulation.lending.holdings.title = Buscar Ejemplar
+
+*circulation.lending.receipt.accession_number = Sello Patrimonial
+*circulation.lending.receipt.author = Autor
+*circulation.lending.receipt.expected_return_date = Fecha para devolución
+*circulation.lending.receipt.holding_id = Nro. Registro
+*circulation.lending.receipt.lending_date = Fecha de Préstamo
+*circulation.lending.receipt.lendings = Préstamos
+*circulation.lending.receipt.renews = Renovaciones
+*circulation.lending.receipt.return_date = Fecha de devolución
+*circulation.lending.receipt.returns = Devoluciones
+*circulation.lending.receipt.title = Título
+
+*circulation.lending.reserved.warning = Todos los ejemplares disponibles de este registro están reservados para otros lectores. El préstamo puede ser efectuado, sin embargo verifique las informaciones de reservas.
+
+*circulation.lending.users.title = Buscar Lector
+
+*circulation.lendings.holding_list_lendings = Listar solamente ejemplares prestados
+
+*circulation.reservation.delete_failure = Falla al excluir la reserva
+*circulation.reservation.delete_success = Reserva excluida con éxito
+*circulation.reservation.expiration_date = Fecha de expiración de la reserva
+*circulation.reservation.page_help = <p>Para realizar una reserva usted deberá seleccionar el lector para el cual la reserva será realizada y, en seguida, seleccionar el registro que será reservado. La búsqueda por el lector puede hacerse por nombre, matrícula u otro campo previamente registrado. Para encontrar el registro, realice una búsqueda similar a la búsqueda bibliográfica.</p>
+<p>Los cancelamientos pueden hacerse seleccionando el lector que posee la reserva.</p><p>La duración de la reserva se calcula de acuerdo con el tipo de usuario, configurado por el menú <strong>Administración</strong> y definido durante el registro del lector.</p>
+*circulation.reservation.record_list_reserved = Listar solo registros reservados
+*circulation.reservation.record_reserved_to_the_following_readers = Este registro está reservado para los siguientes lectores
+*circulation.reservation.reservation_count = Registros reservados
+*circulation.reservation.reserve_date = Fecha de reserva
+*circulation.reservation.reserve_failure = Falla al reservar la obra
+*circulation.reservation.reserve_success = Reserva efectuada con éxito
+
+*circulation.reservation.button.delete = Excluir
+*circulation.reservation.button.reserve = Reservar
+*circulation.reservation.button.select_reader = Seleccionar lector
+
+*circulation.reservation.error.select_reader_first = Para reservar un registro usted precisa, primeramente, seleccionar un lector
+
+*circulation.reservation.holdings.title = Buscar Registro Bibliográfico
+
+*circulation.reservation.users.title = Buscar Lector
+
+*circulation.user.active_lendings = Préstamos activos
+*circulation.user.confirm_cancel_editing_title = Cancelar edición de usuario
+*circulation.user.inactive_users_only = Listar solo Usuarios inactivos
+*circulation.user.no_fines = Este usuario no posee multas
+*circulation.user.no_lendings = Este usuario no posee préstamos
+*circulation.user.no_reserves = Este usuario no posee reservas
+*circulation.user.page_help = <p>El <strong>"Registro de Usuarios"</strong> permitirá guardar información sobre los lectores y empleados de la biblioteca para que sea posible realizar préstamos, reservas y controlar el acceso de estos Usuarios a la biblioteca.</p>
+<p>Antes de registrar un usuario es recomendable verificar si el ya está registrado, a través de la <strong>búsqueda simplificada</strong>, que buscará cada uno de los términos digitados en el campo seleccionado o a través de la <strong>búsqueda avanzada</strong>, que otorga un mayor control sobre los Usuarios localizados, permitiendo, por ejemplo, buscar Usuarios con multas pendientes.</p>
+*circulation.user.returned_lendings = Préstamos devueltos
+*circulation.user.user_deleted = Usuario excluido del sistema
+*circulation.user.users_who_have_login_access = Listar solo Usuarios que poseen login de acceso al Biblivre
+*circulation.user.users_with_late_lendings = Listar solo Usuarios con préstamos en atraso
+*circulation.user.users_with_pending_fines = Listar solo Usuarios con multas pendientes
+*circulation.user.users_without_user_card = Listar solamente Usuarios que nunca tuvieron tarjeta impresa
+
+*circulation.user.button.block = Bloquear
+*circulation.user.button.cancel = Cancelar
+*circulation.user.button.delete = Excluir
+*circulation.user.button.edit = Editar
+*circulation.user.button.inactive = Marcar como inactivo
+*circulation.user.button.new = Nuevo usuario
+*circulation.user.button.save = Guardar
+*circulation.user.button.save_as_new = Guardar como nuevo
+*circulation.user.button.unblock = Desbloquear
+
+*circulation.user.confirm_cancel_editing.1 = ¿Usted desea cancelar la edición de este usuario?
+*circulation.user.confirm_cancel_editing.2 = Todas las alteraciones se perderán
+
+*circulation.user.confirm_delete_record.forever = Será excluido permanentemente del sistema y no podrá ser recuperado
+*circulation.user.confirm_delete_record.inactive = Saldrá de la lista de búsquedas y solo podrá ser encontrado a través de la "búsqueda avanzada", de donde podrá ser excluido permanentemente o recuperado
+
+*circulation.user.confirm_delete_record_question.forever = ¿Usted realmente desea excluir este usuario?
+*circulation.user.confirm_delete_record_question.inactive = ¿Usted realmente desea marcar este usuario como "inactivo"?
+
+*circulation.user.confirm_delete_record_title.forever = Excluir usuario
+*circulation.user.confirm_delete_record_title.inactive = Marcar usuario como "inactivo"
+
+*circulation.user.error.invalid_photo_extension = La extensión del archivo seleccionado no es válida para la foto del usuario. Use archivos .png, .jpg, .jpeg o .gif
+
+*circulation.user.fine.pending = Pendiente
+
+*circulation.user.tabs.fines = Multas
+*circulation.user.tabs.form = Registro
+*circulation.user.tabs.lendings = Préstamos
+*circulation.user.tabs.reservations = Reservas
+
+*circulation.user_cards.page_help = <p>El módulo <strong>"Impresión de Carnets"</strong> permite Generar las etiquetas de identificación de los lectores de la biblioteca.</p>
+<p>Es posible generar los carnets de uno o más lectores en una única impresión, utilizando la búsqueda abajo.</p>
+<p>Luego de encontrar el(los) lector(es), use el botón <strong>"Seleccionar usuario"</strong> para agregarlos a la lista de impresión de carnets. Usted podrá realizar diversas búsquedas, sin perder la selección hecha anteriormente. Cuando este satisfecho con la selección, cliquee en el botón <strong>"Imprimir carnets"</strong>. Será posible seleccionar la posición del primer carnet en la hoja de etiquetas.</p>
+*circulation.user_cards.paper_description = {paper_size} {count} etiquetas ({height} mm x {width} mm)
+*circulation.user_cards.selected_records_plural = {0} usuarios seleccionados
+*circulation.user_cards.selected_records_singular = {0} usuario seleccionado
+
+*circulation.user_cards.button.print_user_cards = Imprimir carnets
+*circulation.user_cards.button.select_item = Seleccionar usuario
+*circulation.user_cards.button.select_page = Seleccionar usuarios de esta página
+
+*circulation.user_cards.popup.description = Seleccione en qué etiqueta desea iniciar la impresión
+*circulation.user_cards.popup.title = Formato de las etiquetas
+
+*circulation.user_field.id = Matrícula
+*circulation.user_field.login = Login
+*circulation.user_field.name = Nombre
+*circulation.user_field.photo = Foto
+*circulation.user_field.short_type = Tipo
+*circulation.user_field.status = Situación
+*circulation.user_field.type = Tipo de usuario
+
+*circulation.user_status.active = Activo
+*circulation.user_status.blocked = Bloqueado
+*circulation.user_status.inactive = Inactivo
+*circulation.user_status.pending_issues = Posee pendencias
+
+*circulation.users.error.save = Falla al inscribir al Usuario
+
+*circulation.users.failure.block = Falla al bloquear al Usuario
+*circulation.users.failure.delete = Falla al excluir usuario
+*circulation.users.failure.disable = Falla al marcar usuario como inactivo
+*circulation.users.failure.unblock = Falla al desbloquear al Usuario
+
+*circulation.users.success.block = Usuario bloqueado con éxito
+*circulation.users.success.delete = Usuario excluido permanentemente
+*circulation.users.success.disable = Éxito al marcar usuario como inactivo
+*circulation.users.success.save = Usuario incluido con éxito
+*circulation.users.success.unblock = Usuario desbloqueado con éxito
+*circulation.users.success.update = Usuario guardado con éxito
+
+*common.added_to_list = Agregado a la lista
+*common.block = Bloquear
+*common.calculating = Calculando
+*common.cancel = Cancelar
+*common.clear = Limpiar
+*common.close = Cerrar
+*common.created = Registrado en
+*common.delete = Excluir
+*common.deleted = Excluido
+*common.edit = Editar
+*common.form = Formulario
+*common.help = Ayuda
+*common.loading = Cargando
+*common.modified = Actualizado en
+*common.no = No
+*common.ok = Ok
+*common.open = Abrir
+*common.save = Guardar
+*common.save_as_new = Guardar como Nuevo
+*common.step = Paso
+*common.today = Hoy
+*common.unblock = Desbloquear
+*common.uncancel = Recuperar
+*common.wait = Aguarde
+*common.yes = Sí
+
+*digitalmedia.error.file_could_not_be_saved = El archivo enviado no puede ser guardado
+*digitalmedia.error.file_not_found = El archivo especificado no fue encontrado
+*digitalmedia.error.no_file_uploaded = Ningún archivo fue enviado
+
+*error.biblivre_is_locked_please_wait = Este Biblivre está en mantenimiento. Por favor, intente nuevamente en algunos minutos.
+*error.file_not_found = Archivo no encontrado
+*error.form_invalid_values = Fueron encontrados errores en el rellenado del formulario abajo
+*error.invalid_database = 
+*error.invalid_handler = No fue posible encontrar un handler para esta acción
+*error.invalid_json = El Biblivre no fue capaz de entender los datos recibidos
+*error.invalid_method_call = Llamada con método inválido
+*error.invalid_parameters = El Biblivre no fue capaz de entender los parámetros recibidos
+*error.invalid_user = Usuario inválido o inexistente
+*error.no_permission = Usted no tiene permiso para ejecutar esta acción
+*error.runtime_error = Error inesperado durante la ejecución de la tarea
+*error.void = 
+
+*field.error.date = El valor rellenado no tiene una fecha válida. Utilice el formato {0}
+*field.error.digits_only = Este campo debe ser rellenado con números
+*field.error.invalid = Este valor no es válido para este campo
+*field.error.max_length = Este campo debe poseer como máximo {0} caracteres
+*field.error.min_length = Este campo debe poseer como mínimo {0} caracteres
+*field.error.required = El rellenado de este campo es obligatorio
+
+*format.date = dd/MM/aaaa
+*format.date_user_friendly = DD/MM/AAAA
+*format.datetime = dd/MM/yyyy HH:mm
+*format.datetime_user_friendly = DD/MM/AAAA hh:mm
+
+*header.law = Ley de Incentivo a la Cultura
+
+*label.login = Entrar
+*label.logout = Salir
+*label.password = Contraseña
+*label.username = Usuario
+
+*login.access_denied = Acceso denegado. Usuario o contraseña inválidos
+*login.goodbye = Hasta luego
+*login.welcome = Sea bienvenido al Biblivre IV
+
+*login.error.empty_login = El campo login no puede estar vacío
+*login.error.empty_new_password = El campo "nueva contraseña" no puede estar vacío
+*login.error.invalid_password = El campo "contraseña actual" no es compatible con su contraseña
+*login.error.login_already_exists = Este login ya existe. Escoja otro nombre
+*login.error.password_not_matching = Los campos "nueva contraseña" y "repita la nueva contraseña" deben ser iguales
+*login.error.same_password = La nueva contraseña debe ser diferente de la contraseña actual
+*login.error.user_has_login = Este usuario ya posee un login
+
+*login.password.success = Contraseña alterada con éxito
+
+*marc.authorities.datafield.100 = Autor - Nombre personal
+*marc.authorities.datafield.110 = Autor - Entidad colectiva
+*marc.authorities.datafield.111 = Autor - Evento
+*marc.authorities.datafield.400 = Otra forma de nombre
+*marc.authorities.datafield.410 = Otra forma de nombre
+*marc.authorities.datafield.411 = Otra forma de nombre
+*marc.authorities.datafield.670 = Orígen de las informaciones
+
+*marc.authorities.datafield.100.indicator.1 = Forma de entrada
+
+*marc.authorities.datafield.100.indicator.1.0 = nombre simple o compuesto
+*marc.authorities.datafield.100.indicator.1.1 = apellido simple o compuesto
+*marc.authorities.datafield.100.indicator.1.2 = apellido compuesto (anticuado)
+*marc.authorities.datafield.100.indicator.1.3 = nombre de la familia
+
+*marc.authorities.datafield.100.subfield.a = Apellido y/o nombre del autor
+*marc.authorities.datafield.100.subfield.b = Numeración que sigue al nombre
+*marc.authorities.datafield.100.subfield.c = Título y otras palabras asociadas al nombre
+*marc.authorities.datafield.100.subfield.d = Fechas asociadas al nombre
+*marc.authorities.datafield.100.subfield.q = Forma completa del nombre
+
+*marc.authorities.datafield.110.indicator.1 = Forma de entrada
+
+*marc.authorities.datafield.110.indicator.1.0 = nombre invertido
+*marc.authorities.datafield.110.indicator.1.1 = nombre de la jurisdicción
+*marc.authorities.datafield.110.indicator.1.2 = nombre en el orden directo
+
+*marc.authorities.datafield.110.subfield.a = Nombre de la entidad o del lugar
+*marc.authorities.datafield.110.subfield.b = Unidades subordinadas
+*marc.authorities.datafield.110.subfield.c = Lugar de realización del evento
+*marc.authorities.datafield.110.subfield.d = Fecha de la realización del evento
+*marc.authorities.datafield.110.subfield.l = Lenguaje de texto
+*marc.authorities.datafield.110.subfield.n = Número de la parte sección de la obra orden del evento
+
+*marc.authorities.datafield.111.indicator.1 = Forma de entrada
+
+*marc.authorities.datafield.111.indicator.1.0 = nombre invertido
+*marc.authorities.datafield.111.indicator.1.1 = nombre de la jurisdicción
+*marc.authorities.datafield.111.indicator.1.2 = nombre en orden directo
+
+*marc.authorities.datafield.111.subfield.a = Nombre del evento
+*marc.authorities.datafield.111.subfield.c = Lugar de realización del evento
+*marc.authorities.datafield.111.subfield.d = Fecha de realización del evento
+*marc.authorities.datafield.111.subfield.e = Nombre de subunidades del evento
+*marc.authorities.datafield.111.subfield.g = Informaciones adicionales
+*marc.authorities.datafield.111.subfield.k = Sub-encabezamientos
+*marc.authorities.datafield.111.subfield.n = Número de orden del evento
+
+*marc.authorities.datafield.400.subfield.a = Apellido y/o Nombre del autor
+
+*marc.authorities.datafield.410.subfield.a = Nombre de la entidad o del lugar
+
+*marc.authorities.datafield.411.subfield.a = Nombre del evento
+
+*marc.authorities.datafield.670.subfield.a = Nombre retirado de
+*marc.authorities.datafield.670.subfield.b = Información encontrada
+
+*marc.bibliographic.datafield.013 = Información de control de patentes
+*marc.bibliographic.datafield.020 = ISBN
+*marc.bibliographic.datafield.022 = ISSN
+*marc.bibliographic.datafield.024 = Otros números o códigos normalizados
+*marc.bibliographic.datafield.029 = ISNM
+*marc.bibliographic.datafield.040 = Fuente de catalogación
+*marc.bibliographic.datafield.041 = Código del lenguaje
+*marc.bibliographic.datafield.043 = Código de área geográfica
+*marc.bibliographic.datafield.045 = Código de período cronológico
+*marc.bibliographic.datafield.080 = Clasificación Decimal Universal
+*marc.bibliographic.datafield.082 = Clasificación Decimal Dewey
+*marc.bibliographic.datafield.090 = Número de llamada - Localización
+*marc.bibliographic.datafield.095 = Área de conocimiento de CNPq
+*marc.bibliographic.datafield.100 = Autor - Nombre personal
+*marc.bibliographic.datafield.110 = Autor - Entidad colectiva
+*marc.bibliographic.datafield.111 = Autor - Evento
+*marc.bibliographic.datafield.130 = Obra anónima
+*marc.bibliographic.datafield.150 = TE
+*marc.bibliographic.datafield.210 = Título Abreviado
+*marc.bibliographic.datafield.240 = Título uniforme
+*marc.bibliographic.datafield.243 = Título Convencional Para Archivo
+*marc.bibliographic.datafield.245 = Título principal
+*marc.bibliographic.datafield.246 = Forma Variante de Título
+*marc.bibliographic.datafield.250 = Edición
+*marc.bibliographic.datafield.255 = Dato matemático cartográfico
+*marc.bibliographic.datafield.256 = Características del archivo de computadora
+*marc.bibliographic.datafield.257 = País de la entidad productora
+*marc.bibliographic.datafield.258 = Información sobre material filatélico
+*marc.bibliographic.datafield.260 = Publicación, edición. Etc.
+*marc.bibliographic.datafield.300 = Descripción física
+*marc.bibliographic.datafield.306 = Tiempo de duración
+*marc.bibliographic.datafield.310 = Periodicidad Corriente
+*marc.bibliographic.datafield.321 = Periodicidad Anterior
+*marc.bibliographic.datafield.340 = Soporte físico
+*marc.bibliographic.datafield.342 = Datos de referencia geoespacial
+*marc.bibliographic.datafield.343 = Datos de coordenada plana
+*marc.bibliographic.datafield.360 = Remisiva VT (ver también) y TA (Término relacionado o asociado)
+*marc.bibliographic.datafield.362 = Información de Fechas de Publicación y/o Volumen
+*marc.bibliographic.datafield.400 = Otra Forma de nombre
+*marc.bibliographic.datafield.410 = Otra Forma de nombre
+*marc.bibliographic.datafield.411 = Otra Forma de nombre
+*marc.bibliographic.datafield.450 = UP (remisiva para TE no usado)
+*marc.bibliographic.datafield.490 = Indicación de serie
+*marc.bibliographic.datafield.500 = Notas
+*marc.bibliographic.datafield.501 = Notas iniciadas con la palabra "con"
+*marc.bibliographic.datafield.502 = Notas de disertación o tesis
+*marc.bibliographic.datafield.504 = Notas de bibliografía
+*marc.bibliographic.datafield.505 = Notas de contenido
+*marc.bibliographic.datafield.515 = Nota de Peculiaridad en la Numeración
+*marc.bibliographic.datafield.520 = Notas de resumen
+*marc.bibliographic.datafield.521 = Notas de público meta
+*marc.bibliographic.datafield.525 = Nota de Suplemento
+*marc.bibliographic.datafield.530 = Notas de disponibilidad de forma física
+*marc.bibliographic.datafield.534 = Notas de facsímile
+*marc.bibliographic.datafield.550 = TG (Término genérico)
+*marc.bibliographic.datafield.555 = Nota de Índice Acumulativo o Remisivo
+*marc.bibliographic.datafield.580 = Nota de Enlace
+*marc.bibliographic.datafield.590 = Notas locales
+*marc.bibliographic.datafield.595 = Notas para inclusión en bibliografías
+*marc.bibliographic.datafield.600 = Asunto - Nombre personal
+*marc.bibliographic.datafield.610 = Asunto - Entidad Colectiva
+*marc.bibliographic.datafield.611 = Asunto - Evento
+*marc.bibliographic.datafield.630 = Asunto - Título uniforme
+*marc.bibliographic.datafield.650 = Asunto - Tópico
+*marc.bibliographic.datafield.651 = Asunto - Nombre geográfico
+*marc.bibliographic.datafield.670 = Origen de las informaciones
+*marc.bibliographic.datafield.680 = Nota de alcance (NE)
+*marc.bibliographic.datafield.685 = Nota de historial o glosario (GLOSS)
+*marc.bibliographic.datafield.700 = Entrada secundaria - Nombre personal
+*marc.bibliographic.datafield.710 = Entrada secundaria - Entidad Coletiva
+*marc.bibliographic.datafield.711 = Entrada secundaria - Evento
+*marc.bibliographic.datafield.730 = Entrada secundaria - Título uniforme
+*marc.bibliographic.datafield.740 = Entrada secundaria - Título Adicional - Analítico
+*marc.bibliographic.datafield.750 = Término tópico
+*marc.bibliographic.datafield.830 = Entrada secundaria - Serie - Título Uniforme
+*marc.bibliographic.datafield.856 = Localización de obras por medio electrónico
+*marc.bibliographic.datafield.913 = Código Lugar
+*marc.bibliographic.datafield.947 = Información de la Colección
+*marc.bibliographic.datafield.949 = Sello patrimonial
+
+*marc.bibliographic.datafield.013.subfield.a = Número
+*marc.bibliographic.datafield.013.subfield.b = País
+*marc.bibliographic.datafield.013.subfield.c = Tipo
+*marc.bibliographic.datafield.013.subfield.d = Fecha
+*marc.bibliographic.datafield.013.subfield.e = Estado de la patente
+*marc.bibliographic.datafield.013.subfield.f = Parte de un documento
+
+*marc.bibliographic.datafield.020.subfield.a = Número de ISBN
+*marc.bibliographic.datafield.020.subfield.c = Modalidad de adquisición
+
+*marc.bibliographic.datafield.022.subfield.a = Número de ISSN
+
+*marc.bibliographic.datafield.024.indicator.1 = Tipo de número o código normalizado
+
+*marc.bibliographic.datafield.024.indicator.1.0 = International Standard Recording Code/ (ISRC)
+*marc.bibliographic.datafield.024.indicator.1.2 = International Standard Music Number (ISMN)
+
+*marc.bibliographic.datafield.029.subfield.a = Número de ISMN
+
+*marc.bibliographic.datafield.040.subfield.a = Código de la agencia catalogadora
+*marc.bibliographic.datafield.040.subfield.b = Lenguaje de la catalogación
+*marc.bibliographic.datafield.040.subfield.c = Agencia que transcribió el registro en formato legible por máquina
+*marc.bibliographic.datafield.040.subfield.d = Agencia que alteró el registro
+*marc.bibliographic.datafield.040.subfield.e = Fuentes convencionales de descripciones de datos
+
+*marc.bibliographic.datafield.041.indicator.1 = Indicación de traducción
+
+*marc.bibliographic.datafield.041.indicator.1.0 = El ítem no es y no incluye traducción
+*marc.bibliographic.datafield.041.indicator.1.1 = El ítem es e incluye traducción
+
+*marc.bibliographic.datafield.041.subfield.a = Código del idioma de texto
+*marc.bibliographic.datafield.041.subfield.b = Código de idioma del sumario o resumen
+*marc.bibliographic.datafield.041.subfield.h = Código de idioma del documento original
+
+*marc.bibliographic.datafield.043.subfield.a = Código del área geográfica
+
+*marc.bibliographic.datafield.045.indicator.1 = Tipo de período cronológico
+
+*marc.bibliographic.datafield.045.indicator.1.0 = Fecha - período únicos
+*marc.bibliographic.datafield.045.indicator.1.1 = Fecha - período múltiples
+*marc.bibliographic.datafield.045.indicator.1.2 = Extensión de fechas - períodos
+*marc.bibliographic.datafield.045.indicator.1._ = Subcampos |b o |c no están presentes
+
+*marc.bibliographic.datafield.045.subfield.a = Código del período de tiempo
+*marc.bibliographic.datafield.045.subfield.b = Período de tiempo formateado de 9999 a.C en adelante
+*marc.bibliographic.datafield.045.subfield.c = Período de tiempo formateado anterior a 9999 a.C.
+
+*marc.bibliographic.datafield.080.subfield.2 = Número de edición de la CDU
+*marc.bibliographic.datafield.080.subfield.a = Número de Clasificación
+
+*marc.bibliographic.datafield.082.subfield.2 = Número de edición de la CDD
+*marc.bibliographic.datafield.082.subfield.a = Número de Clasificación
+
+*marc.bibliographic.datafield.090.subfield.a = Clasificación
+*marc.bibliographic.datafield.090.subfield.b = Código del autor
+*marc.bibliographic.datafield.090.subfield.c = Edición - volumen
+*marc.bibliographic.datafield.090.subfield.d = Número del Ejemplar
+
+*marc.bibliographic.datafield.095.subfield.a = Área de conocimiento
+
+*marc.bibliographic.datafield.100.indicator.1 = Forma de entrada
+
+*marc.bibliographic.datafield.100.indicator.1.0 = nombre simple o compuesto
+*marc.bibliographic.datafield.100.indicator.1.1 = apellido simple o compuesto
+*marc.bibliographic.datafield.100.indicator.1.2 = nombre compuesto (obsoleto)
+*marc.bibliographic.datafield.100.indicator.1.3 = nombre de familia
+
+*marc.bibliographic.datafield.100.subfield.a = Apellido y/o nombre del autor
+*marc.bibliographic.datafield.100.subfield.b = Numeración que sigue al nombre
+*marc.bibliographic.datafield.100.subfield.c = Título y otras palabras asociadas al nombre
+*marc.bibliographic.datafield.100.subfield.d = Fechas asociadas al nombre
+*marc.bibliographic.datafield.100.subfield.q = Forma completa de nombre
+
+*marc.bibliographic.datafield.110.indicator.1 = Forma de entrada
+
+*marc.bibliographic.datafield.110.indicator.1.0 = nombre invertido
+*marc.bibliographic.datafield.110.indicator.1.1 = nombre de la jurisdicción
+*marc.bibliographic.datafield.110.indicator.1.2 = nombre en orden directo
+
+*marc.bibliographic.datafield.110.subfield.a = Nombre de la entidad o del lugar
+*marc.bibliographic.datafield.110.subfield.b = Unidades subordinadas
+*marc.bibliographic.datafield.110.subfield.c = Lugar de realización del evento
+*marc.bibliographic.datafield.110.subfield.d = Fecha de la realización del evento
+*marc.bibliographic.datafield.110.subfield.l = Idioma del texto
+*marc.bibliographic.datafield.110.subfield.n = Número de la parte - sección de la obra - orden del evento
+
+*marc.bibliographic.datafield.111.indicator.1 = Forma de entrada
+
+*marc.bibliographic.datafield.111.indicator.1.0 = nombre invertido
+*marc.bibliographic.datafield.111.indicator.1.1 = nombre de la jurisdicción
+*marc.bibliographic.datafield.111.indicator.1.2 = nombre en el orden directo
+
+*marc.bibliographic.datafield.111.subfield.a = Nombre del evento
+*marc.bibliographic.datafield.111.subfield.c = Lugar de realización del evento
+*marc.bibliographic.datafield.111.subfield.d = Fecha de realización del evento
+*marc.bibliographic.datafield.111.subfield.e = Nombre de subunidades del evento
+*marc.bibliographic.datafield.111.subfield.g = Información adicional
+*marc.bibliographic.datafield.111.subfield.k = Subencabezamientos
+*marc.bibliographic.datafield.111.subfield.n = Número de orden de evento
+
+*marc.bibliographic.datafield.130.indicator.1 = Número de caracteres a ser despreciados en la alfabetización
+
+*marc.bibliographic.datafield.130.indicator.1.0 = Ningún caracter a despreciar
+*marc.bibliographic.datafield.130.indicator.1.1 = 1 carácter a despreciar
+*marc.bibliographic.datafield.130.indicator.1.2 = 2 caracteres a despreciar
+*marc.bibliographic.datafield.130.indicator.1.3 = 3 caracteres a despreciar
+*marc.bibliographic.datafield.130.indicator.1.4 = 4 caracteres a despreciar
+*marc.bibliographic.datafield.130.indicator.1.5 = 5 caracteres a despreciar
+*marc.bibliographic.datafield.130.indicator.1.6 = 6 caracteres a despreciar
+*marc.bibliographic.datafield.130.indicator.1.7 = 7 caracteres a despreciar
+*marc.bibliographic.datafield.130.indicator.1.8 = 8 caracteres a despreciar
+*marc.bibliographic.datafield.130.indicator.1.9 = 9 caracteres a despreciar
+
+*marc.bibliographic.datafield.130.subfield.a = Título uniforme
+*marc.bibliographic.datafield.130.subfield.d = Fecha que aparece junto al título uniforme en la entrada
+*marc.bibliographic.datafield.130.subfield.f = Fecha de edición del ítem que está siendo procesado
+*marc.bibliographic.datafield.130.subfield.g = Información adicional
+*marc.bibliographic.datafield.130.subfield.k = Subencabezamientos
+*marc.bibliographic.datafield.130.subfield.l = Idioma del texto
+*marc.bibliographic.datafield.130.subfield.n = Número de la parte - sección de la obra
+*marc.bibliographic.datafield.130.subfield.p = Nombre de la parte - sección de la obra
+
+*marc.bibliographic.datafield.150.subfield.a = Término tópico adoptado
+*marc.bibliographic.datafield.150.subfield.i = Calificador
+*marc.bibliographic.datafield.150.subfield.x = Subdivisión general adoptada
+*marc.bibliographic.datafield.150.subfield.y = Subdivisión cronológica adoptada
+*marc.bibliographic.datafield.150.subfield.z = Subdivisión geográfica adoptada
+
+*marc.bibliographic.datafield.210.indicator.1 = Entrada secundaria de título
+*marc.bibliographic.datafield.210.indicator.2 = Tipo de Título
+
+*marc.bibliographic.datafield.210.indicator.1.0 = No generar entrada secundaria de título
+*marc.bibliographic.datafield.210.indicator.1.1 = Generar entrada secundaria de título
+
+*marc.bibliographic.datafield.210.indicator.2.0 = Otro título abreviado
+*marc.bibliographic.datafield.210.indicator.2._ = Título llave abreviado
+
+*marc.bibliographic.datafield.210.subfield.a = Título Abreviado
+*marc.bibliographic.datafield.210.subfield.b = Calificador
+
+*marc.bibliographic.datafield.240.indicator.1 = Genera entrada secundaria en la ficha
+*marc.bibliographic.datafield.240.indicator.2 = Número de caracteres a ser despreciados en la alfabetización
+
+*marc.bibliographic.datafield.240.indicator.1.0 = No genera entrada para el título
+*marc.bibliographic.datafield.240.indicator.1.1 = Genera entrada para el título
+
+*marc.bibliographic.datafield.240.indicator.2.0 = Ningún caracter a despreciar
+*marc.bibliographic.datafield.240.indicator.2.1 = 1 carácter a despreciar
+*marc.bibliographic.datafield.240.indicator.2.2 = 2 caracteres a despreciar
+*marc.bibliographic.datafield.240.indicator.2.3 = 3 caracteres a despreciar
+*marc.bibliographic.datafield.240.indicator.2.4 = 4 caracteres a despreciar
+*marc.bibliographic.datafield.240.indicator.2.5 = 5 caracteres a despreciar
+*marc.bibliographic.datafield.240.indicator.2.6 = 6 caracteres a despreciar
+*marc.bibliographic.datafield.240.indicator.2.7 = 7 caracteres a despreciar
+*marc.bibliographic.datafield.240.indicator.2.8 = 8 caracteres a despreciar
+*marc.bibliographic.datafield.240.indicator.2.9 = 9 caracteres a despreciar
+
+*marc.bibliographic.datafield.240.subfield.a = Título uniforme
+*marc.bibliographic.datafield.240.subfield.b = Fecha que aparece junto al título uniforme en la entrada
+*marc.bibliographic.datafield.240.subfield.f = Fecha del trabajo
+*marc.bibliographic.datafield.240.subfield.g = Información adicional
+*marc.bibliographic.datafield.240.subfield.k = Subencabezamientos
+*marc.bibliographic.datafield.240.subfield.l = Idioma del texto
+*marc.bibliographic.datafield.240.subfield.n = Número de la parte - sección de la obra
+*marc.bibliographic.datafield.240.subfield.p = Nombre de la parte - sección de la obra
+
+*marc.bibliographic.datafield.243.indicator.1 = Genera entrada secundaria en la ficha
+*marc.bibliographic.datafield.243.indicator.2 = Número de caracteres a ser despreciados en la alfabetización
+
+*marc.bibliographic.datafield.243.indicator.1.0 = No genera entrada para el título
+*marc.bibliographic.datafield.243.indicator.1.1 = Genera entrada para el título
+
+*marc.bibliographic.datafield.243.indicator.2.0 = Ningún carácter a despreciar
+*marc.bibliographic.datafield.243.indicator.2.1 = 1 carácter a despreciar
+*marc.bibliographic.datafield.243.indicator.2.2 = 2 caracteres a despreciar
+*marc.bibliographic.datafield.243.indicator.2.3 = 3 caracteres a despreciar
+*marc.bibliographic.datafield.243.indicator.2.4 = 4 caracteres a despreciar
+*marc.bibliographic.datafield.243.indicator.2.5 = 5 caracteres a despreciar
+*marc.bibliographic.datafield.243.indicator.2.6 = 6 caracteres a despreciar
+*marc.bibliographic.datafield.243.indicator.2.7 = 7 caracteres a despreciar
+*marc.bibliographic.datafield.243.indicator.2.8 = 8 caracteres a despreciar
+*marc.bibliographic.datafield.243.indicator.2.9 = 9 caracteres a despreciar
+
+*marc.bibliographic.datafield.243.subfield.a = Título del trabajo
+*marc.bibliographic.datafield.243.subfield.f = Fecha del trabajo
+*marc.bibliographic.datafield.243.subfield.g = Información adicional
+*marc.bibliographic.datafield.243.subfield.k = Subencabezamientos
+*marc.bibliographic.datafield.243.subfield.l = Idioma del texto
+
+*marc.bibliographic.datafield.245.indicator.1 = Genera entrada secundaria en la ficha
+*marc.bibliographic.datafield.245.indicator.2 = Número de caracteres a ser despreciados en la alfabetización
+
+*marc.bibliographic.datafield.245.indicator.1.0 = No genera entrada para el título
+*marc.bibliographic.datafield.245.indicator.1.1 = Genera entrada para el título
+
+*marc.bibliographic.datafield.245.indicator.2.0 = Ningún carácter a despreciar
+*marc.bibliographic.datafield.245.indicator.2.1 = 1 carácter a despreciar
+*marc.bibliographic.datafield.245.indicator.2.2 = 2 caracteres a despreciar
+*marc.bibliographic.datafield.245.indicator.2.3 = 3 caracteres a despreciar
+*marc.bibliographic.datafield.245.indicator.2.4 = 4 caracteres a despreciar
+*marc.bibliographic.datafield.245.indicator.2.5 = 5 caracteres a despreciar
+*marc.bibliographic.datafield.245.indicator.2.6 = 6 caracteres a despreciar
+*marc.bibliographic.datafield.245.indicator.2.7 = 7 caracteres a despreciar
+*marc.bibliographic.datafield.245.indicator.2.8 = 8 caracteres a despreciar
+*marc.bibliographic.datafield.245.indicator.2.9 = 9 caracteres a despreciar
+
+*marc.bibliographic.datafield.245.subfield.a = Título principal
+*marc.bibliographic.datafield.245.subfield.b = Títulos paralelos/subtítulos
+*marc.bibliographic.datafield.245.subfield.c = Indicación de responsabilidad de la obra
+*marc.bibliographic.datafield.245.subfield.h = Medio
+*marc.bibliographic.datafield.245.subfield.n = Número de la parte - sección de la obra
+*marc.bibliographic.datafield.245.subfield.p = Nombre de la parte - sección de la obra
+
+*marc.bibliographic.datafield.246.indicator.1 = Control de nota/entrada secundaria de título
+*marc.bibliographic.datafield.246.indicator.2 = Tipo de título
+
+*marc.bibliographic.datafield.246.indicator.1.0 = Generar nota, no generar entrada secundaria de título
+*marc.bibliographic.datafield.246.indicator.1.1 = Generar nota y entrada secundaria de título
+*marc.bibliographic.datafield.246.indicator.1.2 = No generar nota ni entrada secundaria de título
+*marc.bibliographic.datafield.246.indicator.1.3 = No generar nota, generar entrada secundaria de título
+
+*marc.bibliographic.datafield.246.indicator.2.0 = Parte del título
+*marc.bibliographic.datafield.246.indicator.2.1 = Título paralelo
+*marc.bibliographic.datafield.246.indicator.2.2 = Título específico
+*marc.bibliographic.datafield.246.indicator.2.3 = Otro título
+*marc.bibliographic.datafield.246.indicator.2.4 = Título de la tapa
+*marc.bibliographic.datafield.246.indicator.2.5 = Título adicional en carátula secundaria
+*marc.bibliographic.datafield.246.indicator.2.6 = Título de partida
+*marc.bibliographic.datafield.246.indicator.2.7 = Título corriente
+*marc.bibliographic.datafield.246.indicator.2.8 = Título del lomo
+*marc.bibliographic.datafield.246.indicator.2._ = ninguna información suministrada
+
+*marc.bibliographic.datafield.246.subfield.a = Título/título abreviado
+*marc.bibliographic.datafield.246.subfield.b = Complemento del título
+*marc.bibliographic.datafield.246.subfield.f = Información de volumen/número de fascículo y/o fecha de la obra
+*marc.bibliographic.datafield.246.subfield.g = Miscelánea
+*marc.bibliographic.datafield.246.subfield.h = Medio físico
+*marc.bibliographic.datafield.246.subfield.i = Exhibir texto
+*marc.bibliographic.datafield.246.subfield.n = Número de la parte/sección de la obra
+*marc.bibliographic.datafield.246.subfield.p = Nombre de la parte/sección de la obra
+
+*marc.bibliographic.datafield.250.subfield.a = Indicación de la edición
+*marc.bibliographic.datafield.250.subfield.b = Información adicional
+
+*marc.bibliographic.datafield.255.subfield.a = Escala
+
+*marc.bibliographic.datafield.256.subfield.a = Características del archivo de computadora
+
+*marc.bibliographic.datafield.257.subfield.a = País de la entidad productora
+
+*marc.bibliographic.datafield.258.subfield.a = Jurisdicción emisora
+*marc.bibliographic.datafield.258.subfield.b = Denominación
+
+*marc.bibliographic.datafield.260.subfield.a = Lugar de publicación, distribución, etc.
+*marc.bibliographic.datafield.260.subfield.b = Nombre del editor, publicador, etc.
+*marc.bibliographic.datafield.260.subfield.c = Fecha de publicación, distribución, etc.
+*marc.bibliographic.datafield.260.subfield.e = Nombre del impresor
+*marc.bibliographic.datafield.260.subfield.f = Información adicional
+*marc.bibliographic.datafield.260.subfield.g = Fecha de impresión
+
+*marc.bibliographic.datafield.300.subfield.3 = Especificación Material adicional
+*marc.bibliographic.datafield.300.subfield.a = Número de volumenes y/o paginación
+*marc.bibliographic.datafield.300.subfield.b = Material Ilustrativo
+*marc.bibliographic.datafield.300.subfield.c = Dimensiones
+*marc.bibliographic.datafield.300.subfield.e = Material adicional
+*marc.bibliographic.datafield.300.subfield.f = Tipo de unidad de almacenamiento
+*marc.bibliographic.datafield.300.subfield.g = Tamaño de la unidad de almacenamiento
+
+*marc.bibliographic.datafield.306.subfield.a = Tiempo de duración
+
+*marc.bibliographic.datafield.310.subfield.a = Periodicidad Corriente
+*marc.bibliographic.datafield.310.subfield.b = Fecha de la periodicidad corriente
+
+*marc.bibliographic.datafield.321.subfield.a = Periodicidad Anterior
+*marc.bibliographic.datafield.321.subfield.b = Fechas de la periodicidad anterior
+
+*marc.bibliographic.datafield.340.subfield.a = Base y configuración del material
+*marc.bibliographic.datafield.340.subfield.b = Dimensiones
+*marc.bibliographic.datafield.340.subfield.c = Materiales aplicados a la superficie
+*marc.bibliographic.datafield.340.subfield.d = Técnica en que se registra la información
+*marc.bibliographic.datafield.340.subfield.e = Soporte
+
+*marc.bibliographic.datafield.342.indicator.1 = Dimensiones de referencia geoespacial
+*marc.bibliographic.datafield.342.indicator.2 = Dimensiones de referencia geoespacial
+
+*marc.bibliographic.datafield.342.indicator.1.0 = Sistema de coordenada horizontal
+*marc.bibliographic.datafield.342.indicator.1.1 = Sistema de coordenada Vertical
+
+*marc.bibliographic.datafield.342.indicator.2.0 = Geográfico
+*marc.bibliographic.datafield.342.indicator.2.1 = Proyección de mapa
+*marc.bibliographic.datafield.342.indicator.2.2 = Sistema de coordenadas en grid
+*marc.bibliographic.datafield.342.indicator.2.3 = Lugar planear
+*marc.bibliographic.datafield.342.indicator.2.4 = Lugar
+*marc.bibliographic.datafield.342.indicator.2.5 = Modelo geodésico
+*marc.bibliographic.datafield.342.indicator.2.6 = Altitud
+*marc.bibliographic.datafield.342.indicator.2.7 = A especificar
+*marc.bibliographic.datafield.342.indicator.2.8 = Profundidad
+
+*marc.bibliographic.datafield.342.subfield.a = Nombre
+*marc.bibliographic.datafield.342.subfield.b = Unidad de las Coordenadas o Unidad de la Distancia
+*marc.bibliographic.datafield.342.subfield.c = Escala de Latitud
+*marc.bibliographic.datafield.342.subfield.d = Escala de Longitud
+
+*marc.bibliographic.datafield.343.subfield.a = Método de codificación de la coordenada plana
+*marc.bibliographic.datafield.343.subfield.b = Unidad de distancia plana
+
+*marc.bibliographic.datafield.360.subfield.a = Término tópico adoptado
+*marc.bibliographic.datafield.360.subfield.x = Subdivisión general adoptada
+*marc.bibliographic.datafield.360.subfield.y = Subdivisión cronológica adoptada
+*marc.bibliographic.datafield.360.subfield.z = Subdivisión geográfica adoptada
+
+*marc.bibliographic.datafield.362.indicator.1 = Formato de la fecha
+
+*marc.bibliographic.datafield.362.indicator.1.0 = Estilo formateado
+*marc.bibliographic.datafield.362.indicator.1.1 = Nota no formateada
+
+*marc.bibliographic.datafield.362.subfield.a = Información de Fechas de Publicación y/o Volumen
+*marc.bibliographic.datafield.362.subfield.z = Fuente de información
+
+*marc.bibliographic.datafield.400.subfield.a = Apellido y/o Nombre del Autor
+
+*marc.bibliographic.datafield.410.subfield.a = Nombre de la entidad o del lugar
+
+*marc.bibliographic.datafield.411.subfield.a = Nombre del evento
+
+*marc.bibliographic.datafield.450.subfield.a = Término tópico no usado
+
+*marc.bibliographic.datafield.490.indicator.1 = Política de desdoblamiento de serie
+
+*marc.bibliographic.datafield.490.indicator.1.0 = Título no desdoblado
+*marc.bibliographic.datafield.490.indicator.1.1 = Título desdoblado
+
+*marc.bibliographic.datafield.490.subfield.a = Título de la serie
+*marc.bibliographic.datafield.490.subfield.v = Número de volumen o designación secuencial de la serie
+
+*marc.bibliographic.datafield.500.subfield.a = Notas generales
+
+*marc.bibliographic.datafield.501.subfield.a = Notas iniciadas con la palabra "con"
+
+*marc.bibliographic.datafield.502.subfield.a = Notas de disertación o tesis
+
+*marc.bibliographic.datafield.504.subfield.a = Notas de bibliografía
+
+*marc.bibliographic.datafield.505.subfield.a = Notas de contenido
+
+*marc.bibliographic.datafield.515.subfield.a = Nota de Peculiaridad en la Numeración
+
+*marc.bibliographic.datafield.520.subfield.a = Notas de resumen
+*marc.bibliographic.datafield.520.subfield.u = URI
+
+*marc.bibliographic.datafield.521.subfield.a = Notas de público meta
+
+*marc.bibliographic.datafield.525.subfield.a = Nota de Suplemento
+
+*marc.bibliographic.datafield.530.subfield.a = Notas de disponibilidad de forma física
+
+*marc.bibliographic.datafield.534.subfield.a = Notas de facsímile
+
+*marc.bibliographic.datafield.550.subfield.a = Término tópico adoptado
+*marc.bibliographic.datafield.550.subfield.x = Subdivisión general adoptada
+*marc.bibliographic.datafield.550.subfield.y = Subdivisión cronológica adoptada
+*marc.bibliographic.datafield.550.subfield.z = Subdivisión geográfica adoptada
+
+*marc.bibliographic.datafield.555.indicator.1 = Control de constante en la exhibición
+
+*marc.bibliographic.datafield.555.indicator.1.0 = Índice remisivo
+*marc.bibliographic.datafield.555.indicator.1.8 = No generar constante en la exhibición
+*marc.bibliographic.datafield.555.indicator.1._ = Índice
+
+*marc.bibliographic.datafield.555.subfield.3 = Materiales especificados
+*marc.bibliographic.datafield.555.subfield.a = Nota de índice acumulativo y remisivo
+*marc.bibliographic.datafield.555.subfield.b = Fuente disponible
+*marc.bibliographic.datafield.555.subfield.c = Grado de control
+*marc.bibliographic.datafield.555.subfield.d = Referencia bibliográfica
+*marc.bibliographic.datafield.555.subfield.u = Identificador uniforme de recursos
+
+*marc.bibliographic.datafield.580.subfield.a = Nota de Enlace
+
+*marc.bibliographic.datafield.590.subfield.a = Notas locales
+
+*marc.bibliographic.datafield.595.subfield.a = Código de la bibliografía
+*marc.bibliographic.datafield.595.subfield.b = Notas de Bibliografía, índices y/o apéndices
+
+*marc.bibliographic.datafield.600.indicator.1 = Forma de entrada
+
+*marc.bibliographic.datafield.600.indicator.1.0 = nombre simple o compuesto
+*marc.bibliographic.datafield.600.indicator.1.1 = apellido simple o compuesto
+*marc.bibliographic.datafield.600.indicator.1.2 = apellido compuesto (obsoleto)
+*marc.bibliographic.datafield.600.indicator.1.3 = nombre de familia
+
+*marc.bibliographic.datafield.600.subfield.a = Apellido y/o nombre del autor
+*marc.bibliographic.datafield.600.subfield.b = Numeración que sigue al nombre
+*marc.bibliographic.datafield.600.subfield.c = Título y otras palabras asociadas al nombre
+*marc.bibliographic.datafield.600.subfield.d = Fechas asociadas al nombre
+*marc.bibliographic.datafield.600.subfield.k = Subencabezamientos
+*marc.bibliographic.datafield.600.subfield.q = Forma completa del nombre
+*marc.bibliographic.datafield.600.subfield.t = Título de la obra junto a la entrada
+*marc.bibliographic.datafield.600.subfield.x = Subdivisión general
+*marc.bibliographic.datafield.600.subfield.y = Subdivisión cronológica
+*marc.bibliographic.datafield.600.subfield.z = Subdivisión geográfica
+
+*marc.bibliographic.datafield.610.indicator.1 = Forma de entrada
+
+*marc.bibliographic.datafield.610.indicator.1.0 = nombre simple o compuesto
+*marc.bibliographic.datafield.610.indicator.1.1 = apellido simple o compuesto
+*marc.bibliographic.datafield.610.indicator.1.2 = apellido compuesto (obsoleto)
+*marc.bibliographic.datafield.610.indicator.1.3 = nombre de familia
+
+*marc.bibliographic.datafield.610.subfield.a = Nombre de la entidad o del lugar
+*marc.bibliographic.datafield.610.subfield.b = Unidades subordinadas
+*marc.bibliographic.datafield.610.subfield.c = Lugar de realización del evento
+*marc.bibliographic.datafield.610.subfield.d = Fecha de realización del evento
+*marc.bibliographic.datafield.610.subfield.g = Información adicional
+*marc.bibliographic.datafield.610.subfield.k = Subencabezamiento. (enmiendas, protocolos, selección, etc)
+*marc.bibliographic.datafield.610.subfield.l = Idioma del texto
+*marc.bibliographic.datafield.610.subfield.n = Número de la parte - sección de la obra - orden del evento
+*marc.bibliographic.datafield.610.subfield.t = Título de la obra junto a la entrada
+*marc.bibliographic.datafield.610.subfield.x = Subdivisión general
+*marc.bibliographic.datafield.610.subfield.y = Subdivisión cronológica
+*marc.bibliographic.datafield.610.subfield.z = Subdivisión geográfica
+
+*marc.bibliographic.datafield.611.indicator.1 = Forma de entrada
+
+*marc.bibliographic.datafield.611.indicator.1.0 = nombre simple o compuesto
+*marc.bibliographic.datafield.611.indicator.1.1 = apellido simple o compuesto
+*marc.bibliographic.datafield.611.indicator.1.2 = apellido compuesto (obsoleto)
+*marc.bibliographic.datafield.611.indicator.1.3 = nombre de familia
+
+*marc.bibliographic.datafield.611.subfield.a = Nombre del evento
+*marc.bibliographic.datafield.611.subfield.c = Lugar de realización del evento
+*marc.bibliographic.datafield.611.subfield.d = Fecha de realización del evento
+*marc.bibliographic.datafield.611.subfield.e = Nombre de las subunidades del evento
+*marc.bibliographic.datafield.611.subfield.n = Número de orden del evento
+*marc.bibliographic.datafield.611.subfield.t = Título de la obra junto a la entrada
+*marc.bibliographic.datafield.611.subfield.x = Subdivisión general
+*marc.bibliographic.datafield.611.subfield.y = Subdivisión cronológica
+*marc.bibliographic.datafield.611.subfield.z = Subdivisión geográfica
+
+*marc.bibliographic.datafield.630.indicator.1 = Número de caracteres a ser despreciados en la alfabetización
+
+*marc.bibliographic.datafield.630.indicator.1.0 = Ningún carácter a despreciar
+*marc.bibliographic.datafield.630.indicator.1.1 = 1 carácter a despreciar
+*marc.bibliographic.datafield.630.indicator.1.2 = 2 caracteres a despreciar
+*marc.bibliographic.datafield.630.indicator.1.3 = 3 caracteres a despreciar
+*marc.bibliographic.datafield.630.indicator.1.4 = 4 caracteres a despreciar
+*marc.bibliographic.datafield.630.indicator.1.5 = 5 caracteres a despreciar
+*marc.bibliographic.datafield.630.indicator.1.6 = 6 caracteres a despreciar
+*marc.bibliographic.datafield.630.indicator.1.7 = 7 caracteres a despreciar
+*marc.bibliographic.datafield.630.indicator.1.8 = 8 caracteres a despreciar
+*marc.bibliographic.datafield.630.indicator.1.9 = 9 caracteres a despreciar
+
+*marc.bibliographic.datafield.630.subfield.a = Título uniforme atribuido al documento
+*marc.bibliographic.datafield.630.subfield.d = Fecha que aparece junto al título uniforme en la entrada
+*marc.bibliographic.datafield.630.subfield.f = Fecha de edición del ítem que está siendo procesado
+*marc.bibliographic.datafield.630.subfield.g = Información adicional
+*marc.bibliographic.datafield.630.subfield.k = Subencabezamientos
+*marc.bibliographic.datafield.630.subfield.l = Idioma del texto. Idioma del texto por extenso
+*marc.bibliographic.datafield.630.subfield.p = Nombre de la parte - sección de la obra
+*marc.bibliographic.datafield.630.subfield.x = Subdivisión general
+*marc.bibliographic.datafield.630.subfield.y = Subdivisión cronológica
+*marc.bibliographic.datafield.630.subfield.z = Subdivisión geográfica
+
+*marc.bibliographic.datafield.650.subfield.a = Asunto tópico
+*marc.bibliographic.datafield.650.subfield.x = Subdivisión general
+*marc.bibliographic.datafield.650.subfield.y = Subdivisión cronológica
+*marc.bibliographic.datafield.650.subfield.z = Subdivisión geográfica
+
+*marc.bibliographic.datafield.651.subfield.a = Nombre geográfico
+*marc.bibliographic.datafield.651.subfield.x = Subdivisión general
+*marc.bibliographic.datafield.651.subfield.y = Subdivisión cronológica
+*marc.bibliographic.datafield.651.subfield.z = Subdivisión geográfica
+
+*marc.bibliographic.datafield.670.subfield.a = Nombre retirado de
+*marc.bibliographic.datafield.670.subfield.b = Información encontrada
+
+*marc.bibliographic.datafield.680.subfield.a = Nota de alcance
+
+*marc.bibliographic.datafield.685.subfield.i = Texto explicativo
+
+*marc.bibliographic.datafield.700.indicator.1 = Forma de entrada
+*marc.bibliographic.datafield.700.indicator.2 = Tipo de entrada secundaria
+
+*marc.bibliographic.datafield.700.indicator.1.0 = nombre simple o compuesto
+*marc.bibliographic.datafield.700.indicator.1.1 = apellido simple o compuesto
+*marc.bibliographic.datafield.700.indicator.1.2 = apellido compuesto (obsoleto)
+*marc.bibliographic.datafield.700.indicator.1.3 = nombre de familia
+
+*marc.bibliographic.datafield.700.indicator.2.2 = entrada analítica
+*marc.bibliographic.datafield.700.indicator.2._ = ninguna información suministrada
+
+*marc.bibliographic.datafield.700.subfield.a = Apellido y/o nombre de autor
+*marc.bibliographic.datafield.700.subfield.b = Numeración que sigue al nombre
+*marc.bibliographic.datafield.700.subfield.c = Título y otras palabras asociadas al nombre
+*marc.bibliographic.datafield.700.subfield.d = Fechas asociadas al nombre
+*marc.bibliographic.datafield.700.subfield.e = Relación con el documento
+*marc.bibliographic.datafield.700.subfield.l = Idioma del texto
+*marc.bibliographic.datafield.700.subfield.q = Forma completa del nombre
+*marc.bibliographic.datafield.700.subfield.t = Título de la obra junto a la entrada
+
+*marc.bibliographic.datafield.710.indicator.1 = Forma de entrada
+*marc.bibliographic.datafield.710.indicator.2 = Tipo de entrada secundaria
+
+*marc.bibliographic.datafield.710.indicator.1.0 = nombre invertido
+*marc.bibliographic.datafield.710.indicator.1.1 = nombre de la jurisdicción
+*marc.bibliographic.datafield.710.indicator.1.2 = nombre en el orden directo
+
+*marc.bibliographic.datafield.710.indicator.2.2 = entrada analítica
+*marc.bibliographic.datafield.710.indicator.2._ = ninguna información suministrada
+
+*marc.bibliographic.datafield.710.subfield.a = Nombre de la entidad o del lugar
+*marc.bibliographic.datafield.710.subfield.b = Unidades subordinadas
+*marc.bibliographic.datafield.710.subfield.c = Lugar de realización del evento
+*marc.bibliographic.datafield.710.subfield.d = Fecha de realización del evento
+*marc.bibliographic.datafield.710.subfield.g = Informaciones adicionales
+*marc.bibliographic.datafield.710.subfield.l = Idioma del texto
+*marc.bibliographic.datafield.710.subfield.n = Número de la parte - Sección de la obra
+*marc.bibliographic.datafield.710.subfield.t = Título de la obra junto a la entrada
+
+*marc.bibliographic.datafield.711.indicator.1 = Forma de entrada
+
+*marc.bibliographic.datafield.711.indicator.1.0 = nombre invertido
+*marc.bibliographic.datafield.711.indicator.1.1 = nombre de la jurisdicción
+*marc.bibliographic.datafield.711.indicator.1.2 = nombre en el orden directo
+
+*marc.bibliographic.datafield.711.subfield.a = Nombre del evento
+*marc.bibliographic.datafield.711.subfield.c = Lugar de realización del evento
+*marc.bibliographic.datafield.711.subfield.d = Fecha de realización del evento
+*marc.bibliographic.datafield.711.subfield.e = Nombre de subunidades del evento
+*marc.bibliographic.datafield.711.subfield.g = Informaciones adicionales
+*marc.bibliographic.datafield.711.subfield.k = Subencabezamientos
+*marc.bibliographic.datafield.711.subfield.n = Número de orden del evento
+*marc.bibliographic.datafield.711.subfield.t = Título de la obra junto a la entrada
+
+*marc.bibliographic.datafield.730.indicator.1 = Número de caracteres a ser despreciados en la alfabetización
+*marc.bibliographic.datafield.730.indicator.2 = Tipo de entrada secundaria
+
+*marc.bibliographic.datafield.730.indicator.1.0 = Ningún carácter a despreciar
+*marc.bibliographic.datafield.730.indicator.1.1 = 1 carácter a despreciar
+*marc.bibliographic.datafield.730.indicator.1.2 = 2 caracteres a despreciar
+*marc.bibliographic.datafield.730.indicator.1.3 = 3 caracteres a despreciar
+*marc.bibliographic.datafield.730.indicator.1.4 = 4 caracteres a despreciar
+*marc.bibliographic.datafield.730.indicator.1.5 = 5 caracteres a despreciar
+*marc.bibliographic.datafield.730.indicator.1.6 = 6 caracteres a despreciar
+*marc.bibliographic.datafield.730.indicator.1.7 = 7 caracteres a despreciar
+*marc.bibliographic.datafield.730.indicator.1.8 = 8 caracteres a despreciar
+*marc.bibliographic.datafield.730.indicator.1.9 = 9 caracteres a despreciar
+
+*marc.bibliographic.datafield.730.indicator.2.2 = entrada analítica
+*marc.bibliographic.datafield.730.indicator.2._ = ninguna información suministrada
+
+*marc.bibliographic.datafield.730.subfield.a = Título uniforme atribuido al documento
+*marc.bibliographic.datafield.730.subfield.d = Fecha que aparece junto al título uniforme de entrada
+*marc.bibliographic.datafield.730.subfield.f = Fecha de edición del ítem que está siendo procesado
+*marc.bibliographic.datafield.730.subfield.g = Informaciones adicionales
+*marc.bibliographic.datafield.730.subfield.k = Subencabezamientos
+*marc.bibliographic.datafield.730.subfield.l = Idioma del texto. Idioma del texto por extenso
+*marc.bibliographic.datafield.730.subfield.p = Nombre de la parte - Sección de la obra
+*marc.bibliographic.datafield.730.subfield.x = Subdivisión general
+*marc.bibliographic.datafield.730.subfield.y = Subdivisión cronológica
+*marc.bibliographic.datafield.730.subfield.z = Subdivisión geográfica
+
+*marc.bibliographic.datafield.740.indicator.1 = Número de caracteres a ser despreciados en la alfabetización
+*marc.bibliographic.datafield.740.indicator.2 = Tipo de entrada secundaria
+
+*marc.bibliographic.datafield.740.indicator.1.0 = Ningún carácter a despreciar
+*marc.bibliographic.datafield.740.indicator.1.1 = 1 carácter a despreciar
+*marc.bibliographic.datafield.740.indicator.1.2 = 2 caracteres a despreciar
+*marc.bibliographic.datafield.740.indicator.1.3 = 3 caracteres a despreciar
+*marc.bibliographic.datafield.740.indicator.1.4 = 4 caracteres a despreciar
+*marc.bibliographic.datafield.740.indicator.1.5 = 5 caracteres a despreciar
+*marc.bibliographic.datafield.740.indicator.1.6 = 6 caracteres a despreciar
+*marc.bibliographic.datafield.740.indicator.1.7 = 7 caracteres a despreciar
+*marc.bibliographic.datafield.740.indicator.1.8 = 8 caracteres a despreciar
+*marc.bibliographic.datafield.740.indicator.1.9 = 9 caracteres a despreciar
+
+*marc.bibliographic.datafield.740.indicator.2.2 = entrada analítica
+*marc.bibliographic.datafield.740.indicator.2._ = ninguna información suministrada
+
+*marc.bibliographic.datafield.740.subfield.a = Título adicional - Título analítico
+*marc.bibliographic.datafield.740.subfield.n = Número de la parte - Sección de la obra
+*marc.bibliographic.datafield.740.subfield.p = Nombre de la parte - Sección de la obra
+
+*marc.bibliographic.datafield.750.indicator.1 = Nivel del Asunto
+*marc.bibliographic.datafield.750.indicator.2 = Tesauro
+
+*marc.bibliographic.datafield.750.indicator.1.0 = Ningún nivel especificado
+*marc.bibliographic.datafield.750.indicator.1.1 = Asunto primario
+*marc.bibliographic.datafield.750.indicator.1.2 = Asunto secundario
+
+*marc.bibliographic.datafield.750.indicator.2.0 = Library of Congress Subject Heading
+*marc.bibliographic.datafield.750.indicator.2.4 = Source not specified
+
+*marc.bibliographic.datafield.750.subfield.a = Término tópico adoptado en el tesauro
+*marc.bibliographic.datafield.750.subfield.x = Subdivisión general
+*marc.bibliographic.datafield.750.subfield.y = Subdivisión cronológica
+*marc.bibliographic.datafield.750.subfield.z = Subdivisión geográfica
+
+*marc.bibliographic.datafield.830.indicator.2 = Número de caracteres a ser despreciados en la alfabetización
+
+*marc.bibliographic.datafield.830.indicator.2.0 = Ningún carácter a despreciar
+*marc.bibliographic.datafield.830.indicator.2.1 = 1 carácter a despreciar
+*marc.bibliographic.datafield.830.indicator.2.2 = 2 caracteres a despreciar
+*marc.bibliographic.datafield.830.indicator.2.3 = 3 caracteres a despreciar
+*marc.bibliographic.datafield.830.indicator.2.4 = 4 caracteres a despreciar
+*marc.bibliographic.datafield.830.indicator.2.5 = 5 caracteres a despreciar
+*marc.bibliographic.datafield.830.indicator.2.6 = 6 caracteres a despreciar
+*marc.bibliographic.datafield.830.indicator.2.7 = 7 caracteres a despreciar
+*marc.bibliographic.datafield.830.indicator.2.8 = 8 caracteres a despreciar
+*marc.bibliographic.datafield.830.indicator.2.9 = 9 caracteres a despreciar
+
+*marc.bibliographic.datafield.830.subfield.a = Título Uniforme
+*marc.bibliographic.datafield.830.subfield.v = Número del volumen o designación secuencial de la serie
+
+*marc.bibliographic.datafield.856.subfield.d = Camino
+*marc.bibliographic.datafield.856.subfield.f = Nombre del archivo
+*marc.bibliographic.datafield.856.subfield.u = URI
+*marc.bibliographic.datafield.856.subfield.y = Link en el texto
+
+*marc.bibliographic.datafield.913.subfield.a = Código Lugar
+
+*marc.bibliographic.datafield.947.subfield.a = Sigla de la biblioteca
+*marc.bibliographic.datafield.947.subfield.b = Descripción de la colección impresa
+*marc.bibliographic.datafield.947.subfield.c = Tipo de adquisición
+*marc.bibliographic.datafield.947.subfield.d = Año de la última adquisición
+*marc.bibliographic.datafield.947.subfield.e = Localización
+*marc.bibliographic.datafield.947.subfield.f = Código de la biblioteca en el CCN
+*marc.bibliographic.datafield.947.subfield.g = Descripción del índice de colección impresa
+*marc.bibliographic.datafield.947.subfield.i = Descripción del índice con acceso on-line
+*marc.bibliographic.datafield.947.subfield.j = Descripción de la colección en CD-ROM
+*marc.bibliographic.datafield.947.subfield.k = Descripción del índice en CD-ROM
+*marc.bibliographic.datafield.947.subfield.l = Descripción de la colección en microficha
+*marc.bibliographic.datafield.947.subfield.m = Descripción del índice en microficha
+*marc.bibliographic.datafield.947.subfield.n = Descripción de la colección en microfilm
+*marc.bibliographic.datafield.947.subfield.o = Descripción del índice en microfilm
+*marc.bibliographic.datafield.947.subfield.p = Descripción de la colección en multimedio
+*marc.bibliographic.datafield.947.subfield.q = Descripción del índice en multimedio
+*marc.bibliographic.datafield.947.subfield.r = Descripción de la colección en braile
+*marc.bibliographic.datafield.947.subfield.s = Descripción del índice en braile
+*marc.bibliographic.datafield.947.subfield.t = Descripción de la colección en otros soportes
+*marc.bibliographic.datafield.947.subfield.u = Descripción del índice en otros soportes
+*marc.bibliographic.datafield.947.subfield.z = Nota estándar
+
+*marc.bibliographic.datafield.949.subfield.a = Sello patrimonial
+
+*marc.holding.datafield.090 = Número de llamada / Localización
+*marc.holding.datafield.541 = Nota sobre la fuente de adquisición
+*marc.holding.datafield.852 = Informaciones sobre la localización
+*marc.holding.datafield.856 = Localización de obras por medio electrónico
+*marc.holding.datafield.949 = Sello Patrimonial
+
+*marc.holding.datafield.090.subfield.a = Clasificación
+*marc.holding.datafield.090.subfield.b = Código del autor
+*marc.holding.datafield.090.subfield.c = Edición / volumen
+*marc.holding.datafield.090.subfield.d = Número de ejemplar
+
+*marc.holding.datafield.541.indicator.1 = Privacidad
+
+*marc.holding.datafield.541.indicator.1.0 = confidencial
+*marc.holding.datafield.541.indicator.1.1 = no confidencial
+*marc.holding.datafield.541.indicator.1._ = ninguna información suministrada
+
+*marc.holding.datafield.541.subfield.3 = Especificaciones del material
+*marc.holding.datafield.541.subfield.a = Nombre de la fuente
+*marc.holding.datafield.541.subfield.b = Dirección
+*marc.holding.datafield.541.subfield.c = Forma de adquisición
+*marc.holding.datafield.541.subfield.d = Fecha de adquisición
+*marc.holding.datafield.541.subfield.e = Número atribuido a la adquisición
+*marc.holding.datafield.541.subfield.f = Propietario
+*marc.holding.datafield.541.subfield.h = Precio de compra
+*marc.holding.datafield.541.subfield.n = Cantidad de items adquiridos
+*marc.holding.datafield.541.subfield.o = Tipo de unidad
+
+*marc.holding.datafield.852.indicator.1 = Esquema de clasificación
+*marc.holding.datafield.852.indicator.2 = Tipo de ordenación
+
+*marc.holding.datafield.852.indicator.1.0 = Clasificación de la LC
+*marc.holding.datafield.852.indicator.1.1 = CDD
+*marc.holding.datafield.852.indicator.1.2 = National Library of Medicine Classification
+*marc.holding.datafield.852.indicator.1.3 = Superintendent of Documents classification
+*marc.holding.datafield.852.indicator.1.4 = Localización fija
+*marc.holding.datafield.852.indicator.1.5 = Título
+*marc.holding.datafield.852.indicator.1.6 = En parte separado
+*marc.holding.datafield.852.indicator.1.7 = Clasificación específica
+*marc.holding.datafield.852.indicator.1.8 = Otro esquema
+*marc.holding.datafield.852.indicator.1._ = Ninguna información suministrada
+
+*marc.holding.datafield.852.indicator.2.0 = No numerada
+*marc.holding.datafield.852.indicator.2.1 = Numeración primaria
+*marc.holding.datafield.852.indicator.2.2 = Numeración alternada
+*marc.holding.datafield.852.indicator.2._ = Ninguna información suministrada
+
+*marc.holding.datafield.852.subfield.a = Localización
+*marc.holding.datafield.852.subfield.b = Sub-localización o colección
+*marc.holding.datafield.852.subfield.c = Localización en el estante
+*marc.holding.datafield.852.subfield.e = Código postal
+*marc.holding.datafield.852.subfield.j = Número de control en el estante
+*marc.holding.datafield.852.subfield.n = Código del País
+*marc.holding.datafield.852.subfield.q = Condición física de la parte
+*marc.holding.datafield.852.subfield.u = URI
+*marc.holding.datafield.852.subfield.x = Nota interna
+*marc.holding.datafield.852.subfield.z = Nota pública
+
+*marc.holding.datafield.856.subfield.d = Camino
+*marc.holding.datafield.856.subfield.f = Nombre del archivo
+*marc.holding.datafield.856.subfield.u = URI
+*marc.holding.datafield.856.subfield.y = Link en texto
+
+*marc.holding.datafield.949.subfield.a = Sello Patrimonial
+
+*marc.material_type.all = Todos
+*marc.material_type.articles = Artículo
+*marc.material_type.book = Libro
+*marc.material_type.computer_legible = Archivo de Computadora
+*marc.material_type.manuscript = Manuscrito
+*marc.material_type.map = Mapa
+*marc.material_type.movie = Película
+*marc.material_type.music = Música
+*marc.material_type.nonmusical_sound = Sonido no musical
+*marc.material_type.object_3d = Objeto 3D
+*marc.material_type.pamphlet = Panfleto
+*marc.material_type.periodic = Periódico
+*marc.material_type.photo = Foto
+*marc.material_type.score = Partitura
+*marc.material_type.thesis = Tesis
+
+*marc.vocabulary.datafield.040 = Fuente de la Catalogación (NR)
+*marc.vocabulary.datafield.150 = TE
+*marc.vocabulary.datafield.360 = Remisiva VT (ver también) y TA (Término relacionado o asociado)
+*marc.vocabulary.datafield.450 = UP (remisiva para TE no usado)
+*marc.vocabulary.datafield.550 = TG (Término genérico)
+*marc.vocabulary.datafield.670 = Nota de origen del Término
+*marc.vocabulary.datafield.680 = Nota de alcance (NE)
+*marc.vocabulary.datafield.685 = Nota de historial o glosario (GLOSS)
+*marc.vocabulary.datafield.750 = Término tópico
+*marc.vocabulary.datafield.913 = Código Lugar
+
+*marc.vocabulary.datafield.040.subfield.a = Código de la Agencia Catalogadora
+*marc.vocabulary.datafield.040.subfield.b = Idioma de la catalogación
+*marc.vocabulary.datafield.040.subfield.c = Agencia que transcribió el registro en formato legible por máquina
+*marc.vocabulary.datafield.040.subfield.d = Agencia que alteró el registro
+*marc.vocabulary.datafield.040.subfield.e = Fuentes convencionales de descripciones de datos
+
+*marc.vocabulary.datafield.150.subfield.a = Término tópico adoptado
+*marc.vocabulary.datafield.150.subfield.i = Calificador
+*marc.vocabulary.datafield.150.subfield.x = Subdivisión general adoptada
+*marc.vocabulary.datafield.150.subfield.y = Subdivisión cronológica adoptada
+*marc.vocabulary.datafield.150.subfield.z = Subdivisión geográfica adoptada
+
+*marc.vocabulary.datafield.360.subfield.a = Término tópico adoptado
+*marc.vocabulary.datafield.360.subfield.x = Subdivisión general adoptada
+*marc.vocabulary.datafield.360.subfield.y = Subdivisión cronológica adoptada
+*marc.vocabulary.datafield.360.subfield.z = Subdivisión geográfica adoptada
+
+*marc.vocabulary.datafield.450.subfield.a = Término tópico no usado
+
+*marc.vocabulary.datafield.550.subfield.a = Término tópico adoptado
+*marc.vocabulary.datafield.550.subfield.x = Subdivisión general adoptada
+*marc.vocabulary.datafield.550.subfield.y = Subdivisión cronológica adoptada
+*marc.vocabulary.datafield.550.subfield.z = Subdivisión geográfica adoptada
+
+*marc.vocabulary.datafield.670.subfield.a = Nota de origen del Término
+
+*marc.vocabulary.datafield.680.subfield.a = Nota de alcance
+
+*marc.vocabulary.datafield.685.subfield.i = Texto explicativo
+
+*marc.vocabulary.datafield.750.indicator.1 = Nivel del Asunto
+*marc.vocabulary.datafield.750.indicator.2 = Tesauro
+
+*marc.vocabulary.datafield.750.indicator.1.0 = Ningún nivel especificado
+*marc.vocabulary.datafield.750.indicator.1.1 = Asunto primario
+*marc.vocabulary.datafield.750.indicator.1.2 = Asunto secundario
+
+*marc.vocabulary.datafield.750.indicator.2.0 = Library of Congress Subject Headings
+*marc.vocabulary.datafield.750.indicator.2.4 = Source not specified
+
+*marc.vocabulary.datafield.750.subfield.a = Término tópico adoptado en el tesauro
+*marc.vocabulary.datafield.750.subfield.x = Subdivisión general
+*marc.vocabulary.datafield.750.subfield.y = Subdivisión cronológica
+*marc.vocabulary.datafield.750.subfield.z = Subdivisión geográfica
+
+*marc.vocabulary.datafield.913.subfield.a = Código Lugar
+
+*menu.acquisition = Adquisición
+*menu.acquisition_order = Pedidos
+*menu.acquisition_quotation = Cotizaciones
+*menu.acquisition_request = Requerimientos
+*menu.acquisition_supplier = Proveedores
+*menu.administration = Administración
+*menu.administration_access_cards = Tarjetas de Acceso
+*menu.administration_configurations = Configuraciones
+*menu.administration_datamigration = Migración de Datos
+*menu.administration_maintenance = Manutención
+*menu.administration_password = Cambio de Contraseña
+*menu.administration_permissions = Logins y Autorizaciones
+*menu.administration_reports = Informes
+*menu.administration_translations = Traducciones
+*menu.administration_user_types = Tipos de Usuario
+*menu.administration_z3950_servers = Servidores Z39.50
+*menu.cataloging = Catalogación
+*menu.cataloging_authorities = Autoridades
+*menu.cataloging_bibliographic = Bibliográfica
+*menu.cataloging_import = Importación de Registros
+*menu.cataloging_label = Etiquetas
+*menu.cataloging_labels = Impresión de Etiquetas
+*menu.cataloging_vocabulary = Vocabulario
+*menu.circulation = Circulación
+*menu.circulation_access = Control de Acceso
+*menu.circulation_lending = Préstamos y Devoluciones
+*menu.circulation_reservation = Reservas
+*menu.circulation_user = Registro de Usuarios
+*menu.circulation_user_cards = Impresión de Carnets
+*menu.help = Ayuda
+*menu.help_about_biblivre = Sobre el Biblivre
+*menu.help_about_library = Sobre la Biblioteca
+*menu.help_faq = Preguntas Frecuentes
+*menu.help_manual = Manual
+*menu.multi_schema = Multibibliotecas
+*menu.multi_schema_configurations = Configuraciones
+*menu.multi_schema_manage = Gerencia de Bibliotecas
+*menu.multi_schema_translations = Traducciones
+*menu.search = Búsqueda
+*menu.search_authorities = Autoridades
+*menu.search_bibliographic = Bibliográfica
+*menu.search_vocabulary = Vocabulario
+*menu.search_z3950 = Distribuida
+
+*multi_schema.configuration.description.general.subtitle = Subtítulo que será exhibido cuando se accede a la página principal de este grupo de bibliotecas. Esta página listará todas las bibliotecas registradas en este grupo (administradas por el mismo Biblivre 4).
+*multi_schema.configuration.description.general.title = Nombre que será exhibido cuando se accede a la página principal de este grupo de bibliotecas. Esta página listará todas las bibliotecas registradas en este grupo (administradas por el mismo Biblivre 4).
+
+*multi_schema.configuration.title.general.subtitle = Subtítulo de este Grupo de Bibliotecas
+*multi_schema.configuration.title.general.title = Nombre de este Grupo de Bibliotecas
+
+*multi_schema.configurations.page_help = La rutina de Configuraciones de Multi-bibliotecas permite alterar configuraciones globales del grupo de bibliotecas y configuraciones estándar que serán usadas por las bibliotecas registradas. Todas las configuraciones marcadas con un asterisco (*) serán usadas como estándar en nuevas bibliotecas registradas en este grupo, pero pueden ser alteradas internamente por los administradores, a través de la opción <em>"Administración"</em>, <em>"Configuraciones"</em>, en el menú superior.
+
+*multi_schema.manage.error = Error
+*multi_schema.manage.log_header = [Log de creación de nueva biblioteca del Biblivre 4]
+*multi_schema.manage.page_help = La pantalla de multibibliotecas permite registrar diversas bibliotecas para ser administradas por un único Biblivre. A partir del momento que usted habilita el sistema de multi-bibliotecas, la lista de bibliotecas registradas será exhibida siempre que alguien entre en la dirección estándar del Biblivre 4.
+
+*multi_schema.manage.button.show_log = Exhibir log
+
+*multi_schema.manage.error.create = Falla al crear nueva biblioteca.
+*multi_schema.manage.error.description = Falla al crear nueva biblioteca
+
+*multi_schema.manage.new_schema.description = Para crear una nueva biblioteca, rellene abajo con su nombre y un subtítulo opcional. Usted también precisará de un nombre reducido para la biblioteca, llamado de atajo, que será usado en la dirección Web de acceso al Biblivre 4, permitiendo diferenciar las diversas bibliotecas instaladas en el sistema. Este atajo debe contener solamente letras, números y/o caracteres _. Para facilitar, el Biblivre 4 sugerirá un atajo automáticamente, basado en el nombre de la biblioteca.
+*multi_schema.manage.new_schema.title = Creación de Nueva Biblioteca
+
+*multi_schema.manage.new_schema.button.create = Crear Biblioteca
+
+*multi_schema.manage.new_schema.field.schema = Atajo de la Biblioteca
+*multi_schema.manage.new_schema.field.subtitle = Subtítulo de la biblioteca
+*multi_schema.manage.new_schema.field.title = Nombre de la biblioteca
+
+*multi_schema.manage.schemas.description = Abajo están todas las bibliotecas registradas en este Biblivre 4. En caso que quiera alterar un nombre o subtítulo, accese a la pantalla de configuraciones de la biblioteca.
+*multi_schema.manage.schemas.title = Lista de Bibliotecas de este Servidor
+
+*multi_schema.manage.success.create = Nueva biblioteca creada con éxito.
+
+*multi_schema.translations.page_help = <p>El módulo de <strong>"Traducciones"</strong> de Multibibliotecas funciona de forma análoga a su versión de una única biblioteca, no obstante, los textos alterados aquí se aplicarán a todas las bibliotecas del grupo, siempre que estas no hayan alterado el valor original de cada traducción.</p>
+<p>Por ejemplo, si usted altera la traducción de la llave <strong>"menu.search"</strong> de "Búsqueda" para "Busca" por el módulo de traducciones multibibliotecas, todas las bibliotecas de este grupo verán la nueva traducción. Sin embargo, si uno de los administradores de una de estas bibliotecas alterara, a través del módulo de <strong>"Traducciones"</strong> de su biblioteca, la misma llave para "Procurar", esta traducción interna tendrá prioridad, solamente para esta biblioteca.</p>
+<p>Para agregar un nuevo idioma, baje el archivo de idioma en Portugués, realice la traducción de los textos y después envíe el archivo. Recuerde que solamente los <strong>textos</strong> (después del signo igual) deben ser alterados.  No altere las llaves, o el Biblivre 4 no conseguirá localizar el texto</p>
+<p>Ejemplo: digamos que usted quiera alterar el texto en el menú principal de <i>Búsqueda</i> para <i>Busca</i>.  Usted deberá entonces bajar el archivo de idioma y alterar la siguiente línea:</p>
+<p><strong>*menu.search</strong> = Búsqueda</p>
+<p>Para:</p>
+<p><strong>*menu.search</strong> = Busca</p>
+<p>Y entonces hacer el Envío de archivo de idiomas. El Biblivre 4 procesará el archivo, y alterará el texto del menú.</p>
+
+*search.authorities.page_help = <p>La búsqueda de autoridades permite recuperar informaciones sobre los autores presentes en el acervo de esta biblioteca, caso catalogados.</p>
+<p>La búsqueda tratará de encontrar cada uno de los términos digitados en los siguientes campos: <em>{0}</em>.</p>
+<p>Las palabras son buscadas en su forma completa, pero es posible usar el caracter asterisco (*) para buscar por palabras incompletas, de modo que la búsqueda <em>'brasil*'</em> encuentre registros que contengan <em>'brasil'</em>, <em>'brasilia'</em> y <em>'brasilero'</em>, por ejemplo. Los pares de comillas pueden ser usados para encontrar dos palabras en secuencia, de modo que la búsqueda <em>"mi amor"</em> encuentre registros que contengan las dos palabras juntas, pero no encuentre registros con el texto <em>'mi primer amor'</em>.</p>
+*search.authorities.simple_search = Búsqueda de Autoridades
+
+*search.bibliographic.advanced_search = Búsqueda Bibliográfica Avanzada
+*search.bibliographic.author = Autor
+*search.bibliographic.holdings_available = Disponibles
+*search.bibliographic.holdings_count = Ejemplares
+*search.bibliographic.holdings_lent = Prestados
+*search.bibliographic.holdings_reserved = Reservas
+*search.bibliographic.id = N&ordm; de registro
+*search.bibliographic.isbn = ISBN
+*search.bibliographic.isrc = ISRC
+*search.bibliographic.issn = ISSN
+*search.bibliographic.material_type = Tipo de material
+*search.bibliographic.open_item_button = Abrir registro
+*search.bibliographic.page_help = <p>La búsqueda bibliográfica permite recuperar informaciones sobre los registros del acervo de esta biblioteca, enlistando sus ejemplares, campos catalográficos y archivos digitales.</p>
+<p>La forma más simple es usar la <strong>búsqueda simplificada</strong>, que tratará de encontrar cada uno de los términos digitados en los siguientes campos: <em>{0}</em>.</p>
+<p>Las palabras son buscadas en su forma completa, pero es posible usar el caracter asterisco (*) para buscar por palabras incompletas, de modo que la búsqueda <em>'brasil*'</em> encuentre registros que contengan <em>'brasil'</em>, <em>'brasilia'</em> y <em>'brasilero'</em>, por ejemplo. Los pares de comillas pueden ser usados para encontrar dos palabras en secuencia, de modo que la búsqueda <em>"mi amor"</em> encuentre registros que contengan las dos palabras juntas, pero no encuentre registros con el texto <em>'mi primer amor'</em>.</p>
+<p>La <strong>búsqueda avanzada</strong> otorga un mayor control sobre los registros localizados, permitiendo, por ejemplo, buscar por fecha de catalogación o exactamente en el campo deseado.</p>
+*search.bibliographic.publication_year = Año de publicación
+*search.bibliographic.remove_item_button = Excluir
+*search.bibliographic.select_item_button = Seleccionar registro
+*search.bibliographic.shelf_location = Localización
+*search.bibliographic.simple_search = Búsqueda Bibliográfica Simplificada
+*search.bibliographic.simple_term_title = Rellene los términos de la búsqueda
+*search.bibliographic.subject = Asunto
+*search.bibliographic.title = Título
+
+*search.bibliographic.labels.never_printed = Listar solamente ejemplares que nunca tuvieron etiquetas impresas
+
+*search.common.add_field = Agregar Término
+*search.common.advanced_search = Búsqueda Avanzada
+*search.common.back_to_search = Regresar a la búsqueda
+*search.common.clear_search = Limpiar términos de la búsqueda
+*search.common.clear_simple_search = Limpiar resultados de la búsqueda
+*search.common.containing_text = Conteniendo el texto
+*search.common.created_between = Catalogado entre
+*search.common.distributed_search = Búsqueda Distribuida
+*search.common.in_these_libraries = En estas bibliotecas
+*search.common.in_this_library = En esta biblioteca
+*search.common.library = Biblioteca
+*search.common.modified_between = Alterado entre
+*search.common.next = Próximo
+*search.common.on_the_field = En el campo
+*search.common.operator = Operador
+*search.common.previous = Anterior
+*search.common.registered_between = Registrado entre
+*search.common.search_count = {current} / {total}
+*search.common.search_limit = La búsqueda realizada encontró {0} registros, no obstante solamente los {1} primeros serán exhibidos
+*search.common.simple_search = Búsqueda Simplificada
+*search.common.sort_by = Ordenar por
+*search.common.switch_to = Cambiar para
+*search.common.users = Usuarios
+
+*search.common.button.filter = Filtrar
+*search.common.button.list_all = Listar Todos
+*search.common.button.search = Buscar
+
+*search.common.operator.and = y
+*search.common.operator.and_not = y no
+*search.common.operator.or = o
+
+*search.distributed.any = Cualquier
+*search.distributed.author = Autor
+*search.distributed.isbn = ISBN
+*search.distributed.issn = ISSN (incluyendo guiones)
+*search.distributed.no_servers = No es posible realizar una búsqueda Z39.50 pues no existen bibliotecas remotas registradas. Para solucionar este problema, registre los servidores Z39.50 de las bibliotecas de interés en la opción <em>"Servidores Z39.50"</em> dentro de <em>"Administración"</em> en el menu superior. Para esto es necesario un nombre de <strong>usuario</strong> y <strong>contraseña</strong>.
+*search.distributed.page_help = <p>La búsqueda distribuida permite recuperar informaciones sobre registros en acervos de otras bibliotecas, que colocan a disposición sus registros para la búsqueda y catalogación colaborativa.</p>
+<p>Para realizar una búsqueda, rellene los términos de la búsqueda, seleccionando el campo de interés. En seguida, seleccione una o más bibliotecas donde se deberán localizar los registros. <span class="warn">Atención: seleccione pocas bibliotecas para evitar que la búsqueda distribuida sea muy lenta, entendiendo que ella depende de la comunicación entre las bibliotecas y el tamaño de cada acervo.</span></p>
+*search.distributed.query_placeholder = Rellene los términos de la búsqueda
+*search.distributed.subject = Asunto
+*search.distributed.title = Título
+
+*search.holding.accession_number = Sello patrimonial
+*search.holding.availability = Disponibilidad
+*search.holding.shelf_location = Localización
+
+*search.user.field = Campo
+*search.user.name_or_id = Nombre o Matrícula
+*search.user.open_item_button = Abrir registro
+*search.user.remove_item_button = Excluir
+*search.user.select_item_button = Seleccionar registro
+*search.user.simple_term_title = Rellene los términos de la búsqueda
+
+*search.vocabulary.page_help = <p>La búsqueda de vocabulario permite recuperar informaciones sobre los términos presentes en el acervo de esta biblioteca, caso catalogados.</p>
+<p>La búsqueda tratará de encontrar cada uno de los términos digitados en los siguientes campos: <em>{0}</em>.</p>
+<p>Las palabras son buscadas en su forma completa, pero es posible usar el carácter asterisco (*) para buscar por palabras incompletas, de modo que la búsqueda <em>'brasil*'</em> encuentre registros que contengan <em>'brasil'</em>, <em>'brasilia'</em> y <em>'brasilero'</em>, por ejemplo. Los pares de comillas pueden ser usados para encontrar dos palabras en secuencia, de modo que la búsqueda <em>"mi amor"</em> encuentre registros que contengan las dos palabras juntas, pero no encuentre registros con el texto <em>'mi primer amor'</em>.</p>
+*search.vocabulary.simple_search = Búsqueda de Vocabulario
+
+*text.main.logged_in = <p>Hola {0},</p>
+<p>Sea bienvenido a la <strong>Biblioteca Libre (Biblivre) versión 4.0</strong>.</p>
+<p>Usted podrá hacer búsquedas por registros bibliográficos, autoridades y vocabulario con la opción <em>"Búsqueda"</em> en el menú superior. Esta es la misma <em>"Búsqueda"</em> que los lectores podrán usar al accesar al <strong>Biblivre</strong>, sin necesidad de usuario y contraseña, para buscar por registros en la Base Principal.</p>
+<p>Para registrar lectores, realizar préstamos, devoluciones y reservas, controlar el acceso a la biblioteca e imprimir carnets, use la opción <em>"Circulación"</em>, también en el menú superior.</p>
+<p>En la opción <em>"Catalogación"</em>, usted podrá controlar el acervo de la biblioteca, catalogando obras y ejemplares, y efectuar el control de autoridades y de vocabulario. A través de esta opción también es posible imprimir las etiquetas usadas en los ejemplares, mover registros entre las bases de datos (Principal, Trabajo, Privada y Papelera de reciclaje), importar y exportar registros y agregar archivos digitales a los registros existentes.</p>
+<p>El <strong>Biblivre</strong> también posee un sistema simple de control del proceso de adquisición, para auxiliar la compra y recibimiento de publicaciones, a través de la opción <em>"Adquisición"</em>.</p>
+<p>En <em>"Administración"</em>, usted podrá cambiar la contraseña de acceso, configurar recursos del <strong>Biblivre</strong> como campos de los formularios, traducciones y tipos de usuario, registrar tarjetas de acceso, generar informes y realizar la manutención de la base de datos, que incluye la generación de la copia de seguridad (backup), y la Reindización de la base de datos, que debe ser usada cuando algunos registros no pueden ser encontrados a través de la búsqueda.</p>
+<p>En caso que precise de más informaciones sobre el <strong>Biblivre</strong>, accese a la opción <em>"Ayuda"</em> y lea el Manual del programa o las preguntas frecuentes, en <a href="http://biblivre.org.br/forum" target="_blank">Fórum</a>.</p>
+*text.main.logged_out = <p>El programa <strong>Biblioteca Libre (Biblivre) versión 4.0</strong> es un aplicativo que permite la inclusión digital del ciudadano en la sociedad de la información. Sepa más sobre el proyecto en <em>"Sobre"</em>, en la opción <em>"Ayuda"</em> en el menú superior.</p>
+<p>Se trata de un programa para catalogación y difusión de acervos de bibliotecas públicas y privadas, de variados portes, además de posibilitar la circulación y el compartir contenidos de información, tales como, textos, músicas, imágenes y películas o cualquier otro tipo de objeto digital.</p>
+<p>Hoy, el <strong>Biblivre</strong> es un éxito en todo Brasil, así como en el exterior y, por su extrema relevancia cultural, se viene asentando como el aplicativo de elección para la inclusión digital del ciudadano.</p>
+<p>Si desea solamente buscar el catálogo y accesar a las obras disponibles digitalmente, utilize la opción <em>"Búsqueda"</em> en el menú superior, sin la necesidad de usuario y contraseña.</p>
+<p>Para otros servicios, tales como circulación, catalogación, adquisición y administración, es necesario un nombre de <strong>usuario</strong> y <strong>contraseña</strong>.</p>
+*text.main.noscript = 
+
+*text.multi_schema.select_library = Lista de Bibliotecas
+
+*warning.change_password = Usted todavia no modificó la contraseña estándar de administrador
+*warning.create_backup = Hace más de 3 días que usted está sin generar una copia de seguridad (backup)
+*warning.fix_now = Resolver este problema
+*warning.reindex_database = Usted precisa reindizar las bases de datos
+
+*z3950.adresses.list.no_address_found = Ningún Servidor Z39.50 encontrado
+
+*administration.permissions.items.circulation_user_reservation = Efectuar Reserva para sí mismo
+*menu.circulation_user_reservation = Reservas del Lector
+*circulation.user_reservation.page_help = <p>Para realizar una reserva, usted deberá selecionar el registro a ser reservado. Para encontrar el registro, realice una búsqueda similar a la búsqueda bibliográfica.</p>
+*menu.self_circulation = Reservas
+
+*warning.new_version = Ya está disponible una actualización para el Biblivre 4<br/>Versión instalada: {0}. Versión más reciente: {1}
+*warning.download_site = Ir para el sitio de descargas
+
+*cataloging.bibliographic.automatic_holding_help = <p>Utilice los campos abajo para acelerar el proceso de catalogación de ejemplares. El rellenado es opcional y no se creará ningún ejemplar en caso de no se rellene ningún campo. En este caso, usted podrá crear ejemplares manualmente, con el formulario completo, por la pestaña <em>Exemplares</em>.</p><p>En caso de ser de su interés registrar ejemplares ahora, el único campo que precisa ser rellenado siempre es el Número de Ejemplares. Para cada volumen de la obra se creará esta cantidad seleccionada de ejemplares, por lo tanto si el registro bibliográfico posee 3 volúmenes y usted rellena el Número de Ejemplares con el número 2 y el Número de Volúmenes de la Obra con el número 3, se crearán 6 ejemplares, 2 para el Volumen 1, 2 para el Volumen 2 y 2 para el Volumen 3. En caso de que los ejemplares sean de solamente un volumen, rellene el campo Número del Volumen, y, en caso de que la obra no tenga volúmenes, deje ambos campos en blanco.</p>
+*cataloging.bibliographic.automatic_holding_title = Ejemplares Automáticos
+*cataloging.bibliographic.automatic_holding.holding_count = Número de Ejemplares
+*cataloging.bibliographic.automatic_holding.holding_volume_number = Número del Volumen
+*cataloging.bibliographic.automatic_holding.holding_volume_count = Cantidad de volúmenes de la Obra
+*cataloging.bibliographic.automatic_holding.holding_acquisition_date = Fecha de adquisición
+*cataloging.bibliographic.automatic_holding.holding_library = Biblioteca Depositaria
+*cataloging.bibliographic.automatic_holding.holding_acquisition_type = Tipo de Adquisición
+
+*administration.configuration.title.logged_out_text = Texto inicial para usuarios no logueados
+*administration.configuration.title.logged_in_text = Texto inicial para usuarios logueados
+*administration.configuration.description.logged_out_text = Texto a ser exhibido en la pantalla del Biblivre, para usuarios que no tengan ingresado con login y contraseña. Usted puede utilizar tags HTML, pero cuidado de no quebrar el diseño del Biblivre 4. Atención: esta configuración se relaciona con el sistema de traducciones. Las alteraciones realizadas en esta pantalla afectarán solamente el idioma actual. Para alterar en otros idiomas, utilice la pantalla de traducciones o acceda al Biblivre utilizando el idioma a ser alterado.
+*administration.configuration.description.logged_in_text =  Texto a ser exhibido en la pantalla inicial del Biblivre, para usuarios que tengan ingresado con login y contraseña. Usted puede utilizar tags HTML, pero cuidado de no quebrar el diseño del Biblivre 4. El término {0} será sustituido por el nombre del usuario logueado. Atención: esta configuración se relaciona con el sistema de traducciones. Las alteraciones realizadas en esta pantalla afectarán solamente el idioma actual. Para alterar en otros idiomas, utilice la pantalla de traducciones o acceda al Biblivre usando el idioma a ser alterado.
+
+*menu.multi_schema_backup = Backup y Restauración
+
+
+
+*multi_schema.manage.enable = Habilitar biblioteca
+*multi_schema.manage.disable = Deshabilitar biblioteca
+*multi_schema.manage.error.cant_disable_last_library = No es posible deshabilitar todas las bibliotecas de este grupo. Al menos una debe quedar habilitada.
+*multi_schema.manage.error.toggle = Error al cambiar el estado de la biblioteca.
+*multi_schema.configurations.error.disable_multi_schema_schema_count = No es posible deshabilitar el sistema de multi bibliotecas mientras exista más de una biblioteca habilitada.
+*multi_schema.configurations.error.disable_multi_schema_outside_global = No es posible deshabilitar el sistema de multi bibliotecas del interior de una biblioteca.
+
+*multi_schema.select_restore.library_list_inside_backup = Bibliotecas en este backup
+*multi_schema.select_restore.description_found_backups = Abajo están los backups encontrados en la carpeta <strong>{0}</strong> del servidor Biblivre. Pulse sobre el backup para ver la lista de opciones de restauración disponibles.
+
+
+*multi_schema.restore.restore_complete_backup.description = En caso de desear restaurar todo el contenido de este backup, use la tecla abajo. Atención: Esto sustituirá TODO el contenido de su Biblivre, incluso sustituyendo todas las bibliotecas existentes por las que se encuentran en el backup. Use esta opción solo si desea retornar completamente en el tiempo, hasta la fecha del backup.
+*multi_schema.restore.restore_complete_backup.title = Restaurar todas las informaciones del Backup, substituyendo todas las bibliotecas de este Biblivre.
+*multi_schema.restore.restore_partial_backup.description = Para restaurar solo algunas bibliotecas, use el formulario siguiente. En este caso usted podrá elegir qué bibliotecas serán restauradas y si ellas sustituirán a las existentes o si serán restauradas como nuevas bibliotecas. Esto es útil para duplicar bibliotecas o verificar si el backup está correcto.
+*multi_schema.restore.restore_partial_backup.title = Restaurar bibliotecas de acuerdo con los criterios arriba. 
+*multi_schema.restore.restore_with_original_schema_name = Restaurar esta biblioteca usando su dirección original.
+*multi_schema.restore.restore_with_new_schema_name = Restaurar esta biblioteca usando una nueva dirección. 
+*multi_schema.restore.dont_restore = No restaurar esta biblioteca
+*multi_schema.restore.warning_overwrite = Atención: ya existe una biblioteca registrada con la dirección arriba. Si usted efectuara la restauración con esta opción seleccionada, el contenido de la biblioteca existente será sustituido por el contenido del Backup.
+
+*multi_schema.backup.schemas.title = Copia de Seguridad (Backup) de Bibliotecas Múltiples
+*multi_schema.backup.schemas.description = Seleccione abajo todas las bibliotecas que formarán parte del backup. Aunque un backup contenga distintas bibliotecas, usted podrá elegir cuál desea restaurar cuando así lo precise.
+
+*multi_schema.select_restore.title = Restauración de Backup de Bibliotecas Múltiples
+*multi_schema.select_restore.description = Use esta opción en caso de desear restaurar un backup existente del Biblivre 4. En el caso de que el Biblivre encuentre backups guardados en sus documentos, usted podrá restaurarlos directamente de la lista siguiente. De lo contrario, usted deberá enviar un archivo de backup (extensión <strong>.b4bz</strong>) a través del formulario.
+
+*multi_schema.restore.title = Opciones de Restauración de Backup
+*administration.maintenance.backup.error.backup_file_not_found = Archivo de backup no encontrado
+
+*administration.maintenance.backup.error.no_schema_selected = Ninguna biblioteca seleccionada.
+*administration.maintenance.backup.error.invalid_origin_schema = El Backup no posee la biblioteca seleccionada.
+*administration.maintenance.backup.error.invalid_destination_schema = El atajo de destino es inválido.
+*administration.maintenance.backup.error.duplicated_destination_schema = No es posible restaurar dos bibliotecas para un único atajo.
+
+*cataloging.bibliographic.search.holding_accession_number = Sello patrimonial
+*cataloging.bibliographic.search.holding_id = Código de barras de la etiqueta

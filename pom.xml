@@ -1,0 +1,345 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>br.org.biblivre</groupId>
+	<artifactId>biblivre-4</artifactId>
+	<packaging>war</packaging>
+
+	<name>Biblivre4</name>
+	<version>5.0.5</version>
+	<url>http://www.biblivre.org.br</url>
+
+	<developers>
+		<developer>
+			<id>alberto</id>
+			<name>Alberto Wagner Collavizza</name>
+		</developer>
+		<developer>
+			<id>danniel</id>
+			<name>Danniel Willian B. do Nascimento</name>
+		</developer>
+	</developers>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<jdk.version>1.6</jdk.version>
+		<debug>false</debug>
+		<sass.OutputStyle>:expanded</sass.OutputStyle>
+	</properties>
+
+	<repositories>
+		<repository>
+			<id>clojars.org</id>
+			<url>http://clojars.org/repo</url>
+		</repository>
+		<repository>
+			<id>k-int.com</id>
+			<url>http://developer.k-int.com/maven2/</url>
+		</repository>
+	</repositories>
+
+	<dependencies>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>jstl</artifactId>
+			<version>1.2</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>3.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>commons-collections</groupId>
+			<artifactId>commons-collections</artifactId>
+			<version>3.2.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>commons-codec</groupId>
+			<artifactId>commons-codec</artifactId>
+			<version>1.5</version>
+		</dependency>
+
+		<dependency>
+			<groupId>commons-digester</groupId>
+			<artifactId>commons-digester</artifactId>
+			<version>2.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>commons-discovery</groupId>
+			<artifactId>commons-discovery</artifactId>
+			<version>0.5</version>
+		</dependency>
+
+		<dependency>
+			<groupId>commons-httpclient</groupId>
+			<artifactId>commons-httpclient</artifactId>
+			<version>3.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>commons-fileupload</groupId>
+			<artifactId>commons-fileupload</artifactId>
+			<version>1.2.2</version>
+		</dependency>
+
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>2.4</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-compress</artifactId>
+			<version>1.4.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>commons-logging</groupId>
+			<artifactId>commons-logging</artifactId>
+			<version>1.1.1</version>
+		</dependency>
+	
+		<dependency>
+			<groupId>joda-time</groupId>
+			<artifactId>joda-time</artifactId>
+			<version>2.2</version>
+		</dependency>
+
+		<!-- dependency>
+			<groupId>org.json</groupId>
+			<artifactId>json</artifactId>
+			<version>20090211</version>
+		</dependency -->
+
+		<dependency>
+			<groupId>postgresql</groupId>
+			<artifactId>postgresql</artifactId>
+			<version>9.1-901.jdbc4</version>
+			<scope>provided</scope>
+		</dependency>
+
+		<!--dependency>
+			<groupId>commons-dbcp</groupId>
+			<artifactId>commons-dbcp</artifactId>
+			<version>1.4</version>
+			<scope>provided</scope>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.apache.tomcat</groupId>
+			<artifactId>tomcat-dbcp</artifactId>
+			<version>7.0.53</version>
+			<scope>provided</scope>
+		</dependency-->
+
+		<!-- Local libraries, must use mvn:install first -->
+		<dependency>
+			<groupId>org.marc4j</groupId>
+			<artifactId>marc4j</artifactId>
+			<version>2.5.1.beta</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>com.ibm.icu</groupId>
+			<artifactId>normalizer</artifactId>
+			<version>2.6</version>
+		</dependency>
+
+		<!-- z39.50 -->
+		<dependency>
+			<groupId>org.jzkit</groupId>
+			<artifactId>jzkit2_z3950_plugin</artifactId>
+			<version>2.2.3</version>
+			<exclusions>
+				<exclusion>
+					<artifactId>marc4j</artifactId>
+					<groupId>marc4j</groupId>
+				</exclusion>
+				<exclusion>
+					<artifactId>jdbm</artifactId>
+					<groupId>jdbm</groupId>
+				</exclusion>
+				<exclusion>
+					<artifactId>xalan</artifactId>
+					<groupId>xalan</groupId>
+				</exclusion>
+				<exclusion>
+					<artifactId>maven-antrun-plugin</artifactId>
+					<groupId>org.apache.maven.plugins</groupId>
+				</exclusion>
+				<exclusion>
+					<artifactId>ant</artifactId>
+					<groupId>ant</groupId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+				
+		<dependency>
+			<groupId>com.googlecode.juniversalchardet</groupId>
+			<artifactId>juniversalchardet</artifactId>
+			<version>1.0.3</version>
+		</dependency>
+		
+		<!-- ObjectLab Kit for business days calculations -->
+		<dependency>
+			<groupId>net.objectlab.kit</groupId>
+			<artifactId>datecalc-common</artifactId>
+			<version>1.2.0</version>
+		</dependency>
+		<dependency>
+			<groupId>net.objectlab.kit</groupId>
+			<artifactId>datecalc-joda</artifactId>
+			<version>1.2.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.lowagie</groupId>
+			<artifactId>itext</artifactId>
+			<version>4.2.1</version>
+		</dependency>
+
+		<!-- z39.50 server dependency -->
+		<dependency>
+			<groupId>br.org.biblivre</groupId>
+			<artifactId>z3950server</artifactId>
+			<version>1.0.2</version>
+			<exclusions>
+				<exclusion>
+					<artifactId>commons-dbcp</artifactId>
+					<groupId>commons-dbcp</groupId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<finalName>Biblivre4</finalName>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.0</version>
+				<configuration>
+					<source>${jdk.version}</source>
+					<target>${jdk.version}</target>
+					<debug>${debug}</debug>
+					<optimize>!${debug}</optimize>
+					<verbose>${debug}</verbose>				
+					<showWarnings>${debug}</showWarnings>
+					<showDeprecation>${debug}</showDeprecation>
+				</configuration>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-war-plugin</artifactId>
+				<version>2.3</version>
+				<configuration>
+					<webResources>
+						<resource>
+							<directory>WebContent</directory>
+							<filtering>false</filtering>
+							<excludes>
+								<exclude>**/*.scss</exclude>
+								<exclude>**/about_biblivre.jsp</exclude>
+								<exclude>Tarefas.txt</exclude>
+								<exclude>Traducoes - enUS.txt</exclude>
+								<exclude>Traducoes - ptBR.txt</exclude>
+								<exclude>Traducoes - es.txt</exclude>
+							</excludes>
+						</resource>
+						<resource>
+							<directory>WebContent</directory>
+							<filtering>true</filtering>
+							<includes>
+								<include>**/about_biblivre.jsp</include>
+							</includes>
+						</resource>
+					</webResources>
+				</configuration>				
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.tomcat.maven</groupId>
+				<artifactId>tomcat7-maven-plugin</artifactId>
+				<version>2.1</version>
+				<configuration>
+					<server>Biblivre Alpha</server>
+					<url>http://192.168.2.3:8080/manager/text</url>
+					<path>/Biblivre4</path>
+				</configuration>
+			</plugin>
+
+			<!--plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>2.12</version>
+				<configuration>
+					<skipTests>true</skipTests>
+				</configuration>
+			</plugin-->
+
+			<plugin>
+				<groupId>org.jasig.maven</groupId>
+				<artifactId>sass-maven-plugin</artifactId>
+				<version>1.1.1</version>
+				<configuration>
+					<sassOptions>
+						<always_update>true</always_update>
+						<style>${sass.OutputStyle}</style>
+						<debug_info>${debug}</debug_info>
+					</sassOptions>	
+					<useCompass>true</useCompass>
+					<resources>
+						<resource>
+							<source>
+								<directory>${basedir}/WebContent/static/styles/scss</directory>
+								<includes>
+									<include>*.scss</include>
+								</includes>
+								<excludes />
+							</source>
+							<destination>${basedir}/WebContent/static/styles</destination>
+						</resource>
+					</resources>							
+				</configuration>
+			</plugin>
+		</plugins>
+		
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<groupId>org.eclipse.m2e</groupId>
+					<artifactId>lifecycle-mapping</artifactId>
+					<version>1.0.0</version>
+					<configuration>
+						<lifecycleMappingMetadata>
+							<pluginExecutions>
+								<pluginExecution>
+									<pluginExecutionFilter>
+										<groupId>org.jasig.maven</groupId>
+										<artifactId>sass-maven-plugin</artifactId>
+										<versionRange>[1.0.2,)</versionRange>
+										<goals>
+											<goal>update-stylesheets</goal>
+										</goals>
+									</pluginExecutionFilter>
+									<action>
+										<ignore />
+									</action>
+								</pluginExecution>
+							</pluginExecutions>
+						</lifecycleMappingMetadata>
+					</configuration>
+				</plugin>
+			</plugins>
+		</pluginManagement>		
+	</build>
+</project>

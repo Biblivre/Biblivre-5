@@ -1,0 +1,101 @@
+<ServiceDirectory>
+  
+  <Repository className="br.org.biblivre.z3950server.BiblivreJDBCSearchable"
+              code="default"
+              serviceName="default">
+    <Preferences>
+      <Preference name="behaviour">normal</Preference>
+    </Preferences>
+    <RecordArchetypes>
+      <Archetype name="F">usmarc::F</Archetype>
+      <Archetype name="f">usmarc::f</Archetype>
+      <Archetype name="B">usmarc::B</Archetype>
+      <Archetype name="b">usmarc::b</Archetype>
+
+      <Archetype name="default">usmarc::F</Archetype>
+      <Archetype name="FullDisplay">usmarc::F</Archetype>
+      <Archetype name="BriefDisplay">usmarc::B</Archetype>
+      <Archetype name="Holdings">usmarc::F</Archetype>
+    </RecordArchetypes>
+  </Repository>
+
+  <!-- Map logical collection-dn strings on to physical instances of databases at targets (in z-speak) -->
+  <Collection code="default" collectionName="default"/>
+  <Instance collectionCode="default" repositoryCode="default">
+    <Details code="default" localId="default" profile="bath" />
+  </Instance>
+  
+  <!-- 
+  <Collection code="single" collectionName="single"/>
+  <Instance collectionCode="single" repositoryCode="default">
+    <Details code="single" localId="single" profile="bath" />
+  </Instance>
+  
+  <Collection code="danniel" collectionName="danniel"/>
+  <Instance collectionCode="danniel" repositoryCode="default">
+    <Details code="danniel" localId="danniel" profile="bath" />
+  </Instance>
+   -->
+ 
+
+
+  <!-- Application profiles may be used to indicate what type of query
+       are acceptable to a given collection instance. For example,
+       an OAI resource of learning objects might be made available as a
+       z39.50 database using the lom profile at one repository, and the
+       bath profile at another. Not specifying a profile for a collection
+       instance means that queries will be sent to that collection 
+       with no checking as to suitability. -->
+  <ApplicationProfiles>
+    <ClasspathProfile resource="/br/org/biblivre/z3950server/config/profiles/bath.xml"/>
+    <ClasspathProfile resource="/br/org/biblivre/z3950server/config/profiles/lom.xml"/>
+  </ApplicationProfiles>
+
+  <Crosswalks>
+    <!-- Defacto crosswalk from bib-1 concepts -->
+    <ClasspathCrosswalk resource="/br/org/biblivre/z3950server/config/crosswalks/QueryModel/bib-1.xml"/>
+  </Crosswalks>
+
+  <RecordConversion>
+    <converter type="DOM-XSL-DOM" classname="org.jzkit.search.util.RecordConversion.StandardXSLTTransformer"/>
+    <converter type="DOM-XSL-TXT" classname="org.jzkit.search.util.RecordConversion.StringProducerTransformer"/>
+
+    <!-- Map to text/plain -->
+    <mapping fromSpec="xml:oai-dc:[Ff]" 
+             toSpec="sutrs:plain:F" 
+             type="DOM-XSL-TXT" 
+             resource="/br/org/biblivre/z3950server/config/crosswalks/RecordModel/OAI-DC_2_SUTRS_F.xsl"/>
+
+    <!-- Otherwise match any old element set name -->
+    <mapping fromSpec="xml:oai-dc:.*" 
+             toSpec="sutrs:plain:F" 
+             type="DOM-XSL-TXT" 
+             resource="/br/org/biblivre/z3950server/config/crosswalks/RecordModel/OAI-DC_2_SUTRS_F.xsl"/>
+    <mapping fromSpec="xml:oai-dc:.*" 
+             toSpec="sutrs:plain:B" 
+             type="DOM-XSL-TXT" 
+             resource="/br/org/biblivre/z3950server/config/crosswalks/RecordModel/OAI-DC_2_SUTRS_B.xsl"/>
+                                                                                                                                        
+    <!-- Map to text/html -->
+    <mapping fromSpec="xml:oai-dc:[Ff]" 
+             toSpec="sutrs:html:F" 
+             type="DOM-XSL-TXT" 
+             resource="/br/org/biblivre/z3950server/config/crosswalks/RecordModel/OAI-DC_2_HTML_F.xsl"/>
+    <mapping fromSpec="xml:oai-dc:[Bb]" 
+             toSpec="sutrs:html:B" 
+             type="DOM-XSL-TXT" 
+             resource="/br/org/biblivre/z3950server/config/crosswalks/RecordModel/OAI-DC_2_HTML_B.xsl"/>
+                                                                                                                                        
+    <!-- This is the generic GRS-1 mapping.. we should add profiled alternatives above -->
+    <mapping fromSpec="grs-1:.*:.*" 
+             toSpec="sutrs:html:B" 
+             type="DOM-XSL-TXT" 
+             resource="/br/org/biblivre/z3950server/config/crosswalks/RecordModel/Gils_To_HTML_brief.xsl"/>
+    <mapping fromSpec="grs-1:.*:.*" 
+             toSpec="sutrs:html:F" 
+             type="DOM-XSL-TXT" 
+             resource="/br/org/biblivre/z3950server/config/crosswalks/RecordModel/Gils_To_HTML_full.xsl"/>
+
+  </RecordConversion>
+
+</ServiceDirectory>

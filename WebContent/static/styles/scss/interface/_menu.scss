@@ -1,0 +1,491 @@
+@function module-ligther-text($color) {
+  @return $color + (#FFFFFF - $color) / 2;
+}
+
+@mixin module($module, $color) {
+	.slider_#{$module} {
+		background-color: $color;
+	}
+	
+	.menu_#{$module} .submenu {
+		border-bottom-color: $color !important;
+
+		.submenu_#{$module} {
+			a:hover {
+				color: module-ligther-text($color) !important;
+			}
+		}
+	}
+	
+	.page_help_#{$module}, .form_help_#{$module} {
+		border-left: 6px solid $color;
+		border-bottom: 1px solid $color;
+	}
+	
+	
+	.notifications_#{$module} {
+		&#notifications {
+			border-color: $color !important;
+		}
+
+		#breadcrumb span {
+			color: $color !important;
+		}
+		
+		#breadcrumb a {
+			color: $color !important;
+			font-weight: bold;
+			text-decoration: none;
+			cursor: pointer;
+		}
+	}
+}
+
+@mixin message($level, $border, $background, $color: $main-text-color) {
+	&.#{$level} {
+		border-color: $border;
+		background: $background url('../images/message_#{$level}_bg.png') repeat;
+		
+		> div {
+			border-color: $background;
+			color: $color;
+			font-size: 14px;
+			line-height: 16px;
+			font-weight: bold;
+		}
+		
+		a {
+			color: $color;
+		}
+		
+		.fright {
+			text-align: right;
+		}
+		
+		.close {
+			font-size: 20px;
+			line-height: 12px;
+		}
+	}
+} 
+
+
+@include module(search, #595D3B);
+@include module(circulation, #E15E32);
+@include module(self_circulation, #E15E32);
+@include module(cataloging, #98A636);
+@include module(acquisition, #5C323E);
+@include module(multi_schema, #df9749);
+@include module(administration, #44749D);
+@include module(help, #A82743);
+@include module(login, #42A109);
+@include module(logout, #8B0000);
+@include module(start, #2A2A2A);
+
+$header-height: 106px;
+
+$menu-height: 40px;
+$menu-background: #2A2A2A;
+$menu-text-color: #FFF;
+$slider-height: 6px;
+
+$notifications-background: #ECECEC;
+$notifications-border-color: #BDBDBD;
+
+#header {
+	position: relative;
+	height: $header-height - 6;
+	width: 100%;
+	/*background: #C5D0DC url('../images/header_bg.png') repeat-x 0 -40px;*/
+	
+	background-image: -webkit-linear-gradient(top, #556b8d 0%, #32435d 100%);
+    background-image: -moz-linear-gradient(top, #556b8d 0%, #32435d 100%);
+    background-image: -o-linear-gradient(top, #556b8d 0%, #32435d 100%);
+    background-image: linear-gradient(to bottom, #556b8d 0%, #32435d 100%);
+	
+	border-bottom: 6px solid white;
+	
+	z-index: 100;
+	overflow: visible;
+}
+
+#logo_biblivre {
+	float: left;
+	margin: 17px;
+
+	width: 117px;
+	height: 66px;
+	
+	z-index: 101;
+	
+	img {
+		filter: drop-shadow(1px 1px 1px #000000);
+	}
+}
+
+#logo_biblivre_small {
+	float: left;
+	margin-left: 10px;
+	margin-top: 2px;
+
+	width: 46px;
+	height: 36px;
+	
+	display: none;
+}
+
+#logo_support {
+	position: relative;
+	float: right;
+	margin: 17px 17px 0 0;
+
+	width: 88px;
+	height: 66px;
+
+	z-index: 101;
+
+	div {
+	    position: absolute;
+	    top: 0;
+	    right: 0;
+	
+		img {
+			@include border-radius(6px);
+		}
+	}
+	
+	filter: drop-shadow(1px 1px 1px black);
+}
+
+#logo_sponsor {
+	position: relative;
+	float: right;
+	margin: 17px 10px 0 5px;
+
+	width: 77px;
+	height: 66px;
+	
+	z-index: 101;
+
+	img {
+		@include border-radius(6px);
+	}
+	
+	filter: drop-shadow(1px 1px 1px black);
+}
+
+#clock {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 77px;
+	height: 26px;
+	line-height: 26px;
+
+	text-align: center;
+	font-size: 14px;
+	color: navy;
+	
+	white-space: nowrap;
+}
+
+#title {
+	position: relative;
+		
+	width: $content-width;
+	margin: 0 auto;
+	padding-top: 17px;
+
+	z-index: 102;
+
+	-webkit-filter: drop-shadow(1px 1px 1px #000000);
+	-moz-filter: drop-shadow(1px 1px 1px #000000);
+	-ms-filter: drop-shadow(1px 1px 1px #000000);
+	filter: drop-shadow(1px 1px 1px #000000);
+
+	color: $menu-text-color;
+
+	h1 {
+		margin-left: 10px;
+	
+		font-size: 24px;
+		line-height: 20px;
+		
+		a {
+			color: $menu-text-color;
+			
+			&:hover {
+				color: $menu-text-color;
+				text-decoration: none;
+			}
+		}
+	}
+	
+	h2 {
+		margin-top: 4px;
+		margin-left: 10px;	
+		
+		font-size: 15px;
+		line-height: 12px;
+	}
+}
+
+#language_selection {
+	position: absolute;
+	top: 17px;
+	left: 50%;
+
+	width: $content-width;
+	margin-left: - $content-width / 2;
+
+	text-align: right;
+	z-index: 110;
+
+	font-size: 15px;
+	line-height: 12px;
+
+	select {
+		width: 160px;
+	}
+
+	.combo_wrap {
+		text-align: left;
+		border: 0 !important;
+		background-color: transparent;
+
+		&.active {
+			background-color: $ui-hover-background-color;
+		}
+	
+		.combo_text {
+			text-shadow: none !important;
+			font-weight: normal !important;
+			color: $menu-text-color;
+			filter: drop-shadow(1px 1px 1px #000000);
+		}
+		
+		.combo_arrow {
+			filter: invert(100%) brightness(150%) drop-shadow(1px 1px 1px #000000);
+		}
+			
+		.combo_list {
+			border: 0 !important;
+		}
+	}
+}
+
+
+#menu {
+	position: absolute;
+	bottom: -6px;
+	left: 50%;
+
+	margin-left: - $content-width / 2;
+
+	width: $content-width;
+	height: $menu-height;
+	line-height: $menu-height - $slider-height;
+
+	background: $menu-background;
+	color: $menu-text-color;
+	font-size: 16px;
+	font-weight: normal;
+	
+	z-index: 105;	
+	
+	@include border-radius(4px 4px 0 0);
+	
+	> ul {
+		> li {
+			float: left;
+			cursor: default;
+			padding: 0 10px;
+		}
+	}
+	
+	.login, .logout {
+		float: right;
+	}
+	
+	.inputs {
+		float: right;
+		line-height: 1px;
+	}
+	
+	button {
+		background-color: $menu-background;
+		color: inherit;
+		font: inherit;
+		border: 0;
+		padding: 0;
+		margin: 0;
+	}
+
+	input {
+		width: 120px;
+		height: 20px;
+		border: 0;
+		padding: 0 4px;
+		margin: 7px 0 7px 5px;
+	}
+	
+	.submenu {
+		display: none;
+		position: absolute;
+
+		margin-top: 4px;
+		margin-left: -10px;
+	
+		background: $menu-background url('../images/submenu_bg.png') repeat;
+		border-bottom: 4px solid $menu-background;
+	
+		z-index: 100;
+
+		%entry {
+			padding: 0 18px;
+			margin: 0;
+			font-size: 14px;
+
+			border-top: 1px solid $menu-background;
+			border-bottom: 1px solid black;
+		}
+
+		.disabled {
+			@extend %entry;
+			color: #666;
+		}
+
+		a {
+			@extend %entry;
+			color: $menu-text-color;
+
+			display: block;
+			
+			&:hover {
+				text-decoration: none;
+				background: black;
+			}
+		}
+	}
+}
+
+#slider_area {
+	position: absolute;
+	bottom: 0;
+	
+	width: 100%;
+	height: $slider-height;
+
+	background: #FFFFFF;
+}
+
+#slider {
+	display: none;
+	position: absolute;
+
+	width: 0;
+	height: $slider-height;
+
+	background-image: url('../images/slider_arrow.png');
+	background-repeat: no-repeat;
+	background-position: 50% 0;
+
+	&.slider_login, &.slider_logout {
+		background-image: none;
+	}
+}
+
+#notifications {
+	background-color: $notifications-background;
+	border-bottom: 1px solid $notifications-border-color;
+	padding: 6px 0;
+}
+
+#breadcrumb {
+	width: $content-width - 20px;
+	margin: 0 auto;
+	padding: 0 10px;
+
+	font-size: 12px;
+	line-height: 12px;
+	span {
+		font-weight: bold;
+	}
+}
+
+#messages {
+	width: $content-width;
+	margin: 0 auto;
+
+	%message-border {
+		border: 1px solid black;
+		@include border-radius(6px);
+	}
+
+	.message {
+		@extend %message-border;
+		margin-bottom: 6px;
+
+		> div {
+			@extend %message-border;
+			padding: 6px 8px;
+		}
+
+		@include message(normal, #92A4B3, #E2E2E2);
+		@include message(success, #C0D23E, #E0EC50, #5A5E3C);
+		@include message(warning, #EFEB70, #E9F35F, #5A5E3C);
+		@include message(error, #ED514B, #F6BDBD);
+	}
+}
+
+
+.left_side_compact {
+	#logo_biblivre {
+		display: none;
+	}
+
+	#logo_biblivre_small {
+		display: block;
+	}
+	
+	#title {
+		h1, h2 {
+			margin-left: 60px;
+		}
+	}
+}
+
+.left_side_fixed {
+	#title, #messages, #breadcrumb {
+		margin: 0 0 0 151px;
+	}
+
+	#menu {
+		margin: 0;
+		left: 151px;
+	}
+}
+
+.right_side_compact {
+	#logo_support, #logo_sponsor {
+		display: none;
+	}
+}
+
+.right_side_small {
+	#logo_support {
+		display: none;
+	}
+}
+
+.double_line_header {
+	#title {
+		h1 {
+			line-height: 22px;
+		}
+		
+		h2 {
+			display: none;
+		}
+	}
+}

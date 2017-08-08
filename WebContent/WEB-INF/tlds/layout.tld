@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib version="2.1"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd"
+	xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+	<tlib-version>1.0</tlib-version>
+	<short-name>Layout</short-name>
+	<uri>/WEB-INF/tlds/layout.tld</uri>
+
+	<tag>
+		<name>head</name>
+		<tag-class>biblivre.view.taglibs.LayoutHead</tag-class>
+		<body-content>JSP</body-content>
+	</tag>
+
+	<tag>
+		<name>body</name>
+		<tag-class>biblivre.view.taglibs.LayoutBody</tag-class>
+		<body-content>JSP</body-content>
+		<attribute>
+			<name>multiPart</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+			<type>java.lang.Boolean</type>
+		</attribute>
+		<attribute>
+			<name>banner</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+			<type>java.lang.Boolean</type>
+		</attribute>
+		<attribute>
+			<name>disableMenu</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+			<type>java.lang.Boolean</type>
+		</attribute>
+	</tag>
+
+</taglib>

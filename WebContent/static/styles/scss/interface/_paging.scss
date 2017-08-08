@@ -1,0 +1,88 @@
+.paging_bar {
+	margin: 10px 0;
+}
+
+a.paging, span.paging {
+	display: inline-block;
+
+	font-size: 12px;
+	line-height: 12px;
+	padding: 5px 7px;
+	text-align: center;
+
+	color: $paging-text-color;
+	text-shadow: 0px 1px #FFFFFF;
+	
+	&.actual_page {
+		color: #FFFFFF;
+		text-shadow: 0px 1px $paging-text-color;
+
+		border: 1px solid $paging-text-color;
+		@include border-radius(2px);
+	
+		@include radial-gradient(#919191, #707070, 52%, 100%);
+	}
+}
+
+a.paging_button {
+	color: $paging-text-color;
+	text-shadow: 1px 1px #FFFFFF;
+
+	border: 1px solid #C4C4C4;	
+	@include border-radius(3px);
+	@include linear-gradient(#FAF9F7, #ECE8E1, 1%, 100%);
+
+	line-height: 14px;
+	height: 14px;
+}
+
+a.paging_arrow_prev:before {
+	content: url('../images/paging_arrow_prev.png');
+	vertical-align: middle;
+}
+
+a.paging_button_prev:before {
+	content: url('../images/paging_button_prev.png');
+	vertical-align: middle;
+	padding-right: 5px !important;
+}
+
+a.paging_arrow_next:after {
+	content: url('../images/paging_arrow_next.png');
+	vertical-align: middle;
+}
+
+a.paging_button_next:after {
+	content: url('../images/paging_button_next.png');
+	vertical-align: middle;
+	padding-left: 5px !important;
+}
+
+/*
+a.paging_arrow {
+	display: inline-block;
+
+	width: 28px;
+	height: 28px;
+		
+	background-image: url('../images/paging_arrows.png');
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	
+	vertical-align: middle;
+	
+	&.right {
+		background-position: -28px 0 !important;
+	}
+}
+
+
+
+a.paging:hover {
+	text-decoration: underline;
+}
+
+
+
+
+*/

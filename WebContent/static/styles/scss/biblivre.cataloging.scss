@@ -1,0 +1,121 @@
+@import "biblivre";
+
+#biblivre_record_textarea {
+	display: none;
+}
+
+#biblivre_marc_textarea, #biblivre_holding_marc_textarea {
+	width: $content-width - 36;
+	height: 400px;
+	padding: 2px;
+	border: 1px solid $form-border-color;
+	
+	font-family: "Courier New", Courier, monospace;
+	font-size: 15px;
+}
+
+#database_selection {
+	margin-top: -10px;
+	margin-bottom: 10px;
+	padding: 2px 10px 10px 10px;
+	height: 41px;
+
+	.title {
+		padding-top: 6px;
+		margin-right: 5px;
+		float: left;
+
+		font-size: 16px;
+		font-weight: bold;
+		height: 18px;
+		line-height: 18px;
+		text-shadow: 1px 1px #FFFFFF;
+	}
+	
+	.count {
+		font-size: 14px;
+		font-weight: bold;
+		text-shadow: 1px 1px #FFFFFF;
+		color: $weak-text-color;
+		
+		&.loading strong {
+			padding-right: 20px;
+			background: url('../images/ajax-loader.gif') no-repeat right center;
+		}
+		
+		strong {
+			color: $link-text-color;
+		}
+	}
+	
+	.buttons {
+		position: absolute;
+		right: 10px;
+		top: 12px;
+	}
+	
+	.combo_wrap {
+		text-align: left;
+		border-color: transparent;
+		background-color: transparent;
+		padding: 2px 0 2px 8px;
+
+		&.active {
+			background-color: $ui-hover-background-color;
+			border-color: $ui-hover-border-color;
+		}
+
+		.combo_text {
+			font-size: 16px;
+			font-weight: bold;
+			height: 18px;
+			line-height: 18px;
+		}
+			
+		.combo_list {
+		}
+		
+		.combo_arrow {
+			height: 18px;
+		}
+	}
+}
+
+.biblivre_record_extra {
+	ul {
+		padding: 5px 10px 0 10px;
+		list-style-type: circle;
+		list-style-positin: inside;
+
+		li {
+			padding: 2px 0;
+			margin: 0 10px 0 30px;
+			position: relative;
+
+			.xclose {
+				position: absolute;
+				right: 0;
+				top: 0;
+			}
+		}
+	}
+	
+	.upload {
+		margin: 10px;
+		line-height: 28px;
+
+		input {
+			width: 500px;
+		}
+	}
+}
+
+.biblivre_holdings {
+	label {
+		font-weight: bold;
+	}
+}
+
+.automatic_holding {
+	margin-top: 15px;
+}

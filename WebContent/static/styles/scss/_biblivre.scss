@@ -1,0 +1,41 @@
+@import "mixins";
+
+$content-width: 782px;
+$body-background: #EBEBEB;
+
+$aux-background: #F0F0F0;
+$aux-border-color: #BDBDBD;
+
+$main-text-color: #2A2A2A;
+$aux-text-color: #606060;
+$weak-text-color: #707070;
+
+$disabled-text-color: #B0B0B0;
+
+$paging-text-color: $main-text-color;
+
+$link-text-color: #44749D;
+$link-hover-text-color: $link-text-color - #111111;
+
+$separator-color: #A7A59F;
+
+$ui-background-color: #EBEBEB;
+$ui-border-color: #CFCFCF;
+$ui-hover-background-color: #D2D2D2; 
+$ui-hover-border-color: #B0B0B0;
+
+$list-odd-background: $aux-background;
+$list-buttons-odd-background: #DBDBDB;
+$list-even-background: #D5D5D5;
+$list-buttons-even-background: #CECECE;
+
+$expander-background: #C6D4E1;
+$expander-text-color: #44749D;
+
+$popup-border-color: #787F43;
+$popup-background-color: $aux-background;
+
+$progress-background-color: $main-text-color;
+$progress-foreground-color: #C4D540;
+
+$form-border-color: #B3B3B3;

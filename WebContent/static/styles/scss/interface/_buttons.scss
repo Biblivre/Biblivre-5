@@ -1,0 +1,92 @@
+@mixin button($background-color, $border-color, $hover-background-color, $hover-border-color) {
+	display: inline-block;
+	overflow: hidden;
+
+	text-decoration: none;
+	color: $main-text-color;
+
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 12px;
+	padding: 5px 8px;
+
+	background-color: $background-color;
+	border: 2px solid $border-color;
+	border-top-width: 4px;
+
+	@include border-radius(6px);
+
+	text-align: left;
+	vertical-align: middle;
+
+	cursor: pointer;
+
+	text-shadow: 1px 1px #EAEAEA;
+
+	&:hover {
+		background-color: $hover-background-color;
+		border-color: $hover-border-color;	
+	}
+	
+	&.center {
+		padding: 5px 15px;
+		text-align: center;
+	}
+
+	&.disabled {
+		color: $disabled-text-color;
+		cursor: default;
+		
+		&:hover {
+			background-color: $background-color;
+			border-color: $border-color;
+		}
+	}
+}
+
+@mixin arrow($image-url, $disabled-image-url) {
+	padding-right: 25px !important;
+	background-image: url($image-url);
+	background-repeat: no-repeat;
+	background-position: 100% 50%;
+
+	&.disabled {
+		background-image: url($disabled-image-url);
+	}
+	
+	&.loading {
+		background-image: url('../images/ajax-loader.gif') !important;
+		background-position-x: 96%;
+	}
+}
+
+a.button {
+	@include button($ui-background-color, $ui-border-color, $ui-hover-background-color, $ui-hover-border-color);
+}
+
+a.main_button {
+	@include button(#E5f04C, #CCDC43, #C0D23E, #A3B232);
+	text-shadow: none;
+}
+
+a.danger_button {
+	@include button($ui-background-color, $ui-border-color, #F6BDBD, #ED514B);
+}
+
+a.faded_button {
+	@include button(#D4CFC6, #BDB8AD, #BDB8AD, #BDB8AD);
+	border-top-width: 2px;
+	padding: 6px 8px;
+}
+
+.arrow_right {
+	@include arrow('../images/button_arrow_right.png', '../images/button_arrow_right_disabled.png');
+}
+
+.arrow_down {
+	@include arrow('../images/button_arrow_down.png', '../images/button_arrow_down_disabled.png');
+}
+
+.arrow_updown {
+	@include arrow('../images/button_arrow_updown.png', '../images/button_arrow_updown_disabled.png');
+}

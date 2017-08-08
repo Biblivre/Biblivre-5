@@ -1,0 +1,100 @@
+.multischema .enable, .multischema .disable {
+  font-size: 12px !important;
+}
+.multischema .enable {
+  display: none;
+}
+.multischema .disable {
+  display: inline-block;
+}
+.multischema .library {
+  margin: 15px;
+}
+.multischema .library .checkbox {
+  float: left;
+  height: 45px;
+  margin-right: 5px;
+}
+.multischema .library .title {
+  font-weight: bold;
+  font-size: 16px;
+}
+.multischema .library a {
+  font-size: 20px;
+  text-decoration: none;
+}
+.multischema .library a:hover {
+  text-decoration: underline;
+}
+.multischema .disabled .enable {
+  display: inline-block;
+}
+.multischema .disabled .disable {
+  display: none;
+}
+.multischema .disabled a {
+  color: red !important;
+}
+
+.backup_schemas {
+  margin-left: 45px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  font-size: 12px;
+}
+
+#multischema_partial_restore, #multischema_full_restore, #multischema_restore_limit {
+  display: none;
+}
+#multischema_partial_restore .description, #multischema_full_restore .description, #multischema_restore_limit .description {
+  margin-bottom: 10px;
+}
+#multischema_partial_restore .type_selection, #multischema_full_restore .type_selection, #multischema_restore_limit .type_selection {
+  margin: 15px;
+}
+#multischema_partial_restore .type_selection .description, #multischema_full_restore .type_selection .description, #multischema_restore_limit .type_selection .description {
+  margin-bottom: 15px;
+}
+#multischema_partial_restore .type_selection label, #multischema_full_restore .type_selection label, #multischema_restore_limit .type_selection label {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+#schemas_match fieldset {
+  padding: 0 10px 10px 10px;
+}
+#schemas_match .subtitle {
+  color: #707070;
+  padding-left: 20px;
+}
+#schemas_match .spacer {
+  height: 15px;
+}
+#schemas_match .address, #schemas_match .warn {
+  padding-left: 40px;
+}
+#schemas_match .new_schema, #schemas_match .dont_restore {
+  margin-top: 8px;
+}
+#schemas_match .new_schema .warn {
+  display: none;
+}
+
+.digital_media_restore {
+  display: none;
+}
+.digital_media_restore .restore {
+  margin-bottom: 20px;
+}
+
+#multischema_restore_limit ul {
+  margin: 10px;
+}
+#multischema_restore_limit ul li {
+  list-style: disc;
+  margin-left: 30px;
+}
+
+#partial_restore_button {
+  display: none;
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans>
+
+	<!-- z39.50 Client -->
+	<import resource="z3950Context.xml" />
+
+	<bean id="z3950Client" class="biblivre.z3950.client.Z3950Client">
+		<property name="z3950Context" ref="z3950XmlAppContext" />
+		<property name="factory" ref="z3950Factory" />
+	</bean>
+
+	<bean id="z3950XmlAppContext" class="org.springframework.context.support.ClassPathXmlApplicationContext">
+		<constructor-arg index="0" value="z3950Context.xml" />
+	</bean>
+
+	<bean id="z3950Factory" class="org.jzkit.search.provider.z3950.Z3950ServiceFactory">
+		<property name="applicationContext" ref="z3950XmlAppContext" />
+		<property name="defaultRecordSyntax" value="usmarc" />
+		<property name="defaultElementSetName" value="F" />
+		<property name="recordArchetypes">
+			<map>
+				<entry key="default" value="usmarc::F" />
+				<entry key="FullDisplay" value="usmarc::F" />
+				<entry key="BriefDisplay" value="usmarc::B" />
+				<entry key="Holdings" value="usmarc::F" />
+			</map>
+		</property>
+	</bean>
+
+	<bean id="backend" class="br.org.biblivre.z3950server.JZKitBackend" />
+</beans>

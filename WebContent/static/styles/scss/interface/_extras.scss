@@ -1,0 +1,170 @@
+small {
+	font-size: smaller;
+}
+
+.center {
+	text-align: center;
+}
+
+.right {
+	text-align: right;
+}
+
+.placeholder {
+	color: #AAAAAA;
+}
+
+.template, .hidden {
+	display: none !important;
+}
+
+.clear {
+	clear: both;
+}
+
+.attention {
+	color: #FF0000;
+}
+
+.px {
+	height: 1px;
+	clear: both;
+}
+
+.ncspacer {
+	height: 5px;
+}
+
+.spacer {
+	clear: both;
+	height: 5px;
+}
+
+.double_spacer {
+	clear: both;
+	height: 10px;
+}
+
+.nofont {
+	font-size: 1px;
+	line-height: 1px;
+}
+
+.fleft {
+	float: left;
+}
+
+.fright {
+	float: right;
+}
+
+.mr10 {
+	margin-right: 10px;
+}
+
+.p20 {
+	width: 20%;
+	float: left;
+}
+
+.p60 {
+	width: 60%;
+	float: left;
+}
+
+.loading_indicator {
+	text-align: center;
+	font-size: 12px;
+	font-weight: bold;
+
+	img {
+		vertical-align: middle;
+		margin-right: 2px;
+	}
+}
+
+.ac_results {
+	padding: 0px;
+	border: 1px solid black;
+	background-color: white;
+	overflow: hidden;
+	z-index: 99999;
+}
+
+.ac_results ul {
+	width: 100%;
+	list-style-position: outside;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.ac_results li {
+	margin: 0px;
+	padding: 2px 5px;
+	cursor: default;
+	display: block;
+	/*
+	if width will be 100% horizontal scrollbar will apear
+	when scroll mode will be used
+	*/
+	/*width: 100%;*/
+	font: menu;
+	font-size: 12px;
+	/*
+	it is very important, if line-height not setted or setted
+	in relative units scroll will be broken in firefox
+	*/
+	line-height: 16px;
+	overflow: hidden;
+}
+
+.ac_loading {
+	background: white url('../images/ajax-loader.gif') right center no-repeat;
+}
+
+.ac_odd {
+	background-color: #eee;
+}
+
+.ac_over {
+	background-color: #0A246A;
+	color: white;
+}
+
+.imgareaselect-border1 {
+	background: url('../images/border-anim-v.gif') repeat-y left top;
+}
+
+.imgareaselect-border2 {
+    background: url('../images/border-anim-h.gif') repeat-x left top;
+}
+
+.imgareaselect-border3 {
+    background: url('../images/border-anim-v.gif') repeat-y right top;
+}
+
+.imgareaselect-border4 {
+    background: url('../images/border-anim-h.gif') repeat-x left bottom;
+}
+
+.imgareaselect-border1, .imgareaselect-border2, .imgareaselect-border3, .imgareaselect-border4 {
+    filter: alpha(opacity=50);
+	opacity: 0.5;
+}
+
+.imgareaselect-handle {
+    background-color: #fff;
+	border: solid 1px #000;
+    filter: alpha(opacity=50);
+	opacity: 0.5;
+}
+
+.imgareaselect-outer {
+	background-color: #000;
+    filter: alpha(opacity=50);
+	opacity: 0.5;
+}
+
+.imgareaselect-selection {
+}

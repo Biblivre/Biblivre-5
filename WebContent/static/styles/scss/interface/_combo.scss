@@ -1,0 +1,100 @@
+.combo_wrap {
+	position: relative;
+	display: inline-block;
+	white-space: nowrap;
+	
+	padding: 4px 0 4px 8px;
+
+	background-color: $ui-background-color;
+	border: 2px solid $ui-border-color;
+	border-top-width: 4px;
+
+	@include border-radius(6px);
+	vertical-align: bottom;
+	cursor: pointer;
+
+	&.hover, &.active {
+		background-color: $ui-hover-background-color;
+		border-color: $ui-hover-border-color;
+	}
+
+	.combo_text {
+		color: $main-text-color;
+		text-shadow: 1px 1px #FFFFFF;
+	
+		font-weight: bold;
+		font-size: 12px;
+		line-height: 14px;
+		height: 14px;
+	
+		float: left;
+		overflow: hidden;
+		white-space: nowrap;
+	}
+
+	.watermark {
+		color: #A1A1A1;
+	}
+
+	.combo_arrow {
+		float: right;
+		width: 23px;
+		height: 14px;
+		background-image: url('../images/button_arrow_updown.png');
+		background-repeat: no-repeat;
+		background-position: 100% 50%;
+	}
+
+	&.disabled {
+		cursor: default;
+		
+		.combo_text {
+			color: $aux-text-color;
+		}
+		
+		.combo_arrow {
+			background-image: url('../images/button_arrow_updown_disabled.png');
+		}
+	}	
+
+
+	.combo_list {
+		position: absolute;
+		text-align: left;
+
+
+		background-color: $ui-hover-background-color;
+		border: 2px solid $ui-hover-border-color;
+		border-top-width: 0;
+
+		@include border-radius-side(6px, bottom);
+	
+		display: none;
+	
+		padding-top: 5px;
+		z-index: 200;
+	}
+
+	.combo_row {
+		font-size: 12px;
+		line-height: 18px;
+		padding: 2px 8px;
+	
+		cursor: normal;
+		overflow-x: hidden;
+		white-space: nowrap;
+	
+		&.hover {
+			background-color: $ui-background-color;
+		}
+
+		&:last-child {
+			@include border-radius-side(6px, bottom);
+		
+		}
+	}
+
+	&.active .combo_list {
+		display: block !important;
+	}
+}

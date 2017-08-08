@@ -1,0 +1,166 @@
+@import "biblivre";
+@import "reset";
+
+html, body {
+	overflow: hidden;
+}
+
+body {
+	font: normal 14px/18px "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+
+	background: $body-background;
+	color: $main-text-color;
+}
+
+a {
+	@include link-colors($link-text-color, $link-hover-text-color);
+	@include hover-link;
+}
+
+b, strong {
+	font-weight: bold;
+}
+
+@import "interface/extras";
+@import "interface/buttons";
+@import "interface/combo";
+@import "interface/icons";
+@import "interface/paging";
+@import "interface/tabs";
+@import "interface/forms";
+
+@import "interface/menu";
+@import "interface/content";
+@import "interface/layout";
+
+
+.big_input, .small_input {
+	height: 22px;
+
+	font-size: 15px;
+	outline: none;
+
+	border: 2px solid #D4CFC6;
+
+	@include linear-gradient(#EDEDED, #FFFFFF, 0%, 26%);
+	@include border-radius(6px);
+}
+
+
+.big_input {
+	padding: 5px 8px;
+}
+
+.small_input {
+	padding: 2px 4px;
+}
+
+#stacktrace {
+	padding: 10px;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 14px;
+	word-wrap: break-word;
+}
+
+#log_textarea {
+	padding: 10px;
+	margin-top: 10px;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 14px;
+	word-wrap: break-word;
+	
+	width: $content-width - 20;
+	height: 300px;
+}
+
+.xclose {
+	font-family: Helvetica;
+	float: right;
+	font-size: 21px;
+	font-weight: bold;
+	line-height: 1;
+	color: #000;
+	text-shadow: 0 1px 0 #FFF;	
+	@include opacity(.2);
+
+	&:hover, &:focus {
+		color: #000;
+		text-decoration: none;
+		cursor: pointer;
+		@include opacity(.5);
+	}
+}
+
+button.xclose {
+	padding: 0;
+	border: 0;
+	cursor: pointer;
+	-webkit-appearance: none;
+	background: transparent;
+}
+
+#progress_popup, #upload_popup, #import_popup {
+	fieldset {
+		margin-top: 20px;
+		margin-bottom: 40px;
+	}
+}
+
+noscript {
+	border: 1px solid $aux-border-color;
+	background: $aux-background;
+	display: none;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    
+    ul {
+	    margin-top: 10px;
+	    
+	    li {
+	    	list-style: circle inside none;
+	    }
+    }
+}
+
+.noscript {
+	overflow: visible;
+	
+	body {
+		overflow: visible;
+	}
+	
+	noscript {
+		display: block;
+	}
+	
+	#menu, #language_selection {
+		display: none;
+	}
+	
+	#title {
+		padding-top: 33px;
+	}
+	
+	#content_outer {
+		overflow-y: visible;
+	}
+}
+
+.footer_buttons {
+	text-align: right;
+	margin-top: 10px;
+	
+	a {
+		min-width: 130px;
+		display: inline-block;
+		margin-right: 10px;
+
+		&:last-child {
+			margin-right: 0;	
+		}
+	}
+}
+
+fieldset > legend {
+	white-space: nowrap;
+}

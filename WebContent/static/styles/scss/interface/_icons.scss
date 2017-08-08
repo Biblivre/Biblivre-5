@@ -1,0 +1,12 @@
+@mixin ico($ico) {
+	.ico_#{$ico} {
+		padding-left: 20px;
+		background: transparent url('../images/ico_#{$ico}.png') no-repeat 0 0;
+	}
+}
+
+
+@include ico('add');
+@include ico('refresh');
+@include ico('clear');
+@include ico('exclamation');

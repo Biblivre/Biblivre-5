@@ -1,0 +1,24 @@
+@import "biblivre";
+
+
+#progress_popup {
+	fieldset {
+		margin-top: 20px;
+		margin-bottom: 30px;
+	}
+}
+
+#biblivre3import, #biblivre3restore {
+	.fields {
+		margin-left: 100px;
+	}
+}
+
+
+.digital_media_restore {
+	display: none;
+	
+	.restore {
+		margin-bottom: 20px;
+	}
+}

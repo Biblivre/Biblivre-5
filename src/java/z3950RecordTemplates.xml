@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.4.2" class="java.beans.XMLDecoder">
+    <object class="org.jzkit.search.provider.jdbc.RecordTemplatesInMemoryConfig">
+        <object class="java.util.HashMap">
+            <void method="put">
+                <string>Records</string>
+                <object class="org.jzkit.search.provider.jdbc.JDBCCollectionMappingInfo">
+                    <string>Records</string>
+                    <object class="java.util.HashMap">
+                        <void method="put">
+                            <string>usmarc::F</string>
+                            <object class="org.jzkit.search.provider.jdbc.TemplateFragmentFactory">
+                                <object class="org.jzkit.search.provider.jdbc.EntityMapping">
+                                    <string>Records</string>
+                                    <void method="addAttribute">
+                                        <string>record</string>
+                                        <string>record</string>
+                                    </void>
+                                </object>
+                            </object>
+                        </void>
+                        <void method="put">
+                            <string>usmarc::B</string>
+                            <object class="org.jzkit.search.provider.jdbc.TemplateFragmentFactory">
+                                <object class="org.jzkit.search.provider.jdbc.EntityMapping">
+                                    <string>Records</string>
+                                    <void method="addAttribute">
+                                        <string>record</string>
+                                        <string>record</string>
+                                    </void>
+                                </object>
+                            </object>
+                        </void>
+                    </object>
+                    <object class="java.util.HashMap">
+                    </object>
+                </object>
+            </void>
+        </object>
+    </object>
+</java>

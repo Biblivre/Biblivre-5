@@ -1,0 +1,518 @@
+@import "biblivre";
+
+.simple_search, .advanced_search {
+	display: none;
+}
+
+.page_title {
+	float: none;
+}
+
+.page_navigation {	
+	display: none;
+	float: none;
+	width: 100%;
+
+	margin-bottom: 10px;
+
+	.paging_button_prev {
+		margin-right: 10px;
+	}
+
+	.paging_button_next {
+		margin-left: 10px;
+	}
+}
+
+.search_box {
+	margin-bottom: 15px;
+	clear: both;
+
+	.simple_search {
+		position: relative;
+		height: 35px;
+		
+		.query {
+			position: absolute;
+			left: 0;
+			bottom: 0;
+			
+			input {
+				width: 447px;
+			}
+		}
+
+		.distributed_query {
+			position: absolute;
+			left: 0;
+			bottom: 0;
+			
+			input {
+				width: 597px;
+			}
+		}
+
+		.wide_query {
+			position: absolute;
+			left: 0;
+			bottom: 0;
+			
+			input {
+				width: 615px;
+			}
+		}
+		
+		.buttons, .attributes {
+			position: absolute;
+			right: 0;
+			bottom: 0;
+
+			font-size: 1px;
+			line-height: 1px;
+		
+			.combo {
+				width: 145px;
+			}
+
+			.main_button {
+				margin-left: 10px;
+				width: 100px;
+			}
+		}
+	}
+	
+	
+
+	.advanced_search {
+		position: relative;
+		
+		.search_entry {
+			clear: both;
+			margin-top: 5px;
+			
+			.operator {
+				float: left;
+				width: 90px;
+				margin-right: 10px;
+			}
+			
+			.query {
+				float: left;
+				
+				.big_input {
+					width: 470px;
+					height: 14px;					
+				}
+			}
+			
+			.field {
+				float: left;
+				margin-left: 10px;
+				width: 180px;
+			}
+			
+			&:first-child {
+				margin-top: 0;
+
+				.operator {
+					display: none;
+				}
+				
+				.query .big_input {
+					width: 570px;
+				}
+			}
+		}
+		
+		.buttons {
+			margin-top: 10px;
+			
+			.main_button {
+				float: right;
+				width: 100px;
+			}
+		}
+
+		.add_term {
+			margin-top: 10px;
+			font-size: 12px;
+			line-height: 16px;
+			display: inline-block;
+		}
+
+		.clear_search, .clear_simple_search {
+			font-size: 12px;
+			line-height: 16px;
+		}
+	}
+	
+	.distributed_servers {
+		margin-top: 10px;
+		background: #F3F1EE;
+		font-size: 14px;
+		padding: 10px;
+		position: relative;
+
+		.server {
+			margin-top: 5px;
+			width: 50%;
+			float: left;
+		}
+	}
+	
+	.distributed_search_button {
+		margin-top: 10px;
+		text-align: right;
+	}
+}
+
+.search_label {
+	display: block;
+	padding-left: 11px;
+
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 14px;
+	color: $aux-text-color;
+}
+
+.search_ordering_bar {
+	display: none;
+	border-top: 1px dashed $separator-color;
+	border-bottom: 1px dashed $separator-color;
+}
+
+.search_indexing_groups {
+	margin: 5px;
+	float: left;
+	
+	font-size: 12px;
+	line-height: 14px;
+	font-weight: bold;
+
+	div {
+		float: left;
+		padding: 5px;
+	}
+
+	a, .name {
+		display: inline-block;
+		color: $main-text-color;
+		padding-right: 3px;
+	}
+	
+	.value {
+		color: $link-text-color;
+	}
+
+	.hspacer {
+		padding: 5px 5px;
+		color: $separator-color;
+	}
+
+	.selected {
+		background-color: #c6d5dd;
+		@include border-radius(2px);
+	}
+}
+
+.search_sort_by {
+	color: $main-text-color;
+	
+	margin: 7px 2px;
+	float: right;
+	
+	line-height: 12px;
+	font-size: 12px;
+	font-weight: bold;
+
+	.search_sort_combo {
+		width: 100px;
+		vertical-align: middle;
+	}
+
+	.combo_wrap {
+		padding: 3px 0 3px 8px;
+		border: 0;
+		
+		.combo_text {
+			text-shadow: none;
+		}
+	
+		&.hover, &.active {
+			background-color: $ui-hover-background-color;
+		}
+	}
+
+	.combo_arrow {
+		background-image: url('../images/button_arrow_updown.png');
+		
+		&.disabled {
+			background-image: url('../images/button_arrow_updown_disabled.png');
+		}
+	}
+
+	.combo_list {
+		border: 0;
+	}
+}
+
+
+.result {
+	position: relative;
+	margin-top: 10px;
+}
+
+.clone {
+	margin: 0 !important;
+	z-index: 20;
+	
+	.buttons {
+		visibility: hidden;
+	}
+}
+
+.result, .clone {
+	.buttons {
+		float: right;
+		height: 100%;
+			
+		padding: 12px 10px;
+		margin-left: 10px;
+		
+		a {
+			display: block;
+			margin-bottom: 10px;
+
+			&:last-child {
+				margin-bottom: 0;	
+			}
+		}
+	}	
+	
+	&.odd {
+		.record {
+			background: $list-odd-background;
+		}
+		
+		.buttons {
+			background: $list-buttons-odd-background;
+		}
+	}
+	
+	&.even {
+		.record {
+			background: $list-even-background;
+		}
+		
+		.buttons {
+			background: $list-buttons-even-background;
+		}
+	}
+}
+
+.selected_highlight, .selected_holding_highlight {
+	display: none;	
+	margin-bottom: 20px;
+
+	.buttons {
+		visibility: visible;
+	}
+}
+
+.record {	
+	font-size: 14px;
+	line-height: 18px;
+	padding: 8px 10px;
+
+	label {
+		font-weight: bold;
+	}
+}
+
+.selected_record {
+	display: none;
+}
+
+.search_loading_indicator .loading_indicator {
+	margin-top: 20px;
+}
+
+.result_overlay {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	display: none;
+
+	div {
+    	position: absolute;
+	    line-height: 40px;
+	    width: 100%;
+	    top: 50%;
+	    margin-top: -20px;
+
+		text-align: center;
+		font-weight: bold;
+		font-size: 20px;
+	}
+}
+
+.overlay_success {
+	.result_overlay {
+		display: block;
+		background: rgba(192, 210, 62, 0.8);
+	}
+}
+
+.overlay_warning {
+	.result_overlay {
+		display: block;
+		background: rgba(239, 235, 112, 0.8);
+	}
+}
+
+.overlay_normal {
+	.result_overlay {
+		display: block;
+		background: rgba(146, 164, 179, 0.8);
+	}
+}
+
+.overlay_error {
+	.result_overlay {
+		display: block;
+		background: rgba(237, 81, 75, 0.8);
+	}
+}
+
+.holding_tabs {
+	display: none;
+}
+
+
+
+.select_bar {
+	display: none;
+	float: right;
+	margin-top: 10px;
+}
+
+.filter_search {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	
+	.search_label {
+		padding-left: 0;
+	}
+
+	.filter_material, .filter_field {
+		width: 176px;
+	}
+
+	.filter_date {
+		width: 293px;
+		margin-left: 10px;
+
+		input {
+			width: 132px;
+		}		
+	}
+	
+	.filter_checkbox {
+		margin-top: 10px;
+		
+		.search_label {
+			display: inline;
+			font-size: 14px;
+			font-weight: normal;
+		}
+		
+		input {
+			vertical-align: middle;
+		}
+	}
+}
+
+.selected_results_area {
+	fieldset {
+		margin-bottom: 15px;
+		
+		.buttons {
+			text-align: right;
+			margin: 10px;
+			
+			a {
+				margin-left: 10px;
+			}
+		}
+	}
+	
+	ul {
+		max-height: 182px;
+		overflow-y: auto;
+		list-style-type: circle;
+		list-style-positin: inside;
+
+		li {
+			padding: 5px 0;
+			margin: 0 10px 5px 30px;
+			position: relative;
+			
+			.xclose {
+				position: absolute;
+				right: 0;
+				top: 0;
+			}
+		}
+	}
+}
+
+#label_select_popup {
+	div.content {
+		text-align: center;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+}
+
+#listlabels, #listlabels th, #listlabels td {
+	border: 1px solid #000;
+	padding: 5px;
+	vertical-align: middle;
+}
+
+#listlabels td {
+	cursor: default;
+}
+
+#label_table {
+	border-collapse: separate;
+	border-spacing: 3px;
+	
+	width: 210px;
+	height: 297px;
+	
+	border: 1px solid #000;
+	
+	margin: 0 auto;
+
+	td {
+		border: 1px solid black;
+		
+		@include border-radius(5px); 
+		
+		text-align: center;
+		vertical-align: middle;
+		
+		background: #FFFFFF;
+		cursor: pointer;
+		
+		font-size: 12px;
+		font-weight: bold;
+				
+		.label_text {
+			padding: 5px;
+			font-size: 12px;
+		}
+	}
+}

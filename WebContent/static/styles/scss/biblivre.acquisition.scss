@@ -1,0 +1,20 @@
+@import "biblivre";
+
+.request_quotation {
+	border-left: 6px solid #5C323E;
+	border-bottom: 1px solid #5C323E;
+	margin-top: 15px;
+	padding: 8px 10px;	
+	
+}
+
+.order_quotation {
+	border-left: 6px solid #5C323E;
+	border-bottom: 1px solid #5C323E;
+	margin-top: 15px;
+	padding: 8px 10px;
+	
+	label {
+		font-weight: bold;
+	}
+}

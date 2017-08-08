@@ -1,0 +1,156 @@
+@import "biblivre";
+
+.backup, .restore, .reinstall, .multischema {
+	.buttons {
+		text-align: center;
+		padding-top: 10px;
+		padding-bottom: 10px;
+
+		a {
+			margin-right: 15px;
+			margin-left: 15px;
+		}
+	}
+
+	.last_backups, .found_backups {
+		background: $body-background;
+		margin: 10px;
+		padding: 10px 0;
+	
+		@include border-radius(4px);
+
+		p {
+			font-size: 14px;
+			line-height: 18px;
+			margin: 0 10px 10px 10px;
+			
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+
+	.last_backups_list, .found_backups_list {
+		margin-top: 20px;
+		
+		a {
+			padding-left: 45px;
+			padding-right: 10px;
+		
+			line-height: 25px;
+			font-size: 12px;
+		
+			color: $main-text-color;
+			display: block;
+			position: relative;
+			
+			cursor: pointer;
+			
+			&:hover {
+				background-color: #DDD4C4;
+			}
+		}
+		
+		.hidden_backup {
+			display: none;
+		}
+
+		.last_backup {
+			line-height: 40px;
+			font-size: 14px;
+			background: #DDD4C4 url('../images/last_backup.png') no-repeat 10px 50%;
+			a {
+				color: #5C323E;	
+			}
+		}
+		
+		.last_backup_description {
+			position: absolute;
+			right: 5px;
+			bottom: 5px;
+			font-size: 12px;
+			font-style: italic;
+			line-height: 14px;
+		}
+		
+		.backup_never_downloaded {
+			position: absolute;
+			right: 5px;
+			top: 5px;
+			font-size: 12px;
+			font-style: italic;
+			line-height: 14px;	
+			color: #FF0000;
+		}
+	}
+}
+
+.reindex {
+	.buttons {
+		text-align: center;
+		padding-top: 30px;
+		padding-bottom: 30px;
+
+		a {
+			margin-right: 15px;
+			margin-left: 15px;
+		}
+	}
+}
+
+.reports {
+
+	padding: 10px 0px 10px 0px;
+	
+	.title {
+		vertical-align: middle;
+		font-weight: bold;
+		font-size: 14px;	
+	}
+
+	.buttons {
+		text-align: center;
+
+		a {
+			margin-right: 15px;
+			margin-left: 15px;
+		}
+	}
+}
+
+#backup_popup .progress_bar {
+	margin-bottom: 40px;
+}
+
+#authorDiv, #userDiv, #catalogingDiv {
+	.search_box {
+		.simple_search {
+			.query { 
+				.small_input {
+					margin-left: 15px;
+					width: 550px;
+				}
+			}
+		}
+	}
+	
+	.paging_bar {
+		margin: 10px 15px;
+	}
+}
+
+
+.record_author, .record_user, .record_cataloging {
+	border-left: 6px solid #44749D;
+	border-bottom: 1px solid #44749D;
+	margin-top: 15px;
+	margin-left: 15px;
+	padding: 8px 10px;
+	min-height: 40px;
+	
+	label {
+		font-weight: bold;
+	}
+	
+}
+

@@ -1,0 +1,73 @@
+@import "biblivre";
+
+.user_status_pending_issues {
+	color: red;
+}
+
+
+.buttons {
+	.delete {
+		display: none !important;
+	}
+	
+	&.user_status_inactive {
+		.delete {
+			display: block !important;
+		}
+		
+		.inactive {
+			display: none !important;
+		}
+	}
+}
+
+.user_lending, .user_reservation, .user_fines {
+	border-left: 6px solid #E15E32;
+	border-bottom: 1px solid #E15E32;
+	margin-top: 15px;
+	padding: 8px 10px;
+
+	.record {
+		padding: 0 !important;
+	}
+	
+	.lending_buttons, .reservation_buttons, .fines_buttons {
+		right: 10px;
+		bottom: 10px;
+		position: absolute;
+	}
+}
+
+.advanced_search {
+	.query input {
+		width: $content-width - 20px;
+	}
+}
+
+#photo_upload_popup {
+	#photo_area {
+		text-align: center;
+		margin-top: 30px;
+	}
+}
+
+.selected_highlight {
+	.photo_buttons {
+		min-height: 150px - 12px - 12px;
+	}
+	
+	.user_photo {
+		display: block;
+		height: 142px;
+		width: 106px;
+	
+		float: right;
+		margin-top: 4px;
+		margin-right: -6px;
+		@include border-radius(8px);
+	}
+}
+
+.user_photo {
+	display: none;
+}

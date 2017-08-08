@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans>
+
+  <!-- ========================= GENERAL DEFINITIONS ========================= -->
+
+    <bean id="OIDRegister" class="org.jzkit.a2j.codec.util.OIDRegister">
+        <constructor-arg index="0" value="/a2j.properties" />
+    </bean>
+
+  <!-- conversion rules -->
+    <bean id="RPNToInternalRules" class="org.jzkit.util.PropsHolder">
+        <constructor-arg index="0" value="/InternalAttrTypes.properties" />
+    </bean>
+
+    <bean id="InternalToType1ConversionRules" class="org.jzkit.z3950.QueryModel.PropsBasedInternalToType1ConversionRules">
+        <constructor-arg index="0" value="/InternalToType1Rules.properties" />
+    </bean>
+	
+    <bean id="placeholderConfig" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <property name="location" value="z3950.properties" />
+    </bean>
+    
+    <!-- Server Definitions -->
+    
+    <bean id="JZKitConfig" class="org.jzkit.configuration.provider.xml.XMLImpl">
+        <constructor-arg>
+            <value>/z3950Config.xml</value>
+        </constructor-arg>
+    </bean>
+
+    <bean id="TransformationService" class="org.jzkit.search.util.RecordConversion.FragmentTransformerService">
+        <constructor-arg index="0" ref="JZKitConfig" />
+    </bean>
+
+    <bean id="ProfileService" class="org.jzkit.search.util.Profile.ProfileServiceImpl" />
+
+    <bean id="SearchService" class="org.jzkit.search.impl.SearchSessionImpl" singleton="false">
+        <constructor-arg index="0"><ref bean="ProfileService"/></constructor-arg>
+        <constructor-arg index="1"><ref bean="TransformationService"/></constructor-arg>
+    </bean>
+    
+    
+    <!-- Persistence Definitions -->
+    
+    <bean id="z3950DataSource" class="org.apache.tomcat.dbcp.dbcp.BasicDataSource">
+        <property name="driverClassName">
+            <value>${biblivre3.z3950.jdbc_driver}</value>
+        </property>
+        <property name="url">
+            <value>${biblivre3.z3950.url}</value>
+        </property>
+        <property name="username">
+            <value>${biblivre3.z3950.username}</value>
+        </property>
+        <property name="password">
+            <value>${biblivre3.z3950.password}</value>
+        </property>
+        <property name="defaultAutoCommit">
+            <value>${biblivre3.z3950.default_auto_commit}</value>
+        </property>
+    </bean>
+    
+<!-- 
+    <bean id="persistenceDictionary"
+        class="com.k_int.sql.data_dictionary.InMemoryConfig"
+        factory-method="getConfig">
+        <constructor-arg>
+            <value>/z3950DataDictionary.xml</value>
+        </constructor-arg>
+    </bean>
+    
+    <bean id="accessPointConfig"
+        class="com.k_int.sql.qm_to_sql.QMToSQLInMemoryConfig"
+        factory-method="getConfig">
+        <constructor-arg>
+            <value>/z3950AccessPoints.xml</value>
+        </constructor-arg>
+    </bean>
+    
+    <bean id="recordTemplates"
+        class="org.jzkit.search.provider.jdbc.RecordTemplatesInMemoryConfig"
+        factory-method="getConfig">
+        <constructor-arg>
+            <value>/z3950RecordTemplates.xml</value>
+        </constructor-arg>
+    </bean>    
+-->
+
+</beans>

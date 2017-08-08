@@ -1,0 +1,266 @@
+em {
+	font-style: italic;
+}
+
+.block {
+	border: 1px solid $aux-border-color;
+	border-top: 2px solid $aux-text-color;
+
+	margin-top: 10px;
+	background: $aux-background;
+	position: relative;
+
+	min-height: 20px;
+
+	legend {
+		margin-left: 10px;
+		padding: 0 10px;
+		font-weight: bold;
+		font-size: 12px;
+		
+		a, span {
+			margin-left: 8px;
+		}
+	}
+}
+
+.description {
+	margin: 10px 10px 0 10px;
+	font-size: 14px;
+	line-height: 18px;
+	text-align: justify;
+	color: $aux-text-color;	
+
+	p, ul  {
+		margin-bottom: 10px;
+	}
+
+	p:last-child {
+		margin-bottom: 0;
+	}
+
+	ul {
+		padding-left: 20px;
+	}
+
+	li {
+		list-style-type: disc;
+	}
+}
+
+.page_help {
+	margin-bottom: 10px;
+}
+
+.wizard {
+	.step_description {
+		font-size: 14px;
+		line-height: 18px;
+		text-align: justify;
+		color: $aux-text-color;	
+	}
+}
+
+.confirm, .progress {
+	margin: 10px 10px 0 10px;
+	font-size: 14px;
+	line-height: 18px;
+	font-weight: bold;
+
+	p {
+		margin-bottom: 10px;
+		
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+}
+
+
+.popup {
+	display: none;
+	
+	border: 3px solid $popup-border-color;
+	background: $popup-background-color;
+	
+	position: absolute;
+	z-index: 510;
+	width: $content-width - 200;
+
+	.close {
+		text-align: right;
+		font-size: 12px;
+		line-height: 14px;
+		cursor: pointer;
+	
+		margin: 7px 8px 2px 0;
+		font-weight: bold;
+	}
+
+	fieldset {
+		border-top: 2px solid $popup-border-color;
+	}
+
+	legend {
+		margin-left: 10px;
+		padding: 0 10px;
+		font-weight: bold;
+		font-size: 14px;
+	}
+
+	.description {
+		margin: 20px 20px 0 20px;
+	}
+
+	.confirm {
+		margin: 20px 20px 0 20px;
+	}
+
+	.buttons {
+		text-align: center;
+		padding-top: 30px;
+		padding-bottom: 30px;
+
+		a {
+			margin-right: 15px;
+			margin-left: 15px;
+			text-align: center;
+			min-width: 120px;
+		}
+	}
+
+	.progress_text {
+		margin-top: 32px;
+		margin-right: 80px;
+		text-align: right;
+		font-weight: bold;
+		font-size: 12px;
+		line-height: 14px;
+	}
+
+	.progress_bar {
+		margin-left: 80px;
+		margin-right: 80px;
+	}
+}
+
+
+.progress_bar {
+	background: $progress-background-color;
+	padding: 2px;
+	@include border-radius(3px);
+}
+
+.progress_bar_outer {
+	position: relative;
+	height: 15px;
+}
+
+.progress_bar_inner {
+	background: $progress-foreground-color;
+	position: absolute;
+	left: 0;
+	top: 0;
+
+	height: 100%;
+	width: 4px;
+	min-width: 4px;
+
+	@include border-radius(3px);
+}
+
+.overlay {
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+
+	z-index: 500;
+	color: #000;
+
+	background: #000;
+	@include opacity(.70);
+}
+
+.loading_overlay {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+
+	z-index: 500;
+	background: #000 url('../images/ajax-loader-big.gif') no-repeat center center;
+	@include opacity(0);	
+}
+
+.banner {
+	background: $body-background url('../images/database_bg.png') repeat;
+	filter: grayscale(100%);
+	height: 55px;
+	margin-bottom: -55px;	
+}
+
+.expand {
+	line-height: 30px;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	
+	background: $expander-background;
+	color: $expander-text-color;
+	
+	cursor: pointer;
+}
+
+.buttons, .footer_buttons { 
+	.view {
+		display: block;
+	}
+	
+	.edit, .new {
+		display: none;
+	}
+}
+
+.edit {
+	.buttons, .footer_buttons {
+		.edit {
+			display: block;
+		}
+		
+		.view, .new {
+			display: none;
+		}
+	}
+}
+
+.new {
+	.buttons, .footer_buttons {
+		.new {
+			display: block;
+		}
+
+		.view, .edit {
+			display: none;
+		}
+	}
+}
+
+.mt10 {
+	margin-top: 10px;
+}
+
+.m30nfc {
+	margin-top: 30px;
+	
+	&:first-of-type {
+		margin-top: 0;
+	}
+}
+
+.warn {
+	color: red;
+}

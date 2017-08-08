@@ -1,0 +1,164 @@
+@media print {
+  body {
+    background: #FFF;
+  }
+
+  #logo_biblivre, #logo_support, #logo_sponsor, #logo_biblivre_small, #language_selection, #menu {
+    display: none;
+  }
+
+  #header {
+    height: 70px;
+    background: #FFF;
+  }
+
+  #messages {
+    display: none;
+  }
+
+  #notifications {
+    background: #FFF;
+  }
+
+  #content_outer {
+    width: auto !important;
+    height: auto !important;
+    overflow-y: visible !important;
+  }
+
+  #content {
+    width: auto !important;
+    height: auto !important;
+  }
+
+  .page_title .image, .page_title .subtext, .page_title .buttons {
+    display: none !important;
+  }
+
+  .page_help, .page_navigation {
+    display: none !important;
+  }
+
+  .search_box .big_input, .search_box .filter_search input {
+    -webkit-border-radius: 2;
+    -moz-border-radius: 2;
+    -o-border-radius: 2;
+    -ms-border-radius: 2;
+    border-radius: 2;
+    -webkit-background-clip: padding-box;
+    -mox-background-clip: padding-box;
+    -o-background-clip: padding-box;
+    -ms-background-clip: padding-box;
+    background-clip: padding-box;
+    background: #FFF;
+    border: 1px solid #EBE7E0;
+  }
+  .search_box .filter_search .fleft {
+    float: none !important;
+    clear: both;
+    margin-left: 0 !important;
+    margin-top: 10px;
+  }
+  .search_box .button, .search_box .main_button {
+    display: none !important;
+  }
+  .search_box .advanced_search .search_entry:first-child .query .big_input {
+    width: 370px !important;
+  }
+  .search_box .advanced_search .search_entry .query .big_input {
+    width: 270px !important;
+  }
+  .search_box .simple_search .distributed_query input {
+    width: 370px !important;
+  }
+
+  .combo_wrap {
+    -webkit-border-radius: 2;
+    -moz-border-radius: 2;
+    -o-border-radius: 2;
+    -ms-border-radius: 2;
+    border-radius: 2;
+    -webkit-background-clip: padding-box;
+    -mox-background-clip: padding-box;
+    -o-background-clip: padding-box;
+    -ms-background-clip: padding-box;
+    background-clip: padding-box;
+    background: #FFF;
+    border: 1px solid #EBE7E0;
+  }
+  .combo_wrap .combo_arrow {
+    display: none !important;
+  }
+
+  .select_bar {
+    display: none !important;
+  }
+
+  .search_results .record {
+    page-break-inside: avoid;
+    border-top: 1px dashed #A7A59F;
+    border-bottom: 1px dashed #A7A59F;
+    background-color: #FFF !important;
+  }
+  .search_results .buttons {
+    display: none;
+  }
+
+  .selected_results_area {
+    display: none;
+  }
+
+  #copyright {
+    display: none;
+  }
+
+  a {
+    color: #2a2a2a !important;
+  }
+
+  div.add_term, div.clear_search {
+    display: none !important;
+  }
+
+  .Zebra_DatePicker_Icon {
+    display: none;
+  }
+
+  .paging_button {
+    display: none;
+  }
+
+  .tabs_head .tab {
+    display: none;
+  }
+  .tabs_head .tab_selected {
+    display: inline !important;
+  }
+
+  .record_fields td.label {
+    width: auto !important;
+  }
+
+  .biblivre_form .extra {
+    display: none !important;
+  }
+  .biblivre_form .collapsed, .biblivre_form .collapse {
+    display: none !important;
+  }
+  .biblivre_form fieldset {
+    background: #FFF !important;
+    page-break-inside: avoid;
+  }
+  .biblivre_form fieldset legend {
+    background: #FFF !important;
+  }
+  .biblivre_form fieldset legend a {
+    display: none !important;
+  }
+  .biblivre_form .label {
+    width: 150px !important;
+  }
+  .biblivre_form .value {
+    width: auto !important;
+  }
+}

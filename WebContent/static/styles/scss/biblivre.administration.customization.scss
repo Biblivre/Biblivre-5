@@ -1,0 +1,450 @@
+#brief_customization, #form_customization {
+	.buttons {
+		text-align: center;
+		margin-bottom: 15px;
+	}
+
+	.record_type_selection {
+		text-align: center;
+		margin-top: 10px;
+		margin-bottom: 20px;
+	}
+	
+	.edit_area {
+		.selected_field {
+		}
+	}
+	
+	legend {
+		white-space: nowrap;
+	}
+
+	#disabled_datafields {
+		div.block {
+			position: relative;
+			width: 248px;
+			margin-right: 16px;
+			float: left;
+			overflow: hidden;
+			border-color: #A0A0A0;
+			color: #a0a0a0;
+	
+			&:nth-child(3n) {
+				margin-right: 0;
+			}
+			
+			.buttons {
+				position: absolute;
+				top: 0;
+				right: 0;
+				bottom: 0;
+			    
+			    span {
+					width: 20px;
+					text-align: center;
+					vertical-align: middle;
+					padding-top: 3px;
+					display: inline-block;
+					background: #f3f1ee;
+					color: #007700;
+					cursor: pointer;
+				}
+			}
+			
+			.data-name {
+				width: 10000px;
+				white-space: nowrap;
+				font-weight: bold;
+    			font-size: 12px;
+    			padding: 3px 6px;
+			}
+		}
+	}
+	
+	
+	#datafields {
+		.buttons {
+			font-size: 16px;
+			text-align: right;
+			margin: -4px 7px 5px 0;
+			color: #777;
+			
+			.disabled {
+				color: #CCC !important;
+				cursor: default !important;
+			}
+			
+			span {
+				margin-left: 7px;
+			}
+		}		
+
+		.move-datafield {
+			cursor: move;
+		}
+
+		.disable-datafield, .edit-datafield, .save-datafield, .cancel-datafield {
+			cursor: pointer;
+		}
+
+		.disable-datafield, .enable-datafield {
+			display: none;
+		}
+
+		.save-datafield {
+			display: none;
+			color: green;
+		}
+		
+		.cancel-datafield {
+			display: none;
+			color: #ED514B;
+		}
+		
+		.edit_area {
+			.content {
+				padding: 5px 20px 10px 20px;
+			}
+		}
+		
+		fieldset:hover, .editing {
+			.disable-datafield {
+				display: inline-block;
+			}
+		
+		}
+		
+		fieldset.editing {
+			.save-datafield, .cancel-datafield {
+				display: inline-block;
+			}
+		}
+		
+		fieldset.disabled {
+			.disable-datafield, .edit-datafield, .save-datafield, .cancel-datafield, .move-datafield {
+				display: none;;
+			}
+			
+			.enable-datafield {
+				display: inline-block;
+			}
+		}
+		
+			
+		.material-types {
+			-webkit-column-count: 4; /* Chrome, Safari, Opera */
+			-moz-column-count: 4; /* Firefox */
+			column-count: 4;
+			
+			-webkit-column-gap: 10px; /* Chrome, Safari, Opera */
+			-moz-column-gap: 10px; /* Firefox */
+			column-gap: 10px;
+			
+			margin-bottom: 10px;
+		}
+			
+		.datafield_table {
+			width: 100%;
+			box-sizing: border-box;
+			margin-bottom: 10px;
+
+			* {
+				box-sizing: border-box;
+			}
+
+			th {
+				font-weight: bold;
+				text-align: left;
+				padding-left: 2px;
+			}
+
+			td {
+				padding: 2px 10px 2px 0;
+				
+				&:first-child {
+					width: 200px;
+				}
+			}
+			
+			td.checkbox {
+				width: 80px;
+				text-align: center;
+			}
+			
+			.datafield_name, .datafield_tag {
+				width: 100%;
+			}
+		}	
+
+		.subfield_table {
+			width: 100%;
+			box-sizing: border-box;
+			margin-bottom: 10px;
+
+			* {
+				box-sizing: border-box;
+			}
+
+			th {
+				font-weight: bold;
+				text-align: left;
+				padding-left: 2px;
+			}
+
+			td {
+				padding: 2px 10px 2px 0;
+			}
+			
+			td.checkbox {
+				width: 80px;
+				text-align: center;
+			}
+			
+			.datafield_name, .datafield_tag {
+				width: 100%;
+			}
+		}	
+			
+		.indicator_table {
+			box-sizing: border-box;
+			
+			width: 100%;
+			box-sizing: border-box;
+			margin-bottom: 10px;
+
+			* {
+				box-sizing: border-box;
+			}
+
+			th {
+				font-weight: bold;
+				text-align: left;
+				padding-left: 2px;
+			}
+
+			td {
+				padding: 2px 10px 2px 0;
+				
+				&:first-child {
+					width: 80px;
+				}
+				
+				&:last-child {
+					width: 260px;
+				}
+			}
+			
+			.indicator_values {
+				width: 220px;
+			}
+				
+			.indicator_name {
+				width: 100%;
+			}
+		}
+			
+		.format-input {
+			margin: 20px 30px 10px 30px;
+			border: 1px solid #606060;	
+			background: #EBE7E0;
+			min-height: 25px;
+  			padding: 4px;
+			
+			.subfield, .separator, .aggregator {
+				width: auto !important;
+				.text {
+					display: none;
+				}
+			}
+		}
+		
+		.title {
+			margin: 0 0 5px 0;
+			font-weight: bold;
+		}
+		
+		.subtitle {
+			margin: 0 0 5px 30px;
+			font-weight: bold;
+		}
+		
+		
+		.subfield, .separator, .aggregator {
+			white-space: nowrap;
+			cursor: move;
+			float: left;
+			margin-right: 5px;
+			margin-bottom: 5px;
+			border: 1px solid #BBB;
+			background-color: #F6F6F6;
+			padding: 2px 4px 2px 4px;
+			font-weight: bold;
+			font-size: 12px;
+		}
+		 
+		.separator {
+			background-color: #EEEEEE;
+		}
+		
+		.aggregator {
+			background-color: #E6F1F7;
+		}
+		
+		.subfields, .separators, .aggregators {
+			margin: 0 20px 10px 30px;
+		}	
+	}
+}
+
+.sortable-placeholder {
+	border: 1px dashed #606060;
+	margin-top: 10px;
+	min-height: 35px;
+}
+
+
+@-webkit-keyframes successFadeIt {
+	0%   { background-color: #D1F7DA; }
+	100% { background-color: #F3F1EE; }
+}
+@-moz-keyframes successFadeIt {
+	0%   { background-color: #D1F7DA; }
+	100% { background-color: #F3F1EE; }
+}
+@-o-keyframes successFadeIt {
+	0%   { background-color: #D1F7DA; }
+	100% { background-color: #F3F1EE; }
+}
+@keyframes successFadeIt {
+	0%   { background-color: #D1F7DA; }
+	100% { background-color: #F3F1EE; }
+}
+
+.bg-success {    
+	-webkit-animation: successFadeIt 2s linear; 
+	-moz-animation: successFadeIt 2s linear; 
+	-o-animation: successFadeIt 2s linear; 
+	animation: successFadeIt 2s linear; 
+}
+
+@-webkit-keyframes cancelFadeIt {
+	0%   { background-color: #FDE4E4; }
+	100% { background-color: #F3F1EE; }
+}
+@-moz-keyframes cancelFadeIt {
+	0%   { background-color: #FDE4E4; }
+	100% { background-color: #F3F1EE; }
+}
+@-o-keyframes cancelFadeIt {
+	0%   { background-color: #FDE4E4; }
+	100% { background-color: #F3F1EE; }
+}
+@keyframes cancelFadeIt {
+	0%   { background-color: #FDE4E4; }
+	100% { background-color: #F3F1EE; }
+}
+
+.bg-cancel {    
+	-webkit-animation: cancelFadeIt 1.5s linear; 
+	-moz-animation: cancelFadeIt 1.5s linear; 
+	-o-animation: cancelFadeIt 1.5s linear; 
+	animation: cancelFadeIt 1.5s linear; 
+}
+
+.translations_filter {
+	margin-left: 10px;
+}
+
+#translations_tree {
+	box-sizing: border-box;	
+	padding: 0 10px 10px 10px;
+
+	* {
+		box-sizing: border-box;
+	}
+
+	label {
+		font-weight: bold;
+		display: block;
+		margin-top: 15px;
+		margin-bottom: 3px;
+	}
+	
+	fieldset {
+		padding: 0 10px 10px 10px;
+		.open {
+			display: none;
+		}
+	}
+	
+	fieldset.collapsed {
+		fieldset, input, label, .collapse {
+			display: none;
+		}
+		
+		.open {
+			display: inline;
+		}
+	}
+	
+	input {
+		width: 100%;
+		padding: 5px;
+		border: 1px solid #CCC;
+	}
+	
+	input.changed {
+		background-color: #CDE6CD;
+		border-color: green;
+	}
+}
+
+
+.indicator_edit_table {
+	box-sizing: border-box;
+	width: 100%;
+
+	* {
+		box-sizing: border-box;
+	}
+
+	th {
+		font-weight: bold;
+		text-align: left;
+		padding-left: 2px;
+	}
+
+	td {
+		padding: 2px 10px 2px 0;
+		
+		&:first-child {
+			width: 100px;
+		}
+	}
+	
+	.indicator-value {
+		width: 100%;
+	}
+	
+	.indicator-text {
+		width: 410px
+	}
+}
+
+.subfield_row {
+	width: 740px;
+	background-color: #F3F1EE;
+	
+	.tr_icon {
+		width: 25px;
+		text-align: center;
+	}
+	
+	.tr_marc {
+		width: 75px;
+	}
+	
+	select, .subfield_tag, .subfield_name {
+		width: 100%;
+	}
+}

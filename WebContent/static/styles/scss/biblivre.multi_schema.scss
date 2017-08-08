@@ -1,0 +1,136 @@
+@import "biblivre";
+
+.multischema {
+	.enable, .disable {
+		font-size: 12px !important;
+	}
+
+	.enable {
+		display: none;
+	}
+	
+	.disable {
+		display: inline-block;
+	}
+
+	.library {
+		margin: 15px;
+
+		.checkbox {
+			float: left;
+			height: 45px;
+			margin-right: 5px;
+		}
+
+		.title {
+			font-weight: bold;
+			font-size: 16px;
+		}
+
+		a {
+			font-size: 20px;
+			text-decoration: none;
+			
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+	
+	.disabled {
+		.enable {
+			display: inline-block;
+		}
+		
+		.disable {
+			display: none;
+		}
+
+		a {
+			color: red !important;
+		}
+	}
+}
+
+.backup_schemas {
+	margin-left: 45px;
+	margin-top: 5px;
+	margin-bottom: 20px;
+	font-size: 12px;
+}
+
+#multischema_partial_restore, #multischema_full_restore, #multischema_restore_limit {
+	display: none;
+	
+	.description {
+		margin-bottom: 10px;
+	}
+
+	.type_selection {
+		margin: 15px;
+		
+		.description {
+			margin-bottom: 15px;
+		}
+
+		label {
+			font-weight: bold;
+			font-size: 14px;
+		}
+	}
+}
+
+
+#schemas_match {
+	fieldset {
+		padding: 0 10px 10px 10px;
+	}
+
+	.subtitle {
+		color: $weak-text-color;
+		padding-left: 20px;
+	}
+
+	.spacer {
+		height: 15px;
+	}
+
+	.address, .warn {
+		padding-left: 40px;
+	}
+
+
+	.new_schema, .dont_restore {
+		margin-top: 8px;
+	}
+	
+	.new_schema {
+		.warn {
+			display: none;
+		}
+	}
+}
+
+
+.digital_media_restore {
+	display: none;
+	
+	.restore {
+		margin-bottom: 20px;
+	}
+}
+
+#multischema_restore_limit {
+	ul {
+		margin: 10px;
+		
+		li {
+			list-style: disc;
+			margin-left: 30px;
+		}
+	}
+}
+
+#partial_restore_button {
+	display: none;
+}

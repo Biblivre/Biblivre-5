@@ -1,0 +1,148 @@
+@import "biblivre";
+
+.page_title {
+	.text {
+		line-height: 18px;
+
+		.step {
+			font-weight: bold;
+			color: #98A636;
+		}
+	}
+
+	.subtext {
+		font-size: 13px;
+		font-weight: normal;
+		white-space: nowrap;
+	}
+}
+
+.wizard {
+	clear: both;
+	padding-left: 10px;
+	padding-right: 10px;
+
+	p {
+		line-height: 18px;
+		font-size: 16px;
+	}
+	
+	.title {
+		margin-bottom: 10px;
+
+		input {	
+			margin: 0 5px 0 0;
+			vertical-align: middle;
+		}
+		
+		label {
+			vertical-align: middle;
+			font-weight: bold;
+			font-size: 14px;
+		}
+	}
+}
+
+.selection_box {
+	border: 1px solid #898989;
+	margin-top: 10px;
+	background: #f3f1ee;
+	font-size: 14px;
+	padding: 10px;
+	position: relative;
+}
+
+.import_file {
+	margin: 0;
+	padding: 0;
+	width: 50%;
+	float: left;
+}
+
+.server_list div {
+	width: 50%;
+	float: left;
+}
+
+
+.search_input_div, .search_attribute_div, .search_server_div {	
+	margin-top: 10px;
+
+	label {
+		display: block;
+		font-size: 12px;
+		font-weight: bold;
+		margin-bottom: 5px;
+		padding-left: 10px;
+	}
+}
+
+.search_input_div {
+	input {
+		margin: 0;
+		width: $content-width - 62px;
+		height: 14px !important;
+	}
+}
+
+.search_attribute_div {
+	float: left;
+	margin-right: 10px;
+	min-width: 250px;
+}
+
+.search_server_div {
+	float: left;
+	min-width: $content-width - 302px;
+}
+
+.search_button_div {
+	text-align: right;
+	margin-top: 10px;
+}
+
+.record {	
+	font-size: 14px;
+	line-height: 18px;
+	padding: 7px 9px;
+	margin-top: 10px;
+	border: 1px solid transparent;
+}
+
+.record.odd {
+	background: #f3f1ee;
+}
+
+.record.even {
+	background: #d5d1cb;
+}
+
+.record label {
+	font-weight: bold;
+}
+
+#marc_popup {
+	width: $content-width - 100;
+	
+	fieldset {
+		margin-top: 20px;
+		
+		.marc {
+			margin-top: 20px;
+			text-align: center;
+		
+			textarea {
+				width: $content-width - 200;
+				height: 200px;
+				font-size: 14px;
+				font-family: monospace;
+			}
+		}
+	}
+}
+
+
+#step_2 {
+	display: none;
+}
+

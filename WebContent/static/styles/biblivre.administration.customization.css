@@ -1,0 +1,404 @@
+#brief_customization .buttons, #form_customization .buttons {
+  text-align: center;
+  margin-bottom: 15px;
+}
+#brief_customization .record_type_selection, #form_customization .record_type_selection {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+#brief_customization legend, #form_customization legend {
+  white-space: nowrap;
+}
+#brief_customization #disabled_datafields div.block, #form_customization #disabled_datafields div.block {
+  position: relative;
+  width: 248px;
+  margin-right: 16px;
+  float: left;
+  overflow: hidden;
+  border-color: #A0A0A0;
+  color: #a0a0a0;
+}
+#brief_customization #disabled_datafields div.block:nth-child(3n), #form_customization #disabled_datafields div.block:nth-child(3n) {
+  margin-right: 0;
+}
+#brief_customization #disabled_datafields div.block .buttons, #form_customization #disabled_datafields div.block .buttons {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+#brief_customization #disabled_datafields div.block .buttons span, #form_customization #disabled_datafields div.block .buttons span {
+  width: 20px;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 3px;
+  display: inline-block;
+  background: #f3f1ee;
+  color: #007700;
+  cursor: pointer;
+}
+#brief_customization #disabled_datafields div.block .data-name, #form_customization #disabled_datafields div.block .data-name {
+  width: 10000px;
+  white-space: nowrap;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 3px 6px;
+}
+#brief_customization #datafields .buttons, #form_customization #datafields .buttons {
+  font-size: 16px;
+  text-align: right;
+  margin: -4px 7px 5px 0;
+  color: #777;
+}
+#brief_customization #datafields .buttons .disabled, #form_customization #datafields .buttons .disabled {
+  color: #CCC !important;
+  cursor: default !important;
+}
+#brief_customization #datafields .buttons span, #form_customization #datafields .buttons span {
+  margin-left: 7px;
+}
+#brief_customization #datafields .move-datafield, #form_customization #datafields .move-datafield {
+  cursor: move;
+}
+#brief_customization #datafields .disable-datafield, #brief_customization #datafields .edit-datafield, #brief_customization #datafields .save-datafield, #brief_customization #datafields .cancel-datafield, #form_customization #datafields .disable-datafield, #form_customization #datafields .edit-datafield, #form_customization #datafields .save-datafield, #form_customization #datafields .cancel-datafield {
+  cursor: pointer;
+}
+#brief_customization #datafields .disable-datafield, #brief_customization #datafields .enable-datafield, #form_customization #datafields .disable-datafield, #form_customization #datafields .enable-datafield {
+  display: none;
+}
+#brief_customization #datafields .save-datafield, #form_customization #datafields .save-datafield {
+  display: none;
+  color: green;
+}
+#brief_customization #datafields .cancel-datafield, #form_customization #datafields .cancel-datafield {
+  display: none;
+  color: #ED514B;
+}
+#brief_customization #datafields .edit_area .content, #form_customization #datafields .edit_area .content {
+  padding: 5px 20px 10px 20px;
+}
+#brief_customization #datafields fieldset:hover .disable-datafield, #brief_customization #datafields .editing .disable-datafield, #form_customization #datafields fieldset:hover .disable-datafield, #form_customization #datafields .editing .disable-datafield {
+  display: inline-block;
+}
+#brief_customization #datafields fieldset.editing .save-datafield, #brief_customization #datafields fieldset.editing .cancel-datafield, #form_customization #datafields fieldset.editing .save-datafield, #form_customization #datafields fieldset.editing .cancel-datafield {
+  display: inline-block;
+}
+#brief_customization #datafields fieldset.disabled .disable-datafield, #brief_customization #datafields fieldset.disabled .edit-datafield, #brief_customization #datafields fieldset.disabled .save-datafield, #brief_customization #datafields fieldset.disabled .cancel-datafield, #brief_customization #datafields fieldset.disabled .move-datafield, #form_customization #datafields fieldset.disabled .disable-datafield, #form_customization #datafields fieldset.disabled .edit-datafield, #form_customization #datafields fieldset.disabled .save-datafield, #form_customization #datafields fieldset.disabled .cancel-datafield, #form_customization #datafields fieldset.disabled .move-datafield {
+  display: none;
+}
+#brief_customization #datafields fieldset.disabled .enable-datafield, #form_customization #datafields fieldset.disabled .enable-datafield {
+  display: inline-block;
+}
+#brief_customization #datafields .material-types, #form_customization #datafields .material-types {
+  -webkit-column-count: 4;
+  /* Chrome, Safari, Opera */
+  -moz-column-count: 4;
+  /* Firefox */
+  column-count: 4;
+  -webkit-column-gap: 10px;
+  /* Chrome, Safari, Opera */
+  -moz-column-gap: 10px;
+  /* Firefox */
+  column-gap: 10px;
+  margin-bottom: 10px;
+}
+#brief_customization #datafields .datafield_table, #form_customization #datafields .datafield_table {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+#brief_customization #datafields .datafield_table *, #form_customization #datafields .datafield_table * {
+  box-sizing: border-box;
+}
+#brief_customization #datafields .datafield_table th, #form_customization #datafields .datafield_table th {
+  font-weight: bold;
+  text-align: left;
+  padding-left: 2px;
+}
+#brief_customization #datafields .datafield_table td, #form_customization #datafields .datafield_table td {
+  padding: 2px 10px 2px 0;
+}
+#brief_customization #datafields .datafield_table td:first-child, #form_customization #datafields .datafield_table td:first-child {
+  width: 200px;
+}
+#brief_customization #datafields .datafield_table td.checkbox, #form_customization #datafields .datafield_table td.checkbox {
+  width: 80px;
+  text-align: center;
+}
+#brief_customization #datafields .datafield_table .datafield_name, #brief_customization #datafields .datafield_table .datafield_tag, #form_customization #datafields .datafield_table .datafield_name, #form_customization #datafields .datafield_table .datafield_tag {
+  width: 100%;
+}
+#brief_customization #datafields .subfield_table, #form_customization #datafields .subfield_table {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+#brief_customization #datafields .subfield_table *, #form_customization #datafields .subfield_table * {
+  box-sizing: border-box;
+}
+#brief_customization #datafields .subfield_table th, #form_customization #datafields .subfield_table th {
+  font-weight: bold;
+  text-align: left;
+  padding-left: 2px;
+}
+#brief_customization #datafields .subfield_table td, #form_customization #datafields .subfield_table td {
+  padding: 2px 10px 2px 0;
+}
+#brief_customization #datafields .subfield_table td.checkbox, #form_customization #datafields .subfield_table td.checkbox {
+  width: 80px;
+  text-align: center;
+}
+#brief_customization #datafields .subfield_table .datafield_name, #brief_customization #datafields .subfield_table .datafield_tag, #form_customization #datafields .subfield_table .datafield_name, #form_customization #datafields .subfield_table .datafield_tag {
+  width: 100%;
+}
+#brief_customization #datafields .indicator_table, #form_customization #datafields .indicator_table {
+  box-sizing: border-box;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+#brief_customization #datafields .indicator_table *, #form_customization #datafields .indicator_table * {
+  box-sizing: border-box;
+}
+#brief_customization #datafields .indicator_table th, #form_customization #datafields .indicator_table th {
+  font-weight: bold;
+  text-align: left;
+  padding-left: 2px;
+}
+#brief_customization #datafields .indicator_table td, #form_customization #datafields .indicator_table td {
+  padding: 2px 10px 2px 0;
+}
+#brief_customization #datafields .indicator_table td:first-child, #form_customization #datafields .indicator_table td:first-child {
+  width: 80px;
+}
+#brief_customization #datafields .indicator_table td:last-child, #form_customization #datafields .indicator_table td:last-child {
+  width: 260px;
+}
+#brief_customization #datafields .indicator_table .indicator_values, #form_customization #datafields .indicator_table .indicator_values {
+  width: 220px;
+}
+#brief_customization #datafields .indicator_table .indicator_name, #form_customization #datafields .indicator_table .indicator_name {
+  width: 100%;
+}
+#brief_customization #datafields .format-input, #form_customization #datafields .format-input {
+  margin: 20px 30px 10px 30px;
+  border: 1px solid #606060;
+  background: #EBE7E0;
+  min-height: 25px;
+  padding: 4px;
+}
+#brief_customization #datafields .format-input .subfield, #brief_customization #datafields .format-input .separator, #brief_customization #datafields .format-input .aggregator, #form_customization #datafields .format-input .subfield, #form_customization #datafields .format-input .separator, #form_customization #datafields .format-input .aggregator {
+  width: auto !important;
+}
+#brief_customization #datafields .format-input .subfield .text, #brief_customization #datafields .format-input .separator .text, #brief_customization #datafields .format-input .aggregator .text, #form_customization #datafields .format-input .subfield .text, #form_customization #datafields .format-input .separator .text, #form_customization #datafields .format-input .aggregator .text {
+  display: none;
+}
+#brief_customization #datafields .title, #form_customization #datafields .title {
+  margin: 0 0 5px 0;
+  font-weight: bold;
+}
+#brief_customization #datafields .subtitle, #form_customization #datafields .subtitle {
+  margin: 0 0 5px 30px;
+  font-weight: bold;
+}
+#brief_customization #datafields .subfield, #brief_customization #datafields .separator, #brief_customization #datafields .aggregator, #form_customization #datafields .subfield, #form_customization #datafields .separator, #form_customization #datafields .aggregator {
+  white-space: nowrap;
+  cursor: move;
+  float: left;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  border: 1px solid #BBB;
+  background-color: #F6F6F6;
+  padding: 2px 4px 2px 4px;
+  font-weight: bold;
+  font-size: 12px;
+}
+#brief_customization #datafields .separator, #form_customization #datafields .separator {
+  background-color: #EEEEEE;
+}
+#brief_customization #datafields .aggregator, #form_customization #datafields .aggregator {
+  background-color: #E6F1F7;
+}
+#brief_customization #datafields .subfields, #brief_customization #datafields .separators, #brief_customization #datafields .aggregators, #form_customization #datafields .subfields, #form_customization #datafields .separators, #form_customization #datafields .aggregators {
+  margin: 0 20px 10px 30px;
+}
+
+.sortable-placeholder {
+  border: 1px dashed #606060;
+  margin-top: 10px;
+  min-height: 35px;
+}
+
+@-webkit-keyframes successFadeIt {
+  0% {
+    background-color: #D1F7DA;
+  }
+
+  100% {
+    background-color: #F3F1EE;
+  }
+}
+
+@-moz-keyframes successFadeIt {
+  0% {
+    background-color: #D1F7DA;
+  }
+
+  100% {
+    background-color: #F3F1EE;
+  }
+}
+
+@-o-keyframes successFadeIt {
+  0% {
+    background-color: #D1F7DA;
+  }
+
+  100% {
+    background-color: #F3F1EE;
+  }
+}
+
+@keyframes successFadeIt {
+  0% {
+    background-color: #D1F7DA;
+  }
+
+  100% {
+    background-color: #F3F1EE;
+  }
+}
+
+.bg-success {
+  -webkit-animation: successFadeIt 2s linear;
+  -moz-animation: successFadeIt 2s linear;
+  -o-animation: successFadeIt 2s linear;
+  animation: successFadeIt 2s linear;
+}
+
+@-webkit-keyframes cancelFadeIt {
+  0% {
+    background-color: #FDE4E4;
+  }
+
+  100% {
+    background-color: #F3F1EE;
+  }
+}
+
+@-moz-keyframes cancelFadeIt {
+  0% {
+    background-color: #FDE4E4;
+  }
+
+  100% {
+    background-color: #F3F1EE;
+  }
+}
+
+@-o-keyframes cancelFadeIt {
+  0% {
+    background-color: #FDE4E4;
+  }
+
+  100% {
+    background-color: #F3F1EE;
+  }
+}
+
+@keyframes cancelFadeIt {
+  0% {
+    background-color: #FDE4E4;
+  }
+
+  100% {
+    background-color: #F3F1EE;
+  }
+}
+
+.bg-cancel {
+  -webkit-animation: cancelFadeIt 1.5s linear;
+  -moz-animation: cancelFadeIt 1.5s linear;
+  -o-animation: cancelFadeIt 1.5s linear;
+  animation: cancelFadeIt 1.5s linear;
+}
+
+.translations_filter {
+  margin-left: 10px;
+}
+
+#translations_tree {
+  box-sizing: border-box;
+  padding: 0 10px 10px 10px;
+}
+#translations_tree * {
+  box-sizing: border-box;
+}
+#translations_tree label {
+  font-weight: bold;
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 3px;
+}
+#translations_tree fieldset {
+  padding: 0 10px 10px 10px;
+}
+#translations_tree fieldset .open {
+  display: none;
+}
+#translations_tree fieldset.collapsed fieldset, #translations_tree fieldset.collapsed input, #translations_tree fieldset.collapsed label, #translations_tree fieldset.collapsed .collapse {
+  display: none;
+}
+#translations_tree fieldset.collapsed .open {
+  display: inline;
+}
+#translations_tree input {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #CCC;
+}
+#translations_tree input.changed {
+  background-color: #CDE6CD;
+  border-color: green;
+}
+
+.indicator_edit_table {
+  box-sizing: border-box;
+  width: 100%;
+}
+.indicator_edit_table * {
+  box-sizing: border-box;
+}
+.indicator_edit_table th {
+  font-weight: bold;
+  text-align: left;
+  padding-left: 2px;
+}
+.indicator_edit_table td {
+  padding: 2px 10px 2px 0;
+}
+.indicator_edit_table td:first-child {
+  width: 100px;
+}
+.indicator_edit_table .indicator-value {
+  width: 100%;
+}
+.indicator_edit_table .indicator-text {
+  width: 410px;
+}
+
+.subfield_row {
+  width: 740px;
+  background-color: #F3F1EE;
+}
+.subfield_row .tr_icon {
+  width: 25px;
+  text-align: center;
+}
+.subfield_row .tr_marc {
+  width: 75px;
+}
+.subfield_row select, .subfield_row .subfield_tag, .subfield_row .subfield_name {
+  width: 100%;
+}

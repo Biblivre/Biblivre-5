@@ -1,0 +1,174 @@
+@import "biblivre";
+
+@media print {
+	body {
+		background: #FFF;
+	}
+	
+	#logo_biblivre, #logo_support, #logo_sponsor, #logo_biblivre_small, #language_selection, #menu {
+		display: none;
+	}
+	
+	#header {
+		height: 70px;
+		background: #FFF;
+	}
+	
+	#messages {
+		display: none;
+	}
+	
+	#notifications {
+		background: #FFF;
+	}
+	
+	#content_outer {
+		width: auto !important;
+		height: auto !important;
+		overflow-y: visible !important;
+	}
+
+	#content {
+		width: auto !important;
+		height: auto !important;
+	}
+	
+	.page_title {
+		.image, .subtext, .buttons {
+			display: none !important;
+		}
+	}
+	
+	.page_help, .page_navigation {
+		display: none !important;
+	}
+	
+	.search_box {
+		.big_input, .filter_search input {
+			@include border-radius(2);
+			background: #FFF;
+			border: 1px solid #EBE7E0;
+		}
+		
+		.filter_search .fleft {
+			float: none !important;
+			clear: both;
+			margin-left: 0 !important;
+			margin-top: 10px;
+		}
+		
+		.button, .main_button {
+			display: none !important;
+		}
+		
+		.advanced_search .search_entry:first-child .query .big_input {
+			width: 370px !important;
+		}
+		
+		.advanced_search .search_entry .query .big_input {
+			width: 270px !important;
+		}
+		
+		.simple_search .distributed_query input {
+			width: 370px !important;
+		}
+	}
+	
+	.combo_wrap {
+		@include border-radius(2);
+		background: #FFF;
+		border: 1px solid #EBE7E0;
+		
+		.combo_arrow {
+			display: none !important;
+		}
+	}
+	
+	.select_bar {
+		display: none !important;
+	}
+	
+	.search_results {
+		.record {
+			page-break-inside: avoid;
+			border-top: 1px dashed #A7A59F;
+			border-bottom: 1px dashed #A7A59F;
+			background-color: #FFF !important;
+		}
+	
+		.buttons {
+			display: none;
+		}
+	}
+	
+	.selected_results_area {
+		display: none;
+	}
+	
+	#copyright {
+		display: none;
+	}
+	
+	a {
+		color: #2a2a2a !important;
+	}
+	
+	div.add_term, div.clear_search {
+		display: none !important;
+	}
+	
+	.Zebra_DatePicker_Icon {
+		display: none;
+	}
+	
+	.paging_button {
+		display: none;
+	}
+	
+	.tabs_head {
+		.tab {
+			display: none;
+		}
+		
+		.tab_selected {
+			display: inline !important;	
+		}
+	}
+	
+	.record_fields td.label {
+		width: auto !important;
+	}
+	
+	.biblivre_form {
+		.extra {
+			display: none !important;
+		}
+		
+		.collapsed, .collapse {
+			display: none !important;
+		}
+		
+		fieldset {
+			background: #FFF !important;
+			page-break-inside: avoid;
+			
+			legend {
+				background: #FFF !important;
+				
+				a {
+					display: none !important;
+				}
+			}
+		}
+		
+		.label {
+			width: 150px !important;
+		}
+		
+		.value {
+			width: auto !important;
+		}
+	}
+
+}
+
