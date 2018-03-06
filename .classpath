@@ -13,5 +13,14 @@
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="output" path="target/Biblivre4/WEB-INF/classes"/>
+	<classpathentry kind="lib" path="lib/a2j-2.0.4.jar"/>
+	<classpathentry kind="lib" path="lib/itext-4.2.1.jar"/>
+	<classpathentry kind="lib" path="lib/jzkit2_core-2.2.3.jar"/>
+	<classpathentry kind="lib" path="lib/jzkit2_jdbc_plugin-2.2.3.jar"/>
+	<classpathentry kind="lib" path="lib/jzkit2_service-2.2.3.jar"/>
+	<classpathentry kind="lib" path="lib/jzkit2_z3950_plugin-2.2.3.jar"/>
+	<classpathentry kind="lib" path="lib/marc4j-2.5.1.beta.jar"/>
+	<classpathentry kind="lib" path="lib/normalizer-2.6.jar"/>
+	<classpathentry kind="lib" path="lib/z3950server-1.0.2.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
 </classpath>
