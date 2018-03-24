@@ -239,7 +239,7 @@ public class Handler extends AbstractHandler {
 			Integer loggedUser = request.getLoggedUserId();
 			Integer dbUserId = UserBO.getInstance(schema).getUserByLoginId(loggedUser).getId();
 			
-			if (userId != dbUserId) {
+			if (!userId.equals(dbUserId)) {
 				this.setMessage(ActionResult.WARNING, "circulation.error.no_users_found");
 				return;
 			}
