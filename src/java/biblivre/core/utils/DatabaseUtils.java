@@ -135,16 +135,33 @@ public class DatabaseUtils {
 	}
 	
 	private static File getLinux(String filename) {
-		String[] commands;
+		ProcessBuilder pb = whichCommand(filename);
+		String line = null;
+		try {
+			Process p = pb.start();
+			BufferedReader reader = new BufferedReader(new InputStreamReader(p.getInputStream()));
+			line = reader.readLine();
+		} catch (IOException e) {
+			// TODO: logger
+			e.printStackTrace();
+		}
 
-		commands = new String[] {
+		if (line == null) {
+			return null;
+		}
+
+		return new File(line);
+	}
+
+	private static ProcessBuilder whichCommand(String filename) {
+		String[] commands = new String[] {
 			"/bin/bash",
 			"-c",
-			"/bin/ps axwwww -o command | /bin/grep -v grep | /bin/grep postgres | /bin/grep -- -D | /bin/sed 's/bin\\/postgres.*$/bin\\//'"
+			"which " + filename
 		};
 
-		String path = DatabaseUtils.processPatternMatcher(commands, "(.*)", 1, "/");		
-		return new File(path, filename);
+		ProcessBuilder pb = new ProcessBuilder(commands);
+		return pb;
 	}
 	
 	private static File getWindows(String filename) {
