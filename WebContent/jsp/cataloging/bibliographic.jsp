@@ -172,7 +172,7 @@
 							</tr>
 							{#foreach $T.fields as field}
 								<tr>
-									<td class="label">{_('cataloging.tab.record.custom.field_label.biblio_' + $T.field.datafield)}:</td>
+									<td class="label">{_field($T.field.datafield)}:</td>
 									<td class="value">{($T.field.value || '').replace(/\n/g, '<br>')}</td>
 								</tr>
 							{#/for}

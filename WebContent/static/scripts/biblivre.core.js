@@ -40,6 +40,12 @@ var Translations = {
 	}
 };
 
+var _field = function(field) {
+	var key = 'cataloging.tab.record.custom.field_label.biblio_' + field;
+	var otherKey = 'marc.bibliographic.datafield.' + field;
+	return Translations.translations[key] || Translations.translations[otherKey];
+}
+
 var _ = function(key, params) {
 	return Translations.get(key, params);
 };
