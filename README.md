@@ -37,7 +37,7 @@ Após baixar o código-fonte, para rodar o Biblivre em sua máquina será necess
 
 - Baixe e instale o Apache Maven;
 - Caso esteja usando o Eclipse IDE, configure a [integração com o Maven](http://www.eclipse.org/m2e/);
-- Nem todas as dependências do Biblivre estão disponíveis em repositórios públicos, por esse motivo é necessário instalar manualmente algumas dependências do projeto. Para tanto, a partir da pasta `/lib/` do código-fonte, execute os seguintes comando
+- Nem todas as dependências do Biblivre estão disponíveis em repositórios públicos, por esse motivo é necessário instalar manualmente algumas dependências do projeto. Para tanto, a partir da pasta `/lib/` do código-fonte, execute os seguintes comandos (ou, se estiver utilizando *nix execute o script maven_deps.sh na pasta `/lib`):
 	- ``` 
 	  mvn install:install-file -Dfile=a2j-2.0.4.jar -DgroupId=org.jzkit -DartifactId=a2j -Dversion=2.0.4 -Dpackaging=jar
       ```
