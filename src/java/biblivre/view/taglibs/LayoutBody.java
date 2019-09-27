@@ -175,8 +175,8 @@ public class LayoutBody extends BodyTagSupport {
 			out.println("    </div>");
 			
 			out.println("    <div id=\"logo_sponsor\">");
-			out.println("      <a href=\"http://www.itaucultural.org.br/\" target=\"_blank\">");
-			out.println("        <img src=\"static/images/logo_itau.png\" width=\"77\" height=\"66\" alt=\"Itaú Cultural\">");
+			out.println("      <a href=\"http://www.grupofischer.com.br/\" target=\"_blank\">");
+			out.println("        <img src=\"static/images/logo_Fisher.png\" width=\"88\" height=\"66\" alt=\"Grupo Fischer\">");
 			out.println("      </a>");
 			out.println("      <div id=\"clock\">00:00</div>");
 			out.println("    </div>");
