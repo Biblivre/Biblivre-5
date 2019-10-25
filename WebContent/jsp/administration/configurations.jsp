@@ -1,3 +1,4 @@
+<%@page import="biblivre.core.enums.ParagraphAlignment"%>
 <%@page import="biblivre.core.schemas.Schemas"%>
 <%@page import="biblivre.core.enums.PrinterType"%>
 <%@page import="biblivre.core.utils.FileIOUtils"%>
@@ -520,7 +521,44 @@
 				</div>
 			</div>
 		</fieldset>
-		
+
+		<fieldset>
+			<%
+				key = Constants.CONFIG_LABEL_PRINT_PARAGRAPH_ALIGNMENT;
+				value = Configurations.getString(schema, key);
+				request.setAttribute("key", key);
+				request.setAttribute("value", value);
+			%>
+			<legend><i18n:text key="administration.configuration.title.${key}" /></legend>
+			<div class="description"><i18n:text key="administration.configuration.description.${key}" /></div>
+			<div class="fields">
+				<div>
+					<div class="label"><i18n:text key="administration.configuration.original_value" /></div>
+					<div class="value"><i18n:text key="administration.configuration.label_print.ALIGN_CENTER" /></div>
+					<div class="clear"></div>
+				</div>
+				<div>
+					<div class="label"><i18n:text key="administration.configuration.current_value" /></div>
+					<div class="value"><i18n:text key="administration.configuration.label_print.${value}"/></div>
+					<div class="clear"></div>
+				</div>
+				<div>
+					<div class="label"><i18n:text key="administration.configuration.new_value" /></div>
+					<div class="value">
+						<select name="${key}">
+							<c:forEach var="paragraphAlignment" items="<%= ParagraphAlignment.values() %>">
+								<option value="${paragraphAlignment}"
+									<c:out value='${value eq paragraphAlignment ? "selected" : ""}'/>
+								>
+									<i18n:text key="administration.configuration.label_print.${paragraphAlignment}"/>
+								</option>
+							</c:forEach>
+						</select>
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>
+		</fieldset>
 		<div class="footer_buttons">
 			<a class="button center main_button" onclick="Configurations.save(this);"><i18n:text key="common.save" /></a>
 		</div>		

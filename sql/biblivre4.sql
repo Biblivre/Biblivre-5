@@ -390,6 +390,7 @@ ALTER TABLE ONLY logins ALTER COLUMN id SET DEFAULT nextval('logins_id_seq'::reg
 -- Data for Name: configurations; Type: TABLE DATA; Schema: global; Owner: biblivre
 --
 
+INSERT INTO configurations (key, value, type, required, modified, modified_by) VALUES ('holding.label_print_paragraph_alignment', 'ALIGN_CENTER', 'string', true, '2014-06-21 11:42:07.150326', 1);
 INSERT INTO configurations (key, value, type, required, modified, modified_by) VALUES ('general.default_language', 'pt-BR', 'string', true, '2013-04-13 13:37:22.871407', NULL);
 INSERT INTO configurations (key, value, type, required, modified, modified_by) VALUES ('search.results_per_page', '25', 'integer', true, '2013-04-13 13:37:22.871407', NULL);
 INSERT INTO configurations (key, value, type, required, modified, modified_by) VALUES ('search.result_limit', '6000', 'integer', true, '2013-04-13 13:37:22.871407', NULL);
@@ -429,6 +430,33 @@ INSERT INTO schemas (schema, name) VALUES ('single', 'Biblivre IV');
 -- Data for Name: translations; Type: TABLE DATA; Schema: global; Owner: biblivre
 --
 
+INSERT INTO translations (language, key, text, created, created_by, modified, modified_by, user_created) VALUES ('pt-BR', 'administration.configuration.title.holding.label_print_paragraph_alignment', 'Alinhamento de parágrafo', '2014-06-21 11:54:49.572182', 1, '2014-06-21 11:54:49.572182', 1, false);
+INSERT INTO translations (language, key, text, created, created_by, modified, modified_by, user_created) VALUES ('es', 'administration.configuration.title.holding.label_print_paragraph_alignment', 'Alineación de párrafo', 1, '2014-06-21 11:54:49.572182', 1, false);
+INSERT INTO translations (language, key, text, created, created_by, modified, modified_by, user_created) VALUES ('en-US', 'administration.configuration.title.holding.label_print_paragraph_alignment', 'Paragraph alignment', '2014-06-21 11:54:49.572182', 1, '2014-06-21 11:54:49.572182', 1, false);
+
+INSERT INTO translations (language, key, text, created, created_by, modified, modified_by, user_created) VALUES ('pt-BR', 'administration.configuration.description.holding.label_print_paragraph_alignment', 'Alinhamento de parágrafo que será utilizado em cada etiqueta impressa', '2014-06-21 11:54:49.572182', 1, '2014-06-21 11:54:49.572182', 1, false);
+INSERT INTO translations (language, key, text, created, created_by, modified, modified_by, user_created) VALUES ('es', 'administration.configuration.description.holding.label_print_paragraph_alignment', 'Alineación de párrafo que va a ser usado en cada etiqueta impresa', 1, '2014-06-21 11:54:49.572182', 1, false);
+INSERT INTO translations (language, key, text, created, created_by, modified, modified_by, user_created) VALUES ('en-US', 'administration.configuration.description.holding.label_print_paragraph_alignment', 'Paragraph alignment which will be used in each printed label', '2014-06-21 11:54:49.572182', 1, '2014-06-21 11:54:49.572182', 1, false);
+
+INSERT INTO translations (language, key, text, created, created_by, modified, modified_by, user_created) VALUES ('pt-BR', 'administration.configuration.label_print.ALIGN_CENTER', 'Centralizado', '2014-06-21 11:54:49.572182', 1, '2014-06-21 11:54:49.572182', 1, false);
+INSERT INTO translations (language, key, text, created, created_by, modified, modified_by, user_created) VALUES ('es', 'administration.configuration.label_print.ALIGN_CENTER', 'Centrado', 1, '2014-06-21 11:54:49.572182', 1, false);
+INSERT INTO translations (language, key, text, created, created_by, modified, modified_by, user_created) VALUES ('en-US', 'administration.configuration.label_print.ALIGN_CENTER', 'Center', '2014-06-21 11:54:49.572182', 1, '2014-06-21 11:54:49.572182', 1, false);
+
+INSERT INTO translations (language, key, text, created, created_by, modified, modified_by, user_created) VALUES ('pt-BR', 'administration.configuration.label_print.ALIGN_JUSTIFIED_ALL', 'Justificado (tudo)', '2014-06-21 11:54:49.572182', 1, '2014-06-21 11:54:49.572182', 1, false);
+INSERT INTO translations (language, key, text, created, created_by, modified, modified_by, user_created) VALUES ('es', 'administration.configuration.label_print.ALIGN_JUSTIFIED_ALL', 'Justificado (todo)', 1, '2014-06-21 11:54:49.572182', 1, false);
+INSERT INTO translations (language, key, text, created, created_by, modified, modified_by, user_created) VALUES ('en-US', 'administration.configuration.label_print.ALIGN_JUSTIFIED_ALL', 'Justified (all)', '2014-06-21 11:54:49.572182', 1, '2014-06-21 11:54:49.572182', 1, false);
+
+INSERT INTO translations (language, key, text, created, created_by, modified, modified_by, user_created) VALUES ('pt-BR', 'administration.configuration.label_print.ALIGN_JUSTIFIED', 'Justificado', '2014-06-21 11:54:49.572182', 1, '2014-06-21 11:54:49.572182', 1, false);
+INSERT INTO translations (language, key, text, created, created_by, modified, modified_by, user_created) VALUES ('es', 'administration.configuration.label_print.ALIGN_JUSTIFIED', 'Justificado', 1, '2014-06-21 11:54:49.572182', 1, false);
+INSERT INTO translations (language, key, text, created, created_by, modified, modified_by, user_created) VALUES ('en-US', 'administration.configuration.label_print.ALIGN_JUSTIFIED', 'Justified', '2014-06-21 11:54:49.572182', 1, '2014-06-21 11:54:49.572182', 1, false);
+
+INSERT INTO translations (language, key, text, created, created_by, modified, modified_by, user_created) VALUES ('pt-BR', 'administration.configuration.label_print.ALIGN_LEFT', 'À esquerda', '2014-06-21 11:54:49.572182', 1, '2014-06-21 11:54:49.572182', 1, false);
+INSERT INTO translations (language, key, text, created, created_by, modified, modified_by, user_created) VALUES ('es', 'administration.configuration.label_print.ALIGN_LEFT', 'A la izquierda', 1, '2014-06-21 11:54:49.572182', 1, false);
+INSERT INTO translations (language, key, text, created, created_by, modified, modified_by, user_created) VALUES ('en-US', 'administration.configuration.label_print.ALIGN_LEFT', 'Left', '2014-06-21 11:54:49.572182', 1, '2014-06-21 11:54:49.572182', 1, false);
+
+INSERT INTO translations (language, key, text, created, created_by, modified, modified_by, user_created) VALUES ('pt-BR', 'administration.configuration.label_print.ALIGN_RIGHT', 'À direita', '2014-06-21 11:54:49.572182', 1, '2014-06-21 11:54:49.572182', 1, false);
+INSERT INTO translations (language, key, text, created, created_by, modified, modified_by, user_created) VALUES ('es', 'administration.configuration.label_print.ALIGN_RIGHT', 'A la derecha', 1, '2014-06-21 11:54:49.572182', 1, false);
+INSERT INTO translations (language, key, text, created, created_by, modified, modified_by, user_created) VALUES ('en-US', 'administration.configuration.label_print.ALIGN_RIGHT', 'Right', '2014-06-21 11:54:49.572182', 1, '2014-06-21 11:54:49.572182', 1, false);
 
 INSERT INTO translations (language, key, text, created, created_by, modified, modified_by, user_created) VALUES ('pt-BR', 'multi_schema.configuration.description.general.title', 'Nomo que será exibido quando a página principal deste grupo de bibliotecas for acessada. Esta página listará todas as bibliotecas cadastradas neste grupo (gerenciadas pelo mesmo Biblivre 4).', '2014-06-21 11:54:49.572182', 1, '2014-06-21 11:54:49.572182', 1, false);
 INSERT INTO translations (language, key, text, created, created_by, modified, modified_by, user_created) VALUES ('pt-BR', 'multi_schema.configuration.title.general.title', 'Nome deste Grupo de Bibliotecas', '2014-06-21 11:54:49.572182', 1, '2014-06-21 11:54:49.572182', 1, false);
