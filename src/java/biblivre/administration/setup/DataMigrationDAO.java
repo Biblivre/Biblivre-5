@@ -932,31 +932,31 @@ public class DataMigrationDAO extends AbstractDAO {
 	private MaterialType convertMaterialType(String mt) {
 		MaterialType material;
 
-		if (mt.equals("BOOK")) {
+		if ("BOOK".equals(mt)) {
 			material = MaterialType.BOOK; 
-		} else if (mt.equals("BOOKM")) {
+		} else if ("BOOKM".equals(mt)) {
 			material = MaterialType.MANUSCRIPT; 
-		} else if (mt.equals("BOOKP")) {
+		} else if ("BOOKP".equals(mt)) {
 			material = MaterialType.PAMPHLET; 
-		} else if (mt.equals("BOOKT")) {
+		} else if ("BOOKT".equals(mt)) {
 			material = MaterialType.THESIS; 
-		} else if (mt.equals("CFILES")) {
+		} else if ("CFILES".equals(mt)) {
 			material = MaterialType.COMPUTER_LEGIBLE; 
-		} else if (mt.equals("MAPS")) {
+		} else if ("MAPS".equals(mt)) {
 			material = MaterialType.MAP; 
-		} else if (mt.equals("MOVIE")) {
+		} else if ("MOVIE".equals(mt)) {
 			material = MaterialType.MOVIE; 
-		} else if (mt.equals("MUSIC")) {
+		} else if ("MUSIC".equals(mt)) {
 			material = MaterialType.SCORE; 
-		} else if (mt.equals("OBJ3D")) {
+		} else if ("OBJ3D".equals(mt)) {
 			material = MaterialType.OBJECT_3D; 
-		} else if (mt.equals("PHOTO")) {
+		} else if ("PHOTO".equals(mt)) {
 			material = MaterialType.PHOTO; 
-		} else if (mt.equals("SERIAL")) {
+		} else if ("SERIAL".equals(mt)) {
 			material = MaterialType.PERIODIC; 
-		} else if (mt.equals("SERIAR")) {
+		} else if ("SERIAR".equals(mt)) {
 			material = MaterialType.ARTICLES; 
-		} else if (mt.equals("SOUND")) {
+		} else if ("SOUND".equals(mt)) {
 			material = MaterialType.MUSIC; 
 		} else {
 			material = MaterialType.BOOK;
