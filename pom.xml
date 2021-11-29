@@ -125,19 +125,17 @@
 			<scope>provided</scope>
 		</dependency>
 
-		<!--dependency>
+		<dependency>
 			<groupId>commons-dbcp</groupId>
 			<artifactId>commons-dbcp</artifactId>
 			<version>1.4</version>
-			<scope>provided</scope>
 		</dependency>
 		
 		<dependency>
 			<groupId>org.apache.tomcat</groupId>
 			<artifactId>tomcat-dbcp</artifactId>
 			<version>7.0.53</version>
-			<scope>provided</scope>
-		</dependency-->
+		</dependency>
 
 		<!-- Local libraries, must use mvn:install first -->
 		<dependency>
@@ -180,7 +178,7 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
-				
+								
 		<dependency>
 			<groupId>com.googlecode.juniversalchardet</groupId>
 			<artifactId>juniversalchardet</artifactId>
@@ -217,6 +215,21 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
+		
+		<dependency>
+			<groupId>org.jzkit</groupId>
+			<artifactId>jzkit2_core</artifactId>
+			<version>2.2.3</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/log4j/log4j -->
+		<dependency>
+		    <groupId>log4j</groupId>
+		    <artifactId>log4j</artifactId>
+		    <version>1.2.17</version>
+		</dependency>
+
+		
 	</dependencies>
 
 	<build>
@@ -240,7 +253,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-war-plugin</artifactId>
-				<version>2.3</version>
+				<version>3.3.1</version>
 				<configuration>
 					<webResources>
 						<resource>
@@ -262,8 +275,16 @@
 								<include>**/about_biblivre.jsp</include>
 							</includes>
 						</resource>
+						<resource> 
+              				<directory>lib</directory> 
+              				<targetPath>WEB-INF/lib</targetPath> 
+							<excludes>
+								<exclude>maven_deps.sh</exclude>
+								<exclude>z3950server-1.0.2.pom</exclude>
+							</excludes>							
+            			</resource>
 					</webResources>
-				</configuration>				
+				</configuration>
 			</plugin>
 
 			<plugin>
@@ -271,9 +292,10 @@
 				<artifactId>tomcat7-maven-plugin</artifactId>
 				<version>2.1</version>
 				<configuration>
-					<server>Biblivre Alpha</server>
-					<url>http://192.168.2.3:8080/manager/text</url>
+					<server>Biblivre Server</server>
+					<url>http://198.211.106.231:8080/manager/text</url>
 					<path>/Biblivre4</path>
+					<update>true</update>
 				</configuration>
 			</plugin>
 
