@@ -66,6 +66,10 @@ Após baixar o código-fonte, para rodar o Biblivre em sua máquina será necess
 	  mvn install:install-file -Dfile=normalizer-2.6.jar -DgroupId=com.ibm.icu -DartifactId=normalizer -Dversion=2.6 -Dpackaging=jar
       ```
 
+## Fork
+
+- [Biblivre5x](https://github.com/Biblivre-org/Biblivre5x/);
+
 
 
 
