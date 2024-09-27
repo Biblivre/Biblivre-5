@@ -166,7 +166,7 @@ public class UserTypeDAO extends AbstractDAO {
             PreparedStatement pst = null;
 			Boolean newType = dto.getId() == null || dto.getId() == 0;
 			if (newType) {
-				dto.setId(this.getNextSerial("users_id_seq"));
+				dto.setId(this.getNextSerial("users_types_id_seq"));
 	            sql.append("INSERT INTO users_types (name, description, lending_limit, reservation_limit, ");
 	            sql.append("lending_time_limit, reservation_time_limit, fine_value, created_by) VALUES (?, ?, ?, ?, ?, ?, ?, ?); ");
 	            pst = con.prepareStatement(sql.toString(), Statement.RETURN_GENERATED_KEYS);
