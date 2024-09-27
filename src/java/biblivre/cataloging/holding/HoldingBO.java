@@ -49,6 +49,7 @@ import biblivre.core.configurations.Configurations;
 import biblivre.core.exceptions.ValidationException;
 import biblivre.core.file.DiskFile;
 import biblivre.core.utils.Constants;
+import biblivre.core.utils.ParagraphAlignmentUtil;
 import biblivre.login.LoginBO;
 import biblivre.login.LoginDTO;
 import biblivre.marc.MarcDataReader;
@@ -351,11 +352,15 @@ public class HoldingBO extends RecordBO {
 				para.add(p2);
 				para.add(p3);
 
+				int horizontalAlignment =
+						ParagraphAlignmentUtil.getHorizontalAlignmentConfigurationValue(
+								schema, () -> Element.ALIGN_CENTER);
+
 				cell = new PdfPCell(para);
 				i++;
 				cell.setNoWrap(true);
 				cell.setFixedHeight(printDTO.getHeight() * Constants.MM_UNIT);
-				cell.setHorizontalAlignment(Element.ALIGN_CENTER);
+				cell.setHorizontalAlignment(horizontalAlignment);
 				cell.setVerticalAlignment(Element.ALIGN_MIDDLE);
 				cell.setBorder(Rectangle.NO_BORDER);
 				table.addCell(cell);
@@ -375,7 +380,7 @@ public class HoldingBO extends RecordBO {
 				cell = new PdfPCell(para2);
 				i++;
 				cell.setFixedHeight(printDTO.getHeight() * Constants.MM_UNIT);
-				cell.setHorizontalAlignment(Element.ALIGN_CENTER);
+				cell.setHorizontalAlignment(horizontalAlignment);
 				cell.setVerticalAlignment(Element.ALIGN_MIDDLE);
 				cell.setBorder(Rectangle.NO_BORDER);
 				table.addCell(cell);
